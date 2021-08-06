@@ -2,1071 +2,695 @@ REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES
 ('LV', 'Latvia', 'latvia');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782195, 'LV', 'Rīga', 1, 'riga');
+(1004445, 'LV', 'Aglona Municipality', 1, 'aglona-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066868, 1004445, 'LV', 'Aglona', 1, 'aglona', 56.13274000, 27.00682000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782196, 'LV', 'Daugavpils', 1, 'daugavpils');
+(1004472, 'LV', 'Aizkraukle Municipality', 1, 'aizkraukle-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066870, 1004472, 'LV', 'Aizkraukle', 1, 'aizkraukle', 56.60477000, 25.25534000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782197, 'LV', 'Jelgava', 1, 'jelgava');
+(1004496, 'LV', 'Aizpute Municipality', 1, 'aizpute-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066871, 1004496, 'LV', 'Aizpute', 1, 'aizpute', 56.72108000, 21.60156000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782198, 'LV', 'Jēkabpils', 1, 'jekabpils');
+(1004499, 'LV', 'Aknīste Municipality', 1, 'akniste-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066872, 1004499, 'LV', 'Aknīste', 1, 'akniste', 56.16152000, 25.74783000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782199, 'LV', 'Jūrmala', 1, 'jurmala');
+(1004484, 'LV', 'Aloja Municipality', 1, 'aloja-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066873, 1004484, 'LV', 'Aloja', 1, 'aloja', 57.76723000, 24.87743000),
+(1066966, 1004484, 'LV', 'Staicele', 1, 'staicele', 57.83579000, 24.74706000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782200, 'LV', 'Liepāja', 1, 'liepaja');
+(1004485, 'LV', 'Alsunga Municipality', 1, 'alsunga-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066874, 1004485, 'LV', 'Alsunga', 1, 'alsunga', 56.98194000, 21.55938000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782201, 'LV', 'Rēzekne', 1, 'rezekne');
+(1004487, 'LV', 'Alūksne Municipality', 1, 'aluksne-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066875, 1004487, 'LV', 'Alūksne', 1, 'aluksne', 57.42162000, 27.04662000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782202, 'LV', 'Valmiera', 1, 'valmiera');
+(1004497, 'LV', 'Amata Municipality', 1, 'amata-municipality');
 
-;
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782203, 'LV', 'Ventspils', 1, 'ventspils');
-
-;
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782204, 'LV', 'Aizkraukles novads', 1, 'aizkraukles-novads');
+(1004457, 'LV', 'Ape Municipality', 1, 'ape-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465802, 782204, 'LV', 'Aizkraukles pagasts', 1, 'aizkraukles-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066876, 1004457, 'LV', 'Ape', 1, 'ape', 57.53928000, 26.69291000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782205, 'LV', 'Jaunjelgavas novads', 1, 'jaunjelgavas-novads');
+(1004481, 'LV', 'Auce Municipality', 1, 'auce-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465803, 782205, 'LV', 'Daudzeses pagasts', 1, 'daudzeses-pagasts'),
-(465804, 782205, 'LV', 'Seces pagasts', 1, 'seces-pagasts'),
-(465805, 782205, 'LV', 'Sērenes pagasts', 1, 'serenes-pagasts'),
-(465806, 782205, 'LV', 'Staburaga pagasts', 1, 'staburaga-pagasts'),
-(465807, 782205, 'LV', 'Sunākstes pagasts', 1, 'sunakstes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066877, 1004481, 'LV', 'Auce', 1, 'auce', 56.45981000, 22.90169000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782206, 'LV', 'Pļaviņu novads', 1, 'plavinu-novads');
+(1004427, 'LV', 'Babīte Municipality', 1, 'babite-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465808, 782206, 'LV', 'Aiviekstes pagasts', 1, 'aiviekstes-pagasts'),
-(465809, 782206, 'LV', 'Klintaines pagasts', 1, 'klintaines-pagasts'),
-(465810, 782206, 'LV', 'Vietalvas pagasts', 1, 'vietalvas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066940, 1004427, 'LV', 'Piņķi', 1, 'pinki', 56.94189000, 23.91365000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782207, 'LV', 'Kokneses novads', 1, 'kokneses-novads');
+(1004482, 'LV', 'Baldone Municipality', 1, 'baldone-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465811, 782207, 'LV', 'Bebru pagasts', 1, 'bebru-pagasts'),
-(465812, 782207, 'LV', 'Iršu pagasts', 1, 'irsu-pagasts'),
-(465813, 782207, 'LV', 'Kokneses pagasts', 1, 'kokneses-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066878, 1004482, 'LV', 'Baldone', 1, 'baldone', 56.74451000, 24.40078000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782208, 'LV', 'Neretas novads', 1, 'neretas-novads');
+(1004498, 'LV', 'Baltinava Municipality', 1, 'baltinava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465814, 782208, 'LV', 'Mazzalves pagasts', 1, 'mazzalves-pagasts'),
-(465815, 782208, 'LV', 'Neretas pagasts', 1, 'neretas-pagasts'),
-(465816, 782208, 'LV', 'Pilskalnes pagasts', 1, 'pilskalnes-pagasts'),
-(465817, 782208, 'LV', 'Zalves pagasts', 1, 'zalves-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066880, 1004498, 'LV', 'Baltinava', 1, 'baltinava', 56.94394000, 27.64401000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782209, 'LV', 'Skrīveru novads', 1, 'skriveru-novads');
+(1004505, 'LV', 'Balvi Municipality', 1, 'balvi-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066881, 1004505, 'LV', 'Balvi', 1, 'balvi', 57.13130000, 27.26583000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782210, 'LV', 'Alūksnes novads', 1, 'aluksnes-novads');
+(1004465, 'LV', 'Bauska Municipality', 1, 'bauska-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465818, 782210, 'LV', 'Alsviķu pagasts', 1, 'alsviku-pagasts'),
-(465819, 782210, 'LV', 'Annas pagasts', 1, 'annas-pagasts'),
-(465820, 782210, 'LV', 'Ilzenes pagasts', 1, 'ilzenes-pagasts'),
-(465821, 782210, 'LV', 'Jaunalūksnes pagasts', 1, 'jaunaluksnes-pagasts'),
-(465822, 782210, 'LV', 'Jaunannas pagasts', 1, 'jaunannas-pagasts'),
-(465823, 782210, 'LV', 'Jaunlaicenes pagasts', 1, 'jaunlaicenes-pagasts'),
-(465824, 782210, 'LV', 'Kalncempju pagasts', 1, 'kalncempju-pagasts'),
-(465825, 782210, 'LV', 'Liepnas pagasts', 1, 'liepnas-pagasts'),
-(465826, 782210, 'LV', 'Malienas pagasts', 1, 'malienas-pagasts'),
-(465827, 782210, 'LV', 'Mālupes pagasts', 1, 'malupes-pagasts'),
-(465828, 782210, 'LV', 'Mārkalnes pagasts', 1, 'markalnes-pagasts'),
-(465829, 782210, 'LV', 'Pededzes pagasts', 1, 'pededzes-pagasts'),
-(465830, 782210, 'LV', 'Veclaicenes pagasts', 1, 'veclaicenes-pagasts'),
-(465831, 782210, 'LV', 'Zeltiņu pagasts', 1, 'zeltinu-pagasts'),
-(465832, 782210, 'LV', 'Ziemera pagasts', 1, 'ziemera-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066882, 1004465, 'LV', 'Bauska', 1, 'bauska', 56.40794000, 24.19443000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782211, 'LV', 'Apes novads', 1, 'apes-novads');
+(1004471, 'LV', 'Beverīna Municipality', 1, 'beverina-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465833, 782211, 'LV', 'Gaujienas pagasts', 1, 'gaujienas-pagasts'),
-(465834, 782211, 'LV', 'Trapenes pagasts', 1, 'trapenes-pagasts'),
-(465835, 782211, 'LV', 'Virešu pagasts', 1, 'viresu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066931, 1004471, 'LV', 'Mūrmuiža', 1, 'murmuiza', 57.47312000, 25.49174000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782212, 'LV', 'Balvu novads', 1, 'balvu-novads');
+(1004468, 'LV', 'Brocēni Municipality', 1, 'broceni-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465836, 782212, 'LV', 'Balvu pagasts', 1, 'balvu-pagasts'),
-(465837, 782212, 'LV', 'Bērzkalnes pagasts', 1, 'berzkalnes-pagasts'),
-(465838, 782212, 'LV', 'Bērzpils pagasts', 1, 'berzpils-pagasts'),
-(465839, 782212, 'LV', 'Briežuciema pagasts', 1, 'briezuciema-pagasts'),
-(465840, 782212, 'LV', 'Krišjāņu pagasts', 1, 'krisjanu-pagasts'),
-(465841, 782212, 'LV', 'Kubuļu pagasts', 1, 'kubulu-pagasts'),
-(465842, 782212, 'LV', 'Lazdulejas pagasts', 1, 'lazdulejas-pagasts'),
-(465843, 782212, 'LV', 'Tilžas pagasts', 1, 'tilzas-pagasts'),
-(465844, 782212, 'LV', 'Vectilžas pagasts', 1, 'vectilzas-pagasts'),
-(465845, 782212, 'LV', 'Vīksnas pagasts', 1, 'viksnas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066884, 1004468, 'LV', 'Brocēni', 1, 'broceni', 56.67890000, 22.56945000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782213, 'LV', 'Viļakas novads', 1, 'vilakas-novads');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465846, 782213, 'LV', 'Kupravas pagasts', 1, 'kupravas-pagasts'),
-(465847, 782213, 'LV', 'Medņevas pagasts', 1, 'mednevas-pagasts'),
-(465848, 782213, 'LV', 'Susāju pagasts', 1, 'susaju-pagasts'),
-(465849, 782213, 'LV', 'Šķilbēnu pagasts', 1, 'skilbenu-pagasts'),
-(465850, 782213, 'LV', 'Vecumu pagasts', 1, 'vecumu-pagasts'),
-(465851, 782213, 'LV', 'Žīguru pagasts', 1, 'ziguru-pagasts');
+(1004411, 'LV', 'Burtnieki Municipality', 1, 'burtnieki-municipality');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782214, 'LV', 'Baltinavas novads', 1, 'baltinavas-novads');
+(1004454, 'LV', 'Carnikava Municipality', 1, 'carnikava-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066885, 1004454, 'LV', 'Carnikava', 1, 'carnikava', 57.12935000, 24.28423000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782215, 'LV', 'Rugāju novads', 1, 'rugaju-novads');
+(1004469, 'LV', 'Cēsis Municipality', 1, 'cesis-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465852, 782215, 'LV', 'Lazdukalna pagasts', 1, 'lazdukalna-pagasts'),
-(465853, 782215, 'LV', 'Rugāju pagasts', 1, 'rugaju-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066888, 1004469, 'LV', 'Cēsis', 1, 'cesis', 57.31188000, 25.27456000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782216, 'LV', 'Bauskas novads', 1, 'bauskas-novads');
+(1004414, 'LV', 'Cesvaine Municipality', 1, 'cesvaine-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465854, 782216, 'LV', 'Brunavas pagasts', 1, 'brunavas-pagasts'),
-(465855, 782216, 'LV', 'Ceraukstes pagasts', 1, 'ceraukstes-pagasts'),
-(465856, 782216, 'LV', 'Codes pagasts', 1, 'codes-pagasts'),
-(465857, 782216, 'LV', 'Dāviņu pagasts', 1, 'davinu-pagasts'),
-(465858, 782216, 'LV', 'Gailīšu pagasts', 1, 'gailisu-pagasts'),
-(465859, 782216, 'LV', 'Īslīces pagasts', 1, 'islices-pagasts'),
-(465860, 782216, 'LV', 'Mežotnes pagasts', 1, 'mezotnes-pagasts'),
-(465861, 782216, 'LV', 'Vecsaules pagasts', 1, 'vecsaules-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066886, 1004414, 'LV', 'Cesvaine', 1, 'cesvaine', 56.96754000, 26.30764000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782217, 'LV', 'Iecavas novads', 1, 'iecavas-novads');
+(1004410, 'LV', 'Cibla Municipality', 1, 'cibla-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066887, 1004410, 'LV', 'Cibla', 1, 'cibla', 56.54980000, 27.88370000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782218, 'LV', 'Rundāles novads', 1, 'rundales-novads');
+(1004504, 'LV', 'Dagda Municipality', 1, 'dagda-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465862, 782218, 'LV', 'Rundāles pagasts', 1, 'rundales-pagasts'),
-(465863, 782218, 'LV', 'Svitenes pagasts', 1, 'svitenes-pagasts'),
-(465864, 782218, 'LV', 'Viesturu pagasts', 1, 'viesturu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066889, 1004504, 'LV', 'Dagda', 1, 'dagda', 56.09512000, 27.53723000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782219, 'LV', 'Vecumnieku novads', 1, 'vecumnieku-novads');
+(1004463, 'LV', 'Daugavpils', 1, 'daugavpils');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465865, 782219, 'LV', 'Bārbeles pagasts', 1, 'barbeles-pagasts'),
-(465866, 782219, 'LV', 'Kurmenes pagasts', 1, 'kurmenes-pagasts'),
-(465867, 782219, 'LV', 'Skaistkalnes pagasts', 1, 'skaistkalnes-pagasts'),
-(465868, 782219, 'LV', 'Stelpes pagasts', 1, 'stelpes-pagasts'),
-(465869, 782219, 'LV', 'Valles pagasts', 1, 'valles-pagasts'),
-(465870, 782219, 'LV', 'Vecumnieku pagasts', 1, 'vecumnieku-pagasts');
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782220, 'LV', 'Cēsu novads', 1, 'cesu-novads');
+(1004492, 'LV', 'Daugavpils Municipality', 1, 'daugavpils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465871, 782220, 'LV', 'Vaives pagasts', 1, 'vaives-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066891, 1004492, 'LV', 'Daugavpils', 1, 'daugavpils', 55.88333000, 26.53333000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782221, 'LV', 'Līgatnes novads', 1, 'ligatnes-novads');
+(1004437, 'LV', 'Dobele Municipality', 1, 'dobele-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465872, 782221, 'LV', 'Līgatnes pagasts', 1, 'ligatnes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066892, 1004437, 'LV', 'Dobele', 1, 'dobele', 56.62372000, 23.27510000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782222, 'LV', 'Amatas novads', 1, 'amatas-novads');
+(1004428, 'LV', 'Dundaga Municipality', 1, 'dundaga-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465873, 782222, 'LV', 'Amatas pagasts', 1, 'amatas-pagasts'),
-(465874, 782222, 'LV', 'Drabešu pagasts', 1, 'drabesu-pagasts'),
-(465875, 782222, 'LV', 'Nītaures pagasts', 1, 'nitaures-pagasts'),
-(465876, 782222, 'LV', 'Skujenes pagasts', 1, 'skujenes-pagasts'),
-(465877, 782222, 'LV', 'Zaubes pagasts', 1, 'zaubes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066893, 1004428, 'LV', 'Dundaga', 1, 'dundaga', 57.50498000, 22.35041000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782223, 'LV', 'Jaunpiebalgas novads', 1, 'jaunpiebalgas-novads');
+(1004458, 'LV', 'Durbe Municipality', 1, 'durbe-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465878, 782223, 'LV', 'Jaunpiebalgas pagasts', 1, 'jaunpiebalgas-pagasts'),
-(465879, 782223, 'LV', 'Zosēnu pagasts', 1, 'zosenu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066920, 1004458, 'LV', 'Lieģi', 1, 'liegi', 56.58173000, 21.33399000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782224, 'LV', 'Priekuļu novads', 1, 'priekulu-novads');
+(1004448, 'LV', 'Engure Municipality', 1, 'engure-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465880, 782224, 'LV', 'Liepas pagasts', 1, 'liepas-pagasts'),
-(465881, 782224, 'LV', 'Mārsnēnu pagasts', 1, 'marsnenu-pagasts'),
-(465882, 782224, 'LV', 'Priekuļu pagasts', 1, 'priekulu-pagasts'),
-(465883, 782224, 'LV', 'Veselavas pagasts', 1, 'veselavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066965, 1004448, 'LV', 'Smārde', 1, 'smarde', 56.95420000, 23.33736000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782225, 'LV', 'Pārgaujas novads', 1, 'pargaujas-novads');
+(1004444, 'LV', 'Ērgļi Municipality', 1, 'ergli-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465884, 782225, 'LV', 'Raiskuma pagasts', 1, 'raiskuma-pagasts'),
-(465885, 782225, 'LV', 'Stalbes pagasts', 1, 'stalbes-pagasts'),
-(465886, 782225, 'LV', 'Straupes pagasts', 1, 'straupes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066990, 1004444, 'LV', 'Ērgļi', 1, 'ergli', 56.89752000, 25.63668000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782226, 'LV', 'Raunas novads', 1, 'raunas-novads');
+(1004510, 'LV', 'Garkalne Municipality', 1, 'garkalne-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465887, 782226, 'LV', 'Drustu pagasts', 1, 'drustu-pagasts'),
-(465888, 782226, 'LV', 'Raunas pagasts', 1, 'raunas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066895, 1004510, 'LV', 'Garkalne', 1, 'garkalne', 57.04486000, 24.41951000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782227, 'LV', 'Vecpiebalgas novads', 1, 'vecpiebalgas-novads');
+(1004470, 'LV', 'Grobiņa Municipality', 1, 'grobina-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465889, 782227, 'LV', 'Dzērbenes pagasts', 1, 'dzerbenes-pagasts'),
-(465890, 782227, 'LV', 'Inešu pagasts', 1, 'inesu-pagasts'),
-(465891, 782227, 'LV', 'Kaives pagasts', 1, 'kaives-pagasts'),
-(465892, 782227, 'LV', 'Taurenes pagasts', 1, 'taurenes-pagasts'),
-(465893, 782227, 'LV', 'Vecpiebalgas pagasts', 1, 'vecpiebalgas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066896, 1004470, 'LV', 'Grobiņa', 1, 'grobina', 56.53521000, 21.16782000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782228, 'LV', 'Daugavpils novads', 1, 'daugavpils-novads');
+(1004400, 'LV', 'Gulbene Municipality', 1, 'gulbene-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465894, 782228, 'LV', 'Ambeļu pagasts', 1, 'ambelu-pagasts'),
-(465895, 782228, 'LV', 'Biķernieku pagasts', 1, 'bikernieku-pagasts'),
-(465896, 782228, 'LV', 'Demenes pagasts', 1, 'demenes-pagasts'),
-(465897, 782228, 'LV', 'Dubnas pagasts', 1, 'dubnas-pagasts'),
-(465898, 782228, 'LV', 'Kalkūnes pagasts', 1, 'kalkunes-pagasts'),
-(465899, 782228, 'LV', 'Kalupes pagasts', 1, 'kalupes-pagasts'),
-(465900, 782228, 'LV', 'Laucesas pagasts', 1, 'laucesas-pagasts'),
-(465901, 782228, 'LV', 'Līksnas pagasts', 1, 'liksnas-pagasts'),
-(465902, 782228, 'LV', 'Maļinovas pagasts', 1, 'malinovas-pagasts'),
-(465903, 782228, 'LV', 'Medumu pagasts', 1, 'medumu-pagasts'),
-(465904, 782228, 'LV', 'Naujenes pagasts', 1, 'naujenes-pagasts'),
-(465905, 782228, 'LV', 'Nīcgales pagasts', 1, 'nicgales-pagasts'),
-(465906, 782228, 'LV', 'Salienas pagasts', 1, 'salienas-pagasts'),
-(465907, 782228, 'LV', 'Skrudalienas pagasts', 1, 'skrudalienas-pagasts'),
-(465908, 782228, 'LV', 'Sventes pagasts', 1, 'sventes-pagasts'),
-(465909, 782228, 'LV', 'Tabores pagasts', 1, 'tabores-pagasts'),
-(465910, 782228, 'LV', 'Vaboles pagasts', 1, 'vaboles-pagasts'),
-(465911, 782228, 'LV', 'Vecsalienas pagasts', 1, 'vecsalienas-pagasts'),
-(465912, 782228, 'LV', 'Višķu pagasts', 1, 'visku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066897, 1004400, 'LV', 'Gulbene', 1, 'gulbene', 57.17767000, 26.75291000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782229, 'LV', 'Ilūkstes novads', 1, 'ilukstes-novads');
+(1004441, 'LV', 'Iecava Municipality', 1, 'iecava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465913, 782229, 'LV', 'Bebrenes pagasts', 1, 'bebrenes-pagasts'),
-(465914, 782229, 'LV', 'Dvietes pagasts', 1, 'dvietes-pagasts'),
-(465915, 782229, 'LV', 'Eglaines pagasts', 1, 'eglaines-pagasts'),
-(465916, 782229, 'LV', 'Pilskalnes pagasts', 1, 'pilskalnes-pagasts'),
-(465917, 782229, 'LV', 'Šēderes pagasts', 1, 'sederes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066898, 1004441, 'LV', 'Iecava', 1, 'iecava', 56.59766000, 24.20763000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782230, 'LV', 'Dobeles novads', 1, 'dobeles-novads');
+(1004511, 'LV', 'Ikšķile Municipality', 1, 'ikskile-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465918, 782230, 'LV', 'Annenieku pagasts', 1, 'annenieku-pagasts'),
-(465919, 782230, 'LV', 'Auru pagasts', 1, 'auru-pagasts'),
-(465920, 782230, 'LV', 'Bērzes pagasts', 1, 'berzes-pagasts'),
-(465921, 782230, 'LV', 'Bikstu pagasts', 1, 'bikstu-pagasts'),
-(465922, 782230, 'LV', 'Dobeles pagasts', 1, 'dobeles-pagasts'),
-(465923, 782230, 'LV', 'Jaunbērzes pagasts', 1, 'jaunberzes-pagasts'),
-(465924, 782230, 'LV', 'Krimūnu pagasts', 1, 'krimunu-pagasts'),
-(465925, 782230, 'LV', 'Naudītes pagasts', 1, 'naudites-pagasts'),
-(465926, 782230, 'LV', 'Penkules pagasts', 1, 'penkules-pagasts'),
-(465927, 782230, 'LV', 'Zebrenes pagasts', 1, 'zebrenes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066899, 1004511, 'LV', 'Ikšķile', 1, 'ikskile', 56.83399000, 24.49679000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782231, 'LV', 'Auces novads', 1, 'auces-novads');
+(1004399, 'LV', 'Ilūkste Municipality', 1, 'ilukste-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465928, 782231, 'LV', 'Bēnes pagasts', 1, 'benes-pagasts'),
-(465929, 782231, 'LV', 'Īles pagasts', 1, 'iles-pagasts'),
-(465930, 782231, 'LV', 'Lielauces pagasts', 1, 'lielauces-pagasts'),
-(465931, 782231, 'LV', 'Ukru pagasts', 1, 'ukru-pagasts'),
-(465932, 782231, 'LV', 'Vītiņu pagasts', 1, 'vitinu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066900, 1004399, 'LV', 'Ilūkste', 1, 'ilukste', 55.97754000, 26.29655000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782232, 'LV', 'Tērvetes novads', 1, 'tervetes-novads');
+(1004449, 'LV', 'Inčukalns Municipality', 1, 'incukalns-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465933, 782232, 'LV', 'Augstkalnes pagasts', 1, 'augstkalnes-pagasts'),
-(465934, 782232, 'LV', 'Bukaišu pagasts', 1, 'bukaisu-pagasts'),
-(465935, 782232, 'LV', 'Tērvetes pagasts', 1, 'tervetes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066901, 1004449, 'LV', 'Inčukalns', 1, 'incukalns', 57.09867000, 24.68630000),
+(1066979, 1004449, 'LV', 'Vangaži', 1, 'vangazi', 57.09358000, 24.54468000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782233, 'LV', 'Gulbenes novads', 1, 'gulbenes-novads');
+(1004475, 'LV', 'Jaunjelgava Municipality', 1, 'jaunjelgava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465936, 782233, 'LV', 'Beļavas pagasts', 1, 'belavas-pagasts'),
-(465937, 782233, 'LV', 'Daukstu pagasts', 1, 'daukstu-pagasts'),
-(465938, 782233, 'LV', 'Druvienas pagasts', 1, 'druvienas-pagasts'),
-(465939, 782233, 'LV', 'Galgauskas pagasts', 1, 'galgauskas-pagasts'),
-(465940, 782233, 'LV', 'Jaungulbenes pagasts', 1, 'jaungulbenes-pagasts'),
-(465941, 782233, 'LV', 'Lejasciema pagasts', 1, 'lejasciema-pagasts'),
-(465942, 782233, 'LV', 'Litenes pagasts', 1, 'litenes-pagasts'),
-(465943, 782233, 'LV', 'Lizuma pagasts', 1, 'lizuma-pagasts'),
-(465944, 782233, 'LV', 'Līgo pagasts', 1, 'ligo-pagasts'),
-(465945, 782233, 'LV', 'Rankas pagasts', 1, 'rankas-pagasts'),
-(465946, 782233, 'LV', 'Stāmerienas pagasts', 1, 'stamerienas-pagasts'),
-(465947, 782233, 'LV', 'Stradu pagasts', 1, 'stradu-pagasts'),
-(465948, 782233, 'LV', 'Tirzas pagasts', 1, 'tirzas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066904, 1004475, 'LV', 'Jaunjelgava', 1, 'jaunjelgava', 56.61319000, 25.08316000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782234, 'LV', 'Jelgavas novads', 1, 'jelgavas-novads');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465949, 782234, 'LV', 'Elejas pagasts', 1, 'elejas-pagasts'),
-(465950, 782234, 'LV', 'Glūdas pagasts', 1, 'gludas-pagasts'),
-(465951, 782234, 'LV', 'Jaunsvirlaukas pagasts', 1, 'jaunsvirlaukas-pagasts'),
-(465952, 782234, 'LV', 'Lielplatones pagasts', 1, 'lielplatones-pagasts'),
-(465953, 782234, 'LV', 'Līvbērzes pagasts', 1, 'livberzes-pagasts'),
-(465954, 782234, 'LV', 'Platones pagasts', 1, 'platones-pagasts'),
-(465955, 782234, 'LV', 'Sesavas pagasts', 1, 'sesavas-pagasts'),
-(465956, 782234, 'LV', 'Svētes pagasts', 1, 'svetes-pagasts'),
-(465957, 782234, 'LV', 'Valgundes pagasts', 1, 'valgundes-pagasts'),
-(465958, 782234, 'LV', 'Vilces pagasts', 1, 'vilces-pagasts'),
-(465959, 782234, 'LV', 'Vircavas pagasts', 1, 'vircavas-pagasts'),
-(465960, 782234, 'LV', 'Zaļenieku pagasts', 1, 'zalenieku-pagasts');
+(1004407, 'LV', 'Jaunpiebalga Municipality', 1, 'jaunpiebalga-municipality');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782235, 'LV', 'Ozolnieku novads', 1, 'ozolnieku-novads');
+(1004489, 'LV', 'Jaunpils Municipality', 1, 'jaunpils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465961, 782235, 'LV', 'Cenu pagasts', 1, 'cenu-pagasts'),
-(465962, 782235, 'LV', 'Ozolnieku pagasts', 1, 'ozolnieku-pagasts'),
-(465963, 782235, 'LV', 'Sidrabenes pagasts', 1, 'sidrabenes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066905, 1004489, 'LV', 'Jaunpils', 1, 'jaunpils', 56.73137000, 23.01247000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782236, 'LV', 'Jēkabpils novads', 1, 'jekabpils-novads');
+(1004464, 'LV', 'Jēkabpils', 1, 'jekabpils');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465964, 782236, 'LV', 'Ābeļu pagasts', 1, 'abelu-pagasts'),
-(465965, 782236, 'LV', 'Dignājas pagasts', 1, 'dignajas-pagasts'),
-(465966, 782236, 'LV', 'Dunavas pagasts', 1, 'dunavas-pagasts'),
-(465967, 782236, 'LV', 'Kalna pagasts', 1, 'kalna-pagasts'),
-(465968, 782236, 'LV', 'Leimaņu pagasts', 1, 'leimanu-pagasts'),
-(465969, 782236, 'LV', 'Rubenes pagasts', 1, 'rubenes-pagasts'),
-(465970, 782236, 'LV', 'Zasas pagasts', 1, 'zasas-pagasts');
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782237, 'LV', 'Aknīstes novads', 1, 'aknistes-novads');
+(1004438, 'LV', 'Jēkabpils Municipality', 1, 'jekabpils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465971, 782237, 'LV', 'Asares pagasts', 1, 'asares-pagasts'),
-(465972, 782237, 'LV', 'Gārsenes pagasts', 1, 'garsenes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066908, 1004438, 'LV', 'Jēkabpils', 1, 'jekabpils', 56.49903000, 25.85735000),
+(1066914, 1004438, 'LV', 'Krustpils', 1, 'krustpils', 56.51068000, 25.86117000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782238, 'LV', 'Viesītes novads', 1, 'viesites-novads');
+(1004500, 'LV', 'Jelgava', 1, 'jelgava');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465973, 782238, 'LV', 'Elkšņu pagasts', 1, 'elksnu-pagasts'),
-(465974, 782238, 'LV', 'Rites pagasts', 1, 'rites-pagasts'),
-(465975, 782238, 'LV', 'Saukas pagasts', 1, 'saukas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066906, 1004500, 'LV', 'Jelgava', 1, 'jelgava', 56.65000000, 23.71278000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782239, 'LV', 'Krustpils novads', 1, 'krustpils-novads');
+(1004424, 'LV', 'Jelgava Municipality', 1, 'jelgava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465976, 782239, 'LV', 'Atašienes pagasts', 1, 'atasienes-pagasts'),
-(465977, 782239, 'LV', 'Krustpils pagasts', 1, 'krustpils-pagasts'),
-(465978, 782239, 'LV', 'Kūku pagasts', 1, 'kuku-pagasts'),
-(465979, 782239, 'LV', 'Mežāres pagasts', 1, 'mezares-pagasts'),
-(465980, 782239, 'LV', 'Variešu pagasts', 1, 'variesu-pagasts'),
-(465981, 782239, 'LV', 'Vīpes pagasts', 1, 'vipes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066973, 1004424, 'LV', 'Tīreļi', 1, 'tireli', 56.83991000, 23.58902000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782240, 'LV', 'Salas novads', 1, 'salas-novads');
+(1004446, 'LV', 'Jūrmala', 1, 'jurmala');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465982, 782240, 'LV', 'Salas pagasts', 1, 'salas-pagasts'),
-(465983, 782240, 'LV', 'Sēlpils pagasts', 1, 'selpils-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066909, 1004446, 'LV', 'Jūrmala', 1, 'jurmala', 56.96800000, 23.77038000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782241, 'LV', 'Krāslavas novads', 1, 'kraslavas-novads');
+(1004420, 'LV', 'Kandava Municipality', 1, 'kandava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465984, 782241, 'LV', 'Aulejas pagasts', 1, 'aulejas-pagasts'),
-(465985, 782241, 'LV', 'Indras pagasts', 1, 'indras-pagasts'),
-(465986, 782241, 'LV', 'Izvaltas pagasts', 1, 'izvaltas-pagasts'),
-(465987, 782241, 'LV', 'Kalniešu pagasts', 1, 'kalniesu-pagasts'),
-(465988, 782241, 'LV', 'Kaplavas pagasts', 1, 'kaplavas-pagasts'),
-(465989, 782241, 'LV', 'Kombuļu pagasts', 1, 'kombulu-pagasts'),
-(465990, 782241, 'LV', 'Krāslavas pagasts', 1, 'kraslavas-pagasts'),
-(465991, 782241, 'LV', 'Piedrujas pagasts', 1, 'piedrujas-pagasts'),
-(465992, 782241, 'LV', 'Robežnieku pagasts', 1, 'robeznieku-pagasts'),
-(465993, 782241, 'LV', 'Skaistas pagasts', 1, 'skaistas-pagasts'),
-(465994, 782241, 'LV', 'Ūdrīšu pagasts', 1, 'udrisu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066910, 1004420, 'LV', 'Kandava', 1, 'kandava', 57.04087000, 22.77466000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782242, 'LV', 'Dagdas novads', 1, 'dagdas-novads');
+(1004453, 'LV', 'Kārsava Municipality', 1, 'karsava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(465995, 782242, 'LV', 'Andrupenes pagasts', 1, 'andrupenes-pagasts'),
-(465996, 782242, 'LV', 'Andzeļu pagasts', 1, 'andzelu-pagasts'),
-(465997, 782242, 'LV', 'Asūnes pagasts', 1, 'asunes-pagasts'),
-(465998, 782242, 'LV', 'Bērziņu pagasts', 1, 'berzinu-pagasts'),
-(465999, 782242, 'LV', 'Dagdas pagasts', 1, 'dagdas-pagasts'),
-(466000, 782242, 'LV', 'Ezernieku pagasts', 1, 'ezernieku-pagasts'),
-(466001, 782242, 'LV', 'Konstantinovas pagasts', 1, 'konstantinovas-pagasts'),
-(466002, 782242, 'LV', 'Ķepovas pagasts', 1, 'kepovas-pagasts'),
-(466003, 782242, 'LV', 'Svariņu pagasts', 1, 'svarinu-pagasts'),
-(466004, 782242, 'LV', 'Šķaunes pagasts', 1, 'skaunes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066917, 1004453, 'LV', 'Kārsava', 1, 'karsava', 56.78405000, 27.68829000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782243, 'LV', 'Aglonas novads', 1, 'aglonas-novads');
+(1004412, 'LV', 'Ķegums Municipality', 1, 'kegums-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466005, 782243, 'LV', 'Aglonas pagasts', 1, 'aglonas-pagasts'),
-(466006, 782243, 'LV', 'Grāveru pagasts', 1, 'graveru-pagasts'),
-(466007, 782243, 'LV', 'Kastuļinas pagasts', 1, 'kastulinas-pagasts'),
-(466008, 782243, 'LV', 'Šķeltovas pagasts', 1, 'skeltovas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066991, 1004412, 'LV', 'Ķegums', 1, 'kegums', 56.74510000, 24.72439000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782244, 'LV', 'Kuldīgas novads', 1, 'kuldigas-novads');
+(1004435, 'LV', 'Ķekava Municipality', 1, 'kekava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466009, 782244, 'LV', 'Ēdoles pagasts', 1, 'edoles-pagasts'),
-(466010, 782244, 'LV', 'Gudenieku pagasts', 1, 'gudenieku-pagasts'),
-(466011, 782244, 'LV', 'Īvandes pagasts', 1, 'ivandes-pagasts'),
-(466012, 782244, 'LV', 'Kabiles pagasts', 1, 'kabiles-pagasts'),
-(466013, 782244, 'LV', 'Kurmāles pagasts', 1, 'kurmales-pagasts'),
-(466014, 782244, 'LV', 'Laidu pagasts', 1, 'laidu-pagasts'),
-(466015, 782244, 'LV', 'Padures pagasts', 1, 'padures-pagasts'),
-(466016, 782244, 'LV', 'Pelču pagasts', 1, 'pelcu-pagasts'),
-(466017, 782244, 'LV', 'Rendas pagasts', 1, 'rendas-pagasts'),
-(466018, 782244, 'LV', 'Rumbas pagasts', 1, 'rumbas-pagasts'),
-(466019, 782244, 'LV', 'Snēpeles pagasts', 1, 'snepeles-pagasts'),
-(466020, 782244, 'LV', 'Turlavas pagasts', 1, 'turlavas-pagasts'),
-(466021, 782244, 'LV', 'Vārmes pagasts', 1, 'varmes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066879, 1004435, 'LV', 'Baloži', 1, 'balozi', 56.87643000, 24.11825000),
+(1066992, 1004435, 'LV', 'Ķekava', 1, 'kekava', 56.82662000, 24.23000000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782245, 'LV', 'Skrundas novads', 1, 'skrundas-novads');
+(1004495, 'LV', 'Kocēni Municipality', 1, 'koceni-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466022, 782245, 'LV', 'Nīkrāces pagasts', 1, 'nikraces-pagasts'),
-(466023, 782245, 'LV', 'Raņķu pagasts', 1, 'ranku-pagasts'),
-(466024, 782245, 'LV', 'Rudbāržu pagasts', 1, 'rudbarzu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066912, 1004495, 'LV', 'Kocēni', 1, 'koceni', 57.52057000, 25.33821000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782246, 'LV', 'Alsungas novads', 1, 'alsungas-novads');
+(1004452, 'LV', 'Koknese Municipality', 1, 'koknese-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066913, 1004452, 'LV', 'Koknese', 1, 'koknese', 56.65163000, 25.43637000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782247, 'LV', 'Aizputes novads', 1, 'aizputes-novads');
+(1004474, 'LV', 'Krāslava Municipality', 1, 'kraslava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466025, 782247, 'LV', 'Aizputes pagasts', 1, 'aizputes-pagasts'),
-(466026, 782247, 'LV', 'Cīravas pagasts', 1, 'ciravas-pagasts'),
-(466027, 782247, 'LV', 'Kalvenes pagasts', 1, 'kalvenes-pagasts'),
-(466028, 782247, 'LV', 'Kazdangas pagasts', 1, 'kazdangas-pagasts'),
-(466029, 782247, 'LV', 'Lažas pagasts', 1, 'lazas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066915, 1004474, 'LV', 'Krāslava', 1, 'kraslava', 55.89514000, 27.16799000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782248, 'LV', 'Durbes novads', 1, 'durbes-novads');
+(1004422, 'LV', 'Krimulda Municipality', 1, 'krimulda-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466030, 782248, 'LV', 'Dunalkas pagasts', 1, 'dunalkas-pagasts'),
-(466031, 782248, 'LV', 'Tadaiķu pagasts', 1, 'tadaiku-pagasts'),
-(466032, 782248, 'LV', 'Vecpils pagasts', 1, 'vecpils-pagasts');
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782249, 'LV', 'Grobiņas novads', 1, 'grobinas-novads');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466033, 782249, 'LV', 'Bārtas pagasts', 1, 'bartas-pagasts'),
-(466034, 782249, 'LV', 'Gaviezes pagasts', 1, 'gaviezes-pagasts'),
-(466035, 782249, 'LV', 'Grobiņas pagasts', 1, 'grobinas-pagasts'),
-(466036, 782249, 'LV', 'Medzes pagasts', 1, 'medzes-pagasts');
+(1004413, 'LV', 'Krustpils Municipality', 1, 'krustpils-municipality');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782250, 'LV', 'Pāvilostas novads', 1, 'pavilostas-novads');
+(1004490, 'LV', 'Kuldīga Municipality', 1, 'kuldiga-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466037, 782250, 'LV', 'Sakas pagasts', 1, 'sakas-pagasts'),
-(466038, 782250, 'LV', 'Vērgales pagasts', 1, 'vergales-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066916, 1004490, 'LV', 'Kuldīga', 1, 'kuldiga', 56.97399000, 21.95721000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782251, 'LV', 'Priekules novads', 1, 'priekules-novads');
+(1004512, 'LV', 'Lielvārde Municipality', 1, 'lielvarde-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466039, 782251, 'LV', 'Bunkas pagasts', 1, 'bunkas-pagasts'),
-(466040, 782251, 'LV', 'Gramzdas pagasts', 1, 'gramzdas-pagasts'),
-(466041, 782251, 'LV', 'Kalētu pagasts', 1, 'kaletu-pagasts'),
-(466042, 782251, 'LV', 'Priekules pagasts', 1, 'priekules-pagasts'),
-(466043, 782251, 'LV', 'Virgas pagasts', 1, 'virgas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066918, 1004512, 'LV', 'Lielvārde', 1, 'lielvarde', 56.72066000, 24.80743000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782252, 'LV', 'Nīcas novads', 1, 'nicas-novads');
+(1004460, 'LV', 'Liepāja', 1, 'liepaja');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466044, 782252, 'LV', 'Nīcas pagasts', 1, 'nicas-pagasts'),
-(466045, 782252, 'LV', 'Otaņķu pagasts', 1, 'otanku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066911, 1004460, 'LV', 'Karosta', 1, 'karosta', 56.55128000, 21.01287000),
+(1066919, 1004460, 'LV', 'Liepāja', 1, 'liepaja', 56.50474000, 21.01085000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782253, 'LV', 'Rucavas novads', 1, 'rucavas-novads');
+(1004488, 'LV', 'Līgatne Municipality', 1, 'ligatne-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466046, 782253, 'LV', 'Dunikas pagasts', 1, 'dunikas-pagasts'),
-(466047, 782253, 'LV', 'Rucavas pagasts', 1, 'rucavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066924, 1004488, 'LV', 'Līgatne', 1, 'ligatne', 57.23429000, 25.04059000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782254, 'LV', 'Vaiņodes novads', 1, 'vainodes-novads');
+(1004418, 'LV', 'Limbaži Municipality', 1, 'limbazi-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466048, 782254, 'LV', 'Embūtes pagasts', 1, 'embutes-pagasts'),
-(466049, 782254, 'LV', 'Vaiņodes pagasts', 1, 'vainodes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066921, 1004418, 'LV', 'Limbaži', 1, 'limbazi', 57.51287000, 24.71941000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782255, 'LV', 'Limbažu novads', 1, 'limbazu-novads');
+(1004401, 'LV', 'Līvāni Municipality', 1, 'livani-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466050, 782255, 'LV', 'Katvaru pagasts', 1, 'katvaru-pagasts'),
-(466051, 782255, 'LV', 'Limbažu pagasts', 1, 'limbazu-pagasts'),
-(466052, 782255, 'LV', 'Pāles pagasts', 1, 'pales-pagasts'),
-(466053, 782255, 'LV', 'Skultes pagasts', 1, 'skultes-pagasts'),
-(466054, 782255, 'LV', 'Umurgas pagasts', 1, 'umurgas-pagasts'),
-(466055, 782255, 'LV', 'Vidrižu pagasts', 1, 'vidrizu-pagasts'),
-(466056, 782255, 'LV', 'Viļķenes pagasts', 1, 'vilkenes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066925, 1004401, 'LV', 'Līvāni', 1, 'livani', 56.35431000, 26.17579000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782256, 'LV', 'Alojas novads', 1, 'alojas-novads');
+(1004419, 'LV', 'Lubāna Municipality', 1, 'lubana-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466057, 782256, 'LV', 'Braslavas pagasts', 1, 'braslavas-pagasts'),
-(466058, 782256, 'LV', 'Brīvzemnieku pagasts', 1, 'brivzemnieku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066922, 1004419, 'LV', 'Lubāna', 1, 'lubana', 56.90425000, 26.71606000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782257, 'LV', 'Salacgrīvas novads', 1, 'salacgrivas-novads');
+(1004501, 'LV', 'Ludza Municipality', 1, 'ludza-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466059, 782257, 'LV', 'Liepupes pagasts', 1, 'liepupes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066923, 1004501, 'LV', 'Ludza', 1, 'ludza', 56.53958000, 27.71891000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782258, 'LV', 'Ludzas novads', 1, 'ludzas-novads');
+(1004433, 'LV', 'Madona Municipality', 1, 'madona-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466060, 782258, 'LV', 'Briģu pagasts', 1, 'brigu-pagasts'),
-(466061, 782258, 'LV', 'Cirmas pagasts', 1, 'cirmas-pagasts'),
-(466062, 782258, 'LV', 'Isnaudas pagasts', 1, 'isnaudas-pagasts'),
-(466063, 782258, 'LV', 'Istras pagasts', 1, 'istras-pagasts'),
-(466064, 782258, 'LV', 'Nirzas pagasts', 1, 'nirzas-pagasts'),
-(466065, 782258, 'LV', 'Ņukšu pagasts', 1, 'nuksu-pagasts'),
-(466066, 782258, 'LV', 'Pildas pagasts', 1, 'pildas-pagasts'),
-(466067, 782258, 'LV', 'Pureņu pagasts', 1, 'purenu-pagasts'),
-(466068, 782258, 'LV', 'Rundēnu pagasts', 1, 'rundenu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066926, 1004433, 'LV', 'Madona', 1, 'madona', 56.85329000, 26.21698000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782259, 'LV', 'Kārsavas novads', 1, 'karsavas-novads');
+(1004461, 'LV', 'Mālpils Municipality', 1, 'malpils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466069, 782259, 'LV', 'Goliševas pagasts', 1, 'golisevas-pagasts'),
-(466070, 782259, 'LV', 'Malnavas pagasts', 1, 'malnavas-pagasts'),
-(466071, 782259, 'LV', 'Mežvidu pagasts', 1, 'mezvidu-pagasts'),
-(466072, 782259, 'LV', 'Mērdzenes pagasts', 1, 'merdzenes-pagasts'),
-(466073, 782259, 'LV', 'Salnavas pagasts', 1, 'salnavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066929, 1004461, 'LV', 'Mālpils', 1, 'malpils', 57.01010000, 24.95783000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782260, 'LV', 'Zilupes novads', 1, 'zilupes-novads');
+(1004450, 'LV', 'Mārupe Municipality', 1, 'marupe-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466074, 782260, 'LV', 'Lauderu pagasts', 1, 'lauderu-pagasts'),
-(466075, 782260, 'LV', 'Pasienes pagasts', 1, 'pasienes-pagasts'),
-(466076, 782260, 'LV', 'Zaļesjes pagasts', 1, 'zalesjes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066930, 1004450, 'LV', 'Mārupe', 1, 'marupe', 56.90544000, 24.05113000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782261, 'LV', 'Ciblas novads', 1, 'ciblas-novads');
+(1004513, 'LV', 'Mazsalaca Municipality', 1, 'mazsalaca-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466077, 782261, 'LV', 'Blontu pagasts', 1, 'blontu-pagasts'),
-(466078, 782261, 'LV', 'Ciblas pagasts', 1, 'ciblas-pagasts'),
-(466079, 782261, 'LV', 'Līdumnieku pagasts', 1, 'lidumnieku-pagasts'),
-(466080, 782261, 'LV', 'Pušmucovas pagasts', 1, 'pusmucovas-pagasts'),
-(466081, 782261, 'LV', 'Zvirgzdenes pagasts', 1, 'zvirgzdenes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066927, 1004513, 'LV', 'Mazsalaca', 1, 'mazsalaca', 57.86329000, 25.05475000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782262, 'LV', 'Madonas novads', 1, 'madonas-novads');
+(1004451, 'LV', 'Mērsrags Municipality', 1, 'mersrags-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466082, 782262, 'LV', 'Aronas pagasts', 1, 'aronas-pagasts'),
-(466083, 782262, 'LV', 'Barkavas pagasts', 1, 'barkavas-pagasts'),
-(466084, 782262, 'LV', 'Bērzaunes pagasts', 1, 'berzaunes-pagasts'),
-(466085, 782262, 'LV', 'Dzelzavas pagasts', 1, 'dzelzavas-pagasts'),
-(466086, 782262, 'LV', 'Kalsnavas pagasts', 1, 'kalsnavas-pagasts'),
-(466087, 782262, 'LV', 'Lazdonas pagasts', 1, 'lazdonas-pagasts'),
-(466088, 782262, 'LV', 'Liezēres pagasts', 1, 'liezeres-pagasts'),
-(466089, 782262, 'LV', 'Ļaudonas pagasts', 1, 'laudonas-pagasts'),
-(466090, 782262, 'LV', 'Mārcienas pagasts', 1, 'marcienas-pagasts'),
-(466091, 782262, 'LV', 'Mētrienas pagasts', 1, 'metrienas-pagasts'),
-(466092, 782262, 'LV', 'Ošupes pagasts', 1, 'osupes-pagasts'),
-(466093, 782262, 'LV', 'Praulienas pagasts', 1, 'praulienas-pagasts'),
-(466094, 782262, 'LV', 'Sarkaņu pagasts', 1, 'sarkanu-pagasts'),
-(466095, 782262, 'LV', 'Vestienas pagasts', 1, 'vestienas-pagasts');
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782263, 'LV', 'Cesvaines novads', 1, 'cesvaines-novads');
+(1004398, 'LV', 'Naukšēni Municipality', 1, 'naukseni-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066932, 1004398, 'LV', 'Naukšēni', 1, 'naukseni', 57.88349000, 25.45609000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782264, 'LV', 'Lubānas novads', 1, 'lubanas-novads');
+(1004432, 'LV', 'Nereta Municipality', 1, 'nereta-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466096, 782264, 'LV', 'Indrānu pagasts', 1, 'indranu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066933, 1004432, 'LV', 'Nereta', 1, 'nereta', 56.20279000, 25.30752000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782265, 'LV', 'Varakļānu novads', 1, 'varaklanu-novads');
+(1004436, 'LV', 'Nīca Municipality', 1, 'nica-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466097, 782265, 'LV', 'Murmastienes pagasts', 1, 'murmastienes-pagasts'),
-(466098, 782265, 'LV', 'Varakļānu pagasts', 1, 'varaklanu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066934, 1004436, 'LV', 'Nīca', 1, 'nica', 56.34601000, 21.06401000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782266, 'LV', 'Ērgļu novads', 1, 'erglu-novads');
+(1004416, 'LV', 'Ogre Municipality', 1, 'ogre-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466099, 782266, 'LV', 'Ērgļu pagasts', 1, 'erglu-pagasts'),
-(466100, 782266, 'LV', 'Jumurdas pagasts', 1, 'jumurdas-pagasts'),
-(466101, 782266, 'LV', 'Sausnējas pagasts', 1, 'sausnejas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066907, 1004416, 'LV', 'Jumprava', 1, 'jumprava', 56.67613000, 24.97210000),
+(1066935, 1004416, 'LV', 'Ogre', 1, 'ogre', 56.81620000, 24.61401000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782267, 'LV', 'Ogres novads', 1, 'ogres-novads');
+(1004417, 'LV', 'Olaine Municipality', 1, 'olaine-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466102, 782267, 'LV', 'Krapes pagasts', 1, 'krapes-pagasts'),
-(466103, 782267, 'LV', 'Ķeipenes pagasts', 1, 'keipenes-pagasts'),
-(466104, 782267, 'LV', 'Lauberes pagasts', 1, 'lauberes-pagasts'),
-(466105, 782267, 'LV', 'Madlienas pagasts', 1, 'madlienas-pagasts'),
-(466106, 782267, 'LV', 'Mazozolu pagasts', 1, 'mazozolu-pagasts'),
-(466107, 782267, 'LV', 'Meņģeles pagasts', 1, 'mengeles-pagasts'),
-(466108, 782267, 'LV', 'Ogresgala pagasts', 1, 'ogresgala-pagasts'),
-(466109, 782267, 'LV', 'Suntažu pagasts', 1, 'suntazu-pagasts'),
-(466110, 782267, 'LV', 'Taurupes pagasts', 1, 'taurupes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066936, 1004417, 'LV', 'Olaine', 1, 'olaine', 56.79472000, 23.93580000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782268, 'LV', 'Ikšķiles novads', 1, 'ikskiles-novads');
+(1004442, 'LV', 'Ozolnieki Municipality', 1, 'ozolnieki-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066937, 1004442, 'LV', 'Ozolnieki', 1, 'ozolnieki', 56.68986000, 23.77610000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782269, 'LV', 'Ķeguma novads', 1, 'keguma-novads');
+(1004507, 'LV', 'Pārgauja Municipality', 1, 'pargauja-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466111, 782269, 'LV', 'Birzgales pagasts', 1, 'birzgales-pagasts'),
-(466112, 782269, 'LV', 'Rembates pagasts', 1, 'rembates-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066967, 1004507, 'LV', 'Stalbe', 1, 'stalbe', 57.37065000, 25.03106000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782270, 'LV', 'Lielvārdes novads', 1, 'lielvardes-novads');
+(1004467, 'LV', 'Pāvilosta Municipality', 1, 'pavilosta-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466113, 782270, 'LV', 'Jumpravas pagasts', 1, 'jumpravas-pagasts'),
-(466114, 782270, 'LV', 'Lēdmanes pagasts', 1, 'ledmanes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066944, 1004467, 'LV', 'Pāvilosta', 1, 'pavilosta', 56.88791000, 21.18593000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782271, 'LV', 'Preiļu novads', 1, 'preilu-novads');
+(1004405, 'LV', 'Pļaviņas Municipality', 1, 'plavinas-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466115, 782271, 'LV', 'Aizkalnes pagasts', 1, 'aizkalnes-pagasts'),
-(466116, 782271, 'LV', 'Pelēču pagasts', 1, 'pelecu-pagasts'),
-(466117, 782271, 'LV', 'Preiļu pagasts', 1, 'preilu-pagasts'),
-(466118, 782271, 'LV', 'Saunas pagasts', 1, 'saunas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066945, 1004405, 'LV', 'Pļaviņas', 1, 'plavinas', 56.61780000, 25.72552000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782272, 'LV', 'Līvānu novads', 1, 'livanu-novads');
+(1004483, 'LV', 'Preiļi Municipality', 1, 'preili-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466119, 782272, 'LV', 'Jersikas pagasts', 1, 'jersikas-pagasts'),
-(466120, 782272, 'LV', 'Rožupes pagasts', 1, 'rozupes-pagasts'),
-(466121, 782272, 'LV', 'Rudzātu pagasts', 1, 'rudzatu-pagasts'),
-(466122, 782272, 'LV', 'Sutru pagasts', 1, 'sutru-pagasts'),
-(466123, 782272, 'LV', 'Turku pagasts', 1, 'turku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066902, 1004483, 'LV', 'Jaunaglona', 1, 'jaunaglona', 56.16066000, 27.00714000),
+(1066941, 1004483, 'LV', 'Preiļi', 1, 'preili', 56.29444000, 26.72459000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782273, 'LV', 'Riebiņu novads', 1, 'riebinu-novads');
+(1004429, 'LV', 'Priekule Municipality', 1, 'priekule-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466124, 782273, 'LV', 'Galēnu pagasts', 1, 'galenu-pagasts'),
-(466125, 782273, 'LV', 'Riebiņu pagasts', 1, 'riebinu-pagasts'),
-(466126, 782273, 'LV', 'Rušonas pagasts', 1, 'rusonas-pagasts'),
-(466127, 782273, 'LV', 'Silajāņu pagasts', 1, 'silajanu-pagasts'),
-(466128, 782273, 'LV', 'Sīļukalna pagasts', 1, 'silukalna-pagasts'),
-(466129, 782273, 'LV', 'Stabulnieku pagasts', 1, 'stabulnieku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066942, 1004429, 'LV', 'Priekule', 1, 'priekule', 56.44679000, 21.58968000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782274, 'LV', 'Vārkavas novads', 1, 'varkavas-novads');
+(1004506, 'LV', 'Priekuļi Municipality', 1, 'priekuli-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466130, 782274, 'LV', 'Rožkalnu pagasts', 1, 'rozkalnu-pagasts'),
-(466131, 782274, 'LV', 'Upmalas pagasts', 1, 'upmalas-pagasts'),
-(466132, 782274, 'LV', 'Vārkavas pagasts', 1, 'varkavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066943, 1004506, 'LV', 'Priekuļi', 1, 'priekuli', 57.31500000, 25.36147000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782275, 'LV', 'Rēzeknes novads', 1, 'rezeknes-novads');
+(1004479, 'LV', 'Rauna Municipality', 1, 'rauna-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466133, 782275, 'LV', 'Audriņu pagasts', 1, 'audrinu-pagasts'),
-(466134, 782275, 'LV', 'Bērzgales pagasts', 1, 'berzgales-pagasts'),
-(466135, 782275, 'LV', 'Čornajas pagasts', 1, 'cornajas-pagasts'),
-(466136, 782275, 'LV', 'Dricānu pagasts', 1, 'dricanu-pagasts'),
-(466137, 782275, 'LV', 'Feimaņu pagasts', 1, 'feimanu-pagasts'),
-(466138, 782275, 'LV', 'Gaigalavas pagasts', 1, 'gaigalavas-pagasts'),
-(466139, 782275, 'LV', 'Griškānu pagasts', 1, 'griskanu-pagasts'),
-(466140, 782275, 'LV', 'Ilzeskalna pagasts', 1, 'ilzeskalna-pagasts'),
-(466141, 782275, 'LV', 'Kantinieku pagasts', 1, 'kantinieku-pagasts'),
-(466142, 782275, 'LV', 'Kaunatas pagasts', 1, 'kaunatas-pagasts'),
-(466143, 782275, 'LV', 'Lendžu pagasts', 1, 'lendzu-pagasts'),
-(466144, 782275, 'LV', 'Lūznavas pagasts', 1, 'luznavas-pagasts'),
-(466145, 782275, 'LV', 'Maltas pagasts', 1, 'maltas-pagasts'),
-(466146, 782275, 'LV', 'Mākoņkalna pagasts', 1, 'makonkalna-pagasts'),
-(466147, 782275, 'LV', 'Nagļu pagasts', 1, 'naglu-pagasts'),
-(466148, 782275, 'LV', 'Ozolaines pagasts', 1, 'ozolaines-pagasts'),
-(466149, 782275, 'LV', 'Ozolmuižas pagasts', 1, 'ozolmuizas-pagasts'),
-(466150, 782275, 'LV', 'Pušas pagasts', 1, 'pusas-pagasts'),
-(466151, 782275, 'LV', 'Rikavas pagasts', 1, 'rikavas-pagasts'),
-(466152, 782275, 'LV', 'Nautrēnu pagasts', 1, 'nautrenu-pagasts'),
-(466153, 782275, 'LV', 'Sakstagala pagasts', 1, 'sakstagala-pagasts'),
-(466154, 782275, 'LV', 'Silmalas pagasts', 1, 'silmalas-pagasts'),
-(466155, 782275, 'LV', 'Stoļerovas pagasts', 1, 'stolerovas-pagasts'),
-(466156, 782275, 'LV', 'Stružānu pagasts', 1, 'struzanu-pagasts'),
-(466157, 782275, 'LV', 'Vērēmu pagasts', 1, 'veremu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066946, 1004479, 'LV', 'Rauna', 1, 'rauna', 57.33173000, 25.60947000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782276, 'LV', 'Viļānu novads', 1, 'vilanu-novads');
+(1004509, 'LV', 'Rēzekne', 1, 'rezekne');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466158, 782276, 'LV', 'Dekšāres pagasts', 1, 'deksares-pagasts'),
-(466159, 782276, 'LV', 'Sokolku pagasts', 1, 'sokolku-pagasts'),
-(466160, 782276, 'LV', 'Viļānu pagasts', 1, 'vilanu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066953, 1004509, 'LV', 'Rēzekne', 1, 'rezekne', 56.51028000, 27.34000000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782277, 'LV', 'Baldones novads', 1, 'baldones-novads');
-
-;
+(1004455, 'LV', 'Rēzekne Municipality', 1, 'rezekne-municipality');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782278, 'LV', 'Ķekavas novads', 1, 'kekavas-novads');
+(1004502, 'LV', 'Riebiņi Municipality', 1, 'riebini-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466161, 782278, 'LV', 'Daugmales pagasts', 1, 'daugmales-pagasts'),
-(466162, 782278, 'LV', 'Ķekavas pagasts', 1, 'kekavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066947, 1004502, 'LV', 'Riebiņi', 1, 'riebini', 56.34280000, 26.79995000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782279, 'LV', 'Olaines novads', 1, 'olaines-novads');
+(1004491, 'LV', 'Riga', 1, 'riga');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466163, 782279, 'LV', 'Olaines pagasts', 1, 'olaines-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066883, 1004491, 'LV', 'Bolderaja', 1, 'bolderaja', 57.03132000, 24.05571000),
+(1066890, 1004491, 'LV', 'Daugavgrīva', 1, 'daugavgriva', 57.04315000, 24.03613000),
+(1066903, 1004491, 'LV', 'Jaunciems', 1, 'jaunciems', 57.03910000, 24.17413000),
+(1066928, 1004491, 'LV', 'Mežaparks', 1, 'mezaparks', 57.00008000, 24.15997000),
+(1066948, 1004491, 'LV', 'Riga', 1, 'riga', 56.94600000, 24.10589000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782280, 'LV', 'Salaspils novads', 1, 'salaspils-novads');
+(1004440, 'LV', 'Roja Municipality', 1, 'roja-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066949, 1004440, 'LV', 'Roja', 1, 'roja', 57.50146000, 22.80881000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782281, 'LV', 'Saulkrastu novads', 1, 'saulkrastu-novads');
+(1004493, 'LV', 'Ropaži Municipality', 1, 'ropazi-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066950, 1004493, 'LV', 'Ropaži', 1, 'ropazi', 56.97470000, 24.63295000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782282, 'LV', 'Siguldas novads', 1, 'siguldas-novads');
+(1004503, 'LV', 'Rucava Municipality', 1, 'rucava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466164, 782282, 'LV', 'Allažu pagasts', 1, 'allazu-pagasts'),
-(466165, 782282, 'LV', 'Mores pagasts', 1, 'mores-pagasts'),
-(466166, 782282, 'LV', 'Siguldas pagasts', 1, 'siguldas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066951, 1004503, 'LV', 'Rucava', 1, 'rucava', 56.16314000, 21.16156000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782283, 'LV', 'Inčukalna novads', 1, 'incukalna-novads');
+(1004423, 'LV', 'Rugāji Municipality', 1, 'rugaji-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466167, 782283, 'LV', 'Inčukalna pagasts', 1, 'incukalna-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066952, 1004423, 'LV', 'Rugāji', 1, 'rugaji', 57.00325000, 27.13371000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782284, 'LV', 'Ādažu novads', 1, 'adazu-novads');
+(1004426, 'LV', 'Rūjiena Municipality', 1, 'rujiena-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066954, 1004426, 'LV', 'Rūjiena', 1, 'rujiena', 57.89752000, 25.33155000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782285, 'LV', 'Babītes novads', 1, 'babites-novads');
+(1004404, 'LV', 'Rundāle Municipality', 1, 'rundale-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466168, 782285, 'LV', 'Babītes pagasts', 1, 'babites-pagasts'),
-(466169, 782285, 'LV', 'Salas pagasts', 1, 'salas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066938, 1004404, 'LV', 'Pilsrundāle', 1, 'pilsrundale', 56.41812000, 24.01625000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782286, 'LV', 'Carnikavas novads', 1, 'carnikavas-novads');
+(1004434, 'LV', 'Sala Municipality', 1, 'sala-municipality');
 
-;
-
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782287, 'LV', 'Garkalnes novads', 1, 'garkalnes-novads');
+(1004396, 'LV', 'Salacgrīva Municipality', 1, 'salacgriva-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066869, 1004396, 'LV', 'Ainaži', 1, 'ainazi', 57.86348000, 24.35853000),
+(1066956, 1004396, 'LV', 'Salacgrīva', 1, 'salacgriva', 57.75312000, 24.35895000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782288, 'LV', 'Krimuldas novads', 1, 'krimuldas-novads');
+(1004402, 'LV', 'Salaspils Municipality', 1, 'salaspils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466171, 782288, 'LV', 'Krimuldas pagasts', 1, 'krimuldas-pagasts'),
-(466170, 782288, 'LV', 'Lēdurgas pagasts', 1, 'ledurgas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066957, 1004402, 'LV', 'Salaspils', 1, 'salaspils', 56.86014000, 24.36544000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782289, 'LV', 'Mālpils novads', 1, 'malpils-novads');
+(1004439, 'LV', 'Saldus Municipality', 1, 'saldus-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066958, 1004439, 'LV', 'Saldus', 1, 'saldus', 56.66363000, 22.48807000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782290, 'LV', 'Mārupes novads', 1, 'marupes-novads');
+(1004443, 'LV', 'Saulkrasti Municipality', 1, 'saulkrasti-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066959, 1004443, 'LV', 'Saulkrasti', 1, 'saulkrasti', 57.26224000, 24.41471000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782291, 'LV', 'Ropažu novads', 1, 'ropazu-novads');
+(1004408, 'LV', 'Sēja Municipality', 1, 'seja-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066894, 1004408, 'LV', 'Engure', 1, 'engure', 57.16061000, 23.22527000),
+(1066971, 1004408, 'LV', 'Tukums', 1, 'tukums', 56.96764000, 23.15554000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782292, 'LV', 'Sējas novads', 1, 'sejas-novads');
+(1004476, 'LV', 'Sigulda Municipality', 1, 'sigulda-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066961, 1004476, 'LV', 'Sigulda', 1, 'sigulda', 57.15375000, 24.85953000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782293, 'LV', 'Stopiņu novads', 1, 'stopinu-novads');
+(1004415, 'LV', 'Skrīveri Municipality', 1, 'skriveri-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066963, 1004415, 'LV', 'Skrīveri', 1, 'skriveri', 56.64500000, 25.12058000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782294, 'LV', 'Saldus novads', 1, 'saldus-novads');
+(1004447, 'LV', 'Skrunda Municipality', 1, 'skrunda-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466172, 782294, 'LV', 'Ezeres pagasts', 1, 'ezeres-pagasts'),
-(466173, 782294, 'LV', 'Jaunauces pagasts', 1, 'jaunauces-pagasts'),
-(466174, 782294, 'LV', 'Jaunlutriņu pagasts', 1, 'jaunlutrinu-pagasts'),
-(466175, 782294, 'LV', 'Kursīšu pagasts', 1, 'kursisu-pagasts'),
-(466176, 782294, 'LV', 'Lutriņu pagasts', 1, 'lutrinu-pagasts'),
-(466177, 782294, 'LV', 'Nīgrandes pagasts', 1, 'nigrandes-pagasts'),
-(466178, 782294, 'LV', 'Novadnieku pagasts', 1, 'novadnieku-pagasts'),
-(466179, 782294, 'LV', 'Pampāļu pagasts', 1, 'pampalu-pagasts'),
-(466180, 782294, 'LV', 'Rubas pagasts', 1, 'rubas-pagasts'),
-(466181, 782294, 'LV', 'Saldus pagasts', 1, 'saldus-pagasts'),
-(466182, 782294, 'LV', 'Šķēdes pagasts', 1, 'skedes-pagasts'),
-(466183, 782294, 'LV', 'Vadakstes pagasts', 1, 'vadakstes-pagasts'),
-(466184, 782294, 'LV', 'Zaņas pagasts', 1, 'zanas-pagasts'),
-(466185, 782294, 'LV', 'Zirņu pagasts', 1, 'zirnu-pagasts'),
-(466186, 782294, 'LV', 'Zvārdes pagasts', 1, 'zvardes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066962, 1004447, 'LV', 'Skrunda', 1, 'skrunda', 56.67749000, 22.01649000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782295, 'LV', 'Brocēnu novads', 1, 'brocenu-novads');
+(1004462, 'LV', 'Smiltene Municipality', 1, 'smiltene-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466187, 782295, 'LV', 'Blīdenes pagasts', 1, 'blidenes-pagasts'),
-(466188, 782295, 'LV', 'Gaiķu pagasts', 1, 'gaiku-pagasts'),
-(466189, 782295, 'LV', 'Remtes pagasts', 1, 'remtes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066964, 1004462, 'LV', 'Smiltene', 1, 'smiltene', 57.42444000, 25.90164000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782296, 'LV', 'Talsu novads', 1, 'talsu-novads');
+(1004478, 'LV', 'Stopiņi Municipality', 1, 'stopini-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466190, 782296, 'LV', 'Abavas pagasts', 1, 'abavas-pagasts'),
-(466191, 782296, 'LV', 'Balgales pagasts', 1, 'balgales-pagasts'),
-(466192, 782296, 'LV', 'Ģibuļu pagasts', 1, 'gibulu-pagasts'),
-(466193, 782296, 'LV', 'Īves pagasts', 1, 'ives-pagasts'),
-(466194, 782296, 'LV', 'Ķūļciema pagasts', 1, 'kulciema-pagasts'),
-(466195, 782296, 'LV', 'Laidzes pagasts', 1, 'laidzes-pagasts'),
-(466196, 782296, 'LV', 'Laucienes pagasts', 1, 'laucienes-pagasts'),
-(466197, 782296, 'LV', 'Lībagu pagasts', 1, 'libagu-pagasts'),
-(466198, 782296, 'LV', 'Lubes pagasts', 1, 'lubes-pagasts'),
-(466199, 782296, 'LV', 'Strazdes pagasts', 1, 'strazdes-pagasts'),
-(466200, 782296, 'LV', 'Valdgales pagasts', 1, 'valdgales-pagasts'),
-(466201, 782296, 'LV', 'Vandzenes pagasts', 1, 'vandzenes-pagasts'),
-(466202, 782296, 'LV', 'Virbu pagasts', 1, 'virbu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066974, 1004478, 'LV', 'Ulbroka', 1, 'ulbroka', 56.93630000, 24.30387000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782297, 'LV', 'Dundagas novads', 1, 'dundagas-novads');
+(1004494, 'LV', 'Strenči Municipality', 1, 'strenci-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466203, 782297, 'LV', 'Dundagas pagasts', 1, 'dundagas-pagasts'),
-(466204, 782297, 'LV', 'Kolkas pagasts', 1, 'kolkas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066960, 1004494, 'LV', 'Seda', 1, 'seda', 57.65042000, 25.75089000),
+(1066969, 1004494, 'LV', 'Strenči', 1, 'strenci', 57.62574000, 25.68535000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782298, 'LV', 'Mērsraga novads', 1, 'mersraga-novads');
+(1004459, 'LV', 'Talsi Municipality', 1, 'talsi-municipality');
 
-;
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066955, 1004459, 'LV', 'Sabile', 1, 'sabile', 57.04577000, 22.57261000),
+(1066968, 1004459, 'LV', 'Stende', 1, 'stende', 57.14497000, 22.53482000),
+(1066970, 1004459, 'LV', 'Talsi', 1, 'talsi', 57.24562000, 22.58137000),
+(1066976, 1004459, 'LV', 'Valdemārpils', 1, 'valdemarpils', 57.37068000, 22.59188000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782299, 'LV', 'Rojas novads', 1, 'rojas-novads');
+(1004480, 'LV', 'Tērvete Municipality', 1, 'tervete-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466205, 782299, 'LV', 'Rojas pagasts', 1, 'rojas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066972, 1004480, 'LV', 'Tērvete', 1, 'tervete', 56.47989000, 23.38895000),
+(1066988, 1004480, 'LV', 'Zelmeņi', 1, 'zelmeni', 56.45167000, 23.35194000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782300, 'LV', 'Tukuma novads', 1, 'tukuma-novads');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466206, 782300, 'LV', 'Degoles pagasts', 1, 'degoles-pagasts'),
-(466207, 782300, 'LV', 'Džūkstes pagasts', 1, 'dzukstes-pagasts'),
-(466208, 782300, 'LV', 'Irlavas pagasts', 1, 'irlavas-pagasts'),
-(466209, 782300, 'LV', 'Jaunsātu pagasts', 1, 'jaunsatu-pagasts'),
-(466210, 782300, 'LV', 'Lestenes pagasts', 1, 'lestenes-pagasts'),
-(466211, 782300, 'LV', 'Pūres pagasts', 1, 'pures-pagasts'),
-(466212, 782300, 'LV', 'Sēmes pagasts', 1, 'semes-pagasts'),
-(466213, 782300, 'LV', 'Slampes pagasts', 1, 'slampes-pagasts'),
-(466214, 782300, 'LV', 'Tumes pagasts', 1, 'tumes-pagasts'),
-(466215, 782300, 'LV', 'Zentenes pagasts', 1, 'zentenes-pagasts');
+(1004409, 'LV', 'Tukums Municipality', 1, 'tukums-municipality');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782301, 'LV', 'Kandavas novads', 1, 'kandavas-novads');
+(1004508, 'LV', 'Vaiņode Municipality', 1, 'vainode-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466216, 782301, 'LV', 'Cēres pagasts', 1, 'ceres-pagasts'),
-(466217, 782301, 'LV', 'Kandavas pagasts', 1, 'kandavas-pagasts'),
-(466218, 782301, 'LV', 'Matkules pagasts', 1, 'matkules-pagasts'),
-(466219, 782301, 'LV', 'Vānes pagasts', 1, 'vanes-pagasts'),
-(466220, 782301, 'LV', 'Zantes pagasts', 1, 'zantes-pagasts'),
-(466221, 782301, 'LV', 'Zemītes pagasts', 1, 'zemites-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066975, 1004508, 'LV', 'Vaiņode', 1, 'vainode', 56.41848000, 21.85405000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782302, 'LV', 'Engures novads', 1, 'engures-novads');
+(1004425, 'LV', 'Valka Municipality', 1, 'valka-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466222, 782302, 'LV', 'Engures pagasts', 1, 'engures-pagasts'),
-(466223, 782302, 'LV', 'Lapmežciema pagasts', 1, 'lapmezciema-pagasts'),
-(466224, 782302, 'LV', 'Smārdes pagasts', 1, 'smardes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066977, 1004425, 'LV', 'Valka', 1, 'valka', 57.77520000, 26.01013000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782303, 'LV', 'Jaunpils novads', 1, 'jaunpils-novads');
+(1004473, 'LV', 'Valmiera', 1, 'valmiera');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466225, 782303, 'LV', 'Jaunpils pagasts', 1, 'jaunpils-pagasts'),
-(466226, 782303, 'LV', 'Viesatu pagasts', 1, 'viesatu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066978, 1004473, 'LV', 'Valmiera', 1, 'valmiera', 57.54108000, 25.42751000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782304, 'LV', 'Valkas novads', 1, 'valkas-novads');
+(1004431, 'LV', 'Varakļāni Municipality', 1, 'varaklani-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466227, 782304, 'LV', 'Ērģemes pagasts', 1, 'ergemes-pagasts'),
-(466228, 782304, 'LV', 'Kārķu pagasts', 1, 'karku-pagasts'),
-(466229, 782304, 'LV', 'Valkas pagasts', 1, 'valkas-pagasts'),
-(466230, 782304, 'LV', 'Vijciema pagasts', 1, 'vijciema-pagasts'),
-(466231, 782304, 'LV', 'Zvārtavas pagasts', 1, 'zvartavas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066980, 1004431, 'LV', 'Varakļāni', 1, 'varaklani', 56.60826000, 26.75377000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782305, 'LV', 'Smiltenes novads', 1, 'smiltenes-novads');
+(1004406, 'LV', 'Vārkava Municipality', 1, 'varkava-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466232, 782305, 'LV', 'Bilskas pagasts', 1, 'bilskas-pagasts'),
-(466233, 782305, 'LV', 'Blomes pagasts', 1, 'blomes-pagasts'),
-(466234, 782305, 'LV', 'Brantu pagasts', 1, 'brantu-pagasts'),
-(466235, 782305, 'LV', 'Grundzāles pagasts', 1, 'grundzales-pagasts'),
-(466236, 782305, 'LV', 'Launkalnes pagasts', 1, 'launkalnes-pagasts'),
-(466237, 782305, 'LV', 'Palsmanes pagasts', 1, 'palsmanes-pagasts'),
-(466238, 782305, 'LV', 'Smiltenes pagasts', 1, 'smiltenes-pagasts'),
-(466239, 782305, 'LV', 'Variņu pagasts', 1, 'varinu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066983, 1004406, 'LV', 'Vecvārkava', 1, 'vecvarkava', 56.19838000, 26.50811000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782306, 'LV', 'Strenču novads', 1, 'strencu-novads');
+(1004466, 'LV', 'Vecpiebalga Municipality', 1, 'vecpiebalga-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466240, 782306, 'LV', 'Jērcēnu pagasts', 1, 'jercenu-pagasts'),
-(466241, 782306, 'LV', 'Plāņu pagasts', 1, 'planu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066981, 1004466, 'LV', 'Vecpiebalga', 1, 'vecpiebalga', 57.06090000, 25.81624000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782307, 'LV', 'Kocēnu novads', 1, 'kocenu-novads');
+(1004397, 'LV', 'Vecumnieki Municipality', 1, 'vecumnieki-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466242, 782307, 'LV', 'Bērzaines pagasts', 1, 'berzaines-pagasts'),
-(466243, 782307, 'LV', 'Dikļu pagasts', 1, 'diklu-pagasts'),
-(466244, 782307, 'LV', 'Kocēnu pagasts', 1, 'kocenu-pagasts'),
-(466245, 782307, 'LV', 'Vaidavas pagasts', 1, 'vaidavas-pagasts'),
-(466246, 782307, 'LV', 'Zilākalna pagasts', 1, 'zilakalna-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066982, 1004397, 'LV', 'Vecumnieki', 1, 'vecumnieki', 56.60608000, 24.52232000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782308, 'LV', 'Mazsalacas novads', 1, 'mazsalacas-novads');
+(1004421, 'LV', 'Ventspils', 1, 'ventspils');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466247, 782308, 'LV', 'Ramatas pagasts', 1, 'ramatas-pagasts'),
-(466248, 782308, 'LV', 'Sēļu pagasts', 1, 'selu-pagasts'),
-(466249, 782308, 'LV', 'Skaņkalnes pagasts', 1, 'skankalnes-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066984, 1004421, 'LV', 'Ventspils', 1, 'ventspils', 57.38988000, 21.57288000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782309, 'LV', 'Rūjienas novads', 1, 'rujienas-novads');
+(1004403, 'LV', 'Ventspils Municipality', 1, 'ventspils-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466250, 782309, 'LV', 'Ipiķu pagasts', 1, 'ipiku-pagasts'),
-(466251, 782309, 'LV', 'Jeru pagasts', 1, 'jeru-pagasts'),
-(466252, 782309, 'LV', 'Lodes pagasts', 1, 'lodes-pagasts'),
-(466253, 782309, 'LV', 'Vilpulkas pagasts', 1, 'vilpulkas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066939, 1004403, 'LV', 'Piltene', 1, 'piltene', 57.22426000, 21.67439000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782310, 'LV', 'Beverīnas novads', 1, 'beverinas-novads');
+(1004456, 'LV', 'Viesīte Municipality', 1, 'viesite-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466254, 782310, 'LV', 'Brenguļu pagasts', 1, 'brengulu-pagasts'),
-(466255, 782310, 'LV', 'Kauguru pagasts', 1, 'kauguru-pagasts'),
-(466256, 782310, 'LV', 'Trikātas pagasts', 1, 'trikatas-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066985, 1004456, 'LV', 'Viesīte', 1, 'viesite', 56.34751000, 25.55514000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782311, 'LV', 'Burtnieku novads', 1, 'burtnieku-novads');
+(1004477, 'LV', 'Viļaka Municipality', 1, 'vilaka-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466257, 782311, 'LV', 'Burtnieku pagasts', 1, 'burtnieku-pagasts'),
-(466258, 782311, 'LV', 'Ēveles pagasts', 1, 'eveles-pagasts'),
-(466259, 782311, 'LV', 'Matīšu pagasts', 1, 'matisu-pagasts'),
-(466260, 782311, 'LV', 'Rencēnu pagasts', 1, 'rencenu-pagasts'),
-(466261, 782311, 'LV', 'Valmieras pagasts', 1, 'valmieras-pagasts'),
-(466262, 782311, 'LV', 'Vecates pagasts', 1, 'vecates-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066986, 1004477, 'LV', 'Viļaka', 1, 'vilaka', 57.18458000, 27.67220000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782312, 'LV', 'Naukšēnu novads', 1, 'nauksenu-novads');
+(1004486, 'LV', 'Viļāni Municipality', 1, 'vilani-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466263, 782312, 'LV', 'Ķoņu pagasts', 1, 'konu-pagasts'),
-(466264, 782312, 'LV', 'Naukšēnu pagasts', 1, 'nauksenu-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066987, 1004486, 'LV', 'Viļāni', 1, 'vilani', 56.55253000, 26.92449000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782313, 'LV', 'Ventspils novads', 1, 'ventspils-novads');
+(1004430, 'LV', 'Zilupe Municipality', 1, 'zilupe-municipality');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(466265, 782313, 'LV', 'Ances pagasts', 1, 'ances-pagasts'),
-(466266, 782313, 'LV', 'Jūrkalnes pagasts', 1, 'jurkalnes-pagasts'),
-(466267, 782313, 'LV', 'Popes pagasts', 1, 'popes-pagasts'),
-(466268, 782313, 'LV', 'Puzes pagasts', 1, 'puzes-pagasts'),
-(466269, 782313, 'LV', 'Tārgales pagasts', 1, 'targales-pagasts'),
-(466270, 782313, 'LV', 'Ugāles pagasts', 1, 'ugales-pagasts'),
-(466271, 782313, 'LV', 'Usmas pagasts', 1, 'usmas-pagasts'),
-(466272, 782313, 'LV', 'Užavas pagasts', 1, 'uzavas-pagasts'),
-(466273, 782313, 'LV', 'Vārves pagasts', 1, 'varves-pagasts'),
-(466274, 782313, 'LV', 'Ziru pagasts', 1, 'ziru-pagasts'),
-(466275, 782313, 'LV', 'Zlēku pagasts', 1, 'zleku-pagasts');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1066989, 1004430, 'LV', 'Zilupe', 1, 'zilupe', 56.38616000, 28.12165000);
 

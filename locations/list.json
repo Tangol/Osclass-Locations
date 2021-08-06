@@ -8,6 +8,11 @@
             "type": "file"
         },
         {
+            "name": "Aland Islands",
+            "file": "AX-Aland Islands.sql",
+            "type": "file"
+        },
+        {
             "name": "Albania",
             "file": "AL-Albania.sql",
             "type": "file"
@@ -15,6 +20,11 @@
         {
             "name": "Algeria",
             "file": "DZ-Algeria.sql",
+            "type": "file"
+        },
+        {
+            "name": "American Samoa",
+            "file": "AS-American_Samoa.sql",
             "type": "file"
         },
         {
@@ -28,6 +38,16 @@
             "type": "file"
         },
         {
+            "name": "Anguilla",
+            "file": "AI-Anguilla.sql",
+            "type": "file"
+        },
+        {
+            "name": "Antarctica",
+            "file": "AQ-Antarctica.sql",
+            "type": "file"
+        },
+        {
             "name": "Antigua and Barbuda",
             "file": "AG-Antigua and Barbuda.sql",
             "type": "file"
@@ -35,6 +55,11 @@
         {
             "name": "Argentina",
             "file": "AR-Argentina.sql",
+            "type": "file"
+        },
+        {
+            "name": "Armenia",
+            "file": "AM-Armenia.sql",
             "type": "file"
         },
         {
@@ -53,8 +78,23 @@
             "type": "file"
         },
         {
+            "name": "Azerbaijan",
+            "file": "AZ-Azerbaijan.sql",
+            "type": "file"
+        },
+        {
             "name": "Bahamas",
-            "file": "BS-Bahamas.sql",
+            "file": "BS-Bahamas_The.sql",
+            "type": "file"
+        },
+        {
+            "name": "Bahrain",
+            "file": "BH-Bahrain.sql",
+            "type": "file"
+        },
+        {
+            "name": "Bangladesh",
+            "file": "BD-Bangladesh.sql",
             "type": "file"
         },
         {
@@ -68,8 +108,18 @@
             "type": "file"
         },
         {
+            "name": "Belarus",
+            "file": "BY-Belarus.sql",
+            "type": "file"
+        },
+        {
             "name": "Belize",
             "file": "BZ-Belize.sql",
+            "type": "file"
+        },
+        {
+            "name": "Benin",
+            "file": "BJ-Benin.sql",
             "type": "file"
         },
         {
@@ -78,8 +128,28 @@
             "type": "file"
         },
         {
+            "name": "Bhutan",
+            "file": "BT-Bhutan.sql",
+            "type": "file"
+        },
+        {
             "name": "Bolivia",
             "file": "BO-Bolivia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "file": "BA-Bosnia and Herzegovina.sql",
+            "type": "file"
+        },
+        {
+            "name": "Botswana",
+            "file": "BW-Botswana.sql",
+            "type": "file"
+        },
+        {
+            "name": "Bouvet Island",
+            "file": "BV-Bouvet_Island.sql",
             "type": "file"
         },
         {
@@ -88,13 +158,68 @@
             "type": "file"
         },
         {
+            "name": "British Indian Ocean Territory",
+            "file": "IO-British_Indian_Ocean_Territory.sql",
+            "type": "file"
+        },
+        {
+            "name": "British Virgin Islands",
+            "file": "VG-Virgin_Islands_British.sql",
+            "type": "file"
+        },
+        {
+            "name": "Brunei",
+            "file": "BN-Brunei.sql",
+            "type": "file"
+        },
+        {
+            "name": "Bulgaria",
+            "file": "BG-Bulgaria.sql",
+            "type": "file"
+        },
+        {
+            "name": "Burkina Faso",
+            "file": "BF-Burkina_Faso.sql",
+            "type": "file"
+        },
+        {
+            "name": "Burundi",
+            "file": "BI-Burundi.sql",
+            "type": "file"
+        },
+        {
             "name": "Cambodia",
             "file": "KH-Cambodia.sql",
             "type": "file"
         },
         {
+            "name": "Cameroon",
+            "file": "CM-Cameroon.sql",
+            "type": "file"
+        },
+        {
             "name": "Canada",
             "file": "CA-Canada.sql",
+            "type": "file"
+        },
+        {
+            "name": "Cape Verde",
+            "file": "CV-Cape_Verde.sql",
+            "type": "file"
+        },
+        {
+            "name": "Cayman Islands",
+            "file": "KY-Cayman_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Central African Republic",
+            "file": "CF-Central_African_Republic.sql",
+            "type": "file"
+        },
+        {
+            "name": "Chad",
+            "file": "TD-Chad.sql",
             "type": "file"
         },
         {
@@ -108,13 +233,38 @@
             "type": "file"
         },
         {
+            "name": "Christmas Island",
+            "file": "CX-Christmas_Island.sql",
+            "type": "file"
+        },
+        {
+            "name": "Cocos Keeling Islands",
+            "file": "CC-Cocos_Keeling_Islands.sql",
+            "type": "file"
+        },
+        {
             "name": "Colombia",
             "file": "CO-Colombia.sql",
             "type": "file"
         },
         {
+            "name": "Comoros",
+            "file": "KM-Comoros.sql",
+            "type": "file"
+        },
+        {
+            "name": "Congo",
+            "file": "CG-Congo.sql",
+            "type": "file"
+        },
+        {
+            "name": "Cook Islands",
+            "file": "CK-Cook_Islands.sql",
+            "type": "file"
+        },
+        {
             "name": "Costa Rica",
-            "file": "CR-Costa Rica.sql",
+            "file": "CR-Costa_Rica.sql",
             "type": "file"
         },
         {
@@ -128,8 +278,18 @@
             "type": "file"
         },
         {
+            "name": "Cyprus",
+            "file": "CY-Cyprus.sql",
+            "type": "file"
+        },
+        {
             "name": "Czech Republic",
-            "file": "CZ-Czech Republic.sql",
+            "file": "CZ-Czech_Republic.sql",
+            "type": "file"
+        },
+        {
+            "name": "Democratic Republic of the Congo",
+            "file": "CD-Congo_The_Democratic_Republic_Of_The.sql",
             "type": "file"
         },
         {
@@ -138,8 +298,23 @@
             "type": "file"
         },
         {
+            "name": "Djibouti",
+            "file": "DJ-Djibouti.sql",
+            "type": "file"
+        },
+        {
+            "name": "Dominica",
+            "file": "DM-Dominica.sql",
+            "type": "file"
+        },
+        {
             "name": "Dominican Republic",
-            "file": "DO-Dominican Republic.sql",
+            "file": "DO-Dominican_Republic.sql",
+            "type": "file"
+        },
+        {
+            "name": "East Timor",
+            "file": "TL-East_Timor.sql",
             "type": "file"
         },
         {
@@ -148,13 +323,48 @@
             "type": "file"
         },
         {
+            "name": "Egypt",
+            "file": "EG-Egypt.sql",
+            "type": "file"
+        },
+        {
             "name": "El Salvador",
-            "file": "SV-El Salvador.sql",
+            "file": "SV-El_Salvador.sql",
             "type": "file"
         },
         {
             "name": "Equatorial Guinea",
-            "file": "GQ-Equatorial Guinea.sql",
+            "file": "GQ-Equatorial_Guinea.sql",
+            "type": "file"
+        },
+        {
+            "name": "Eritrea",
+            "file": "ER-Eritrea.sql",
+            "type": "file"
+        },
+        {
+            "name": "Estonia",
+            "file": "EE-Estonia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Ethiopia",
+            "file": "ET-Ethiopia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Falkland Islands",
+            "file": "FK-Falkland_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Faroe Islands",
+            "file": "FO-Faroe_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Fiji Islands",
+            "file": "FJ-Fiji_Islands.sql",
             "type": "file"
         },
         {
@@ -168,6 +378,36 @@
             "type": "file"
         },
         {
+            "name": "French Guiana",
+            "file": "GF-French_Guiana.sql",
+            "type": "file"
+        },
+        {
+            "name": "French Polynesia",
+            "file": "PF-French_Polynesia.sql",
+            "type": "file"
+        },
+        {
+            "name": "French Southern Territories",
+            "file": "TF-French_Southern_Territories.sql",
+            "type": "file"
+        },
+        {
+            "name": "Gabon",
+            "file": "GA-Gabon.sql",
+            "type": "file"
+        },
+        {
+            "name": "Gambia",
+            "file": "GM-Gambia_The.sql",
+            "type": "file"
+        },
+        {
+            "name": "Georgia",
+            "file": "GE-Georgia.sql",
+            "type": "file"
+        },
+        {
             "name": "Germany",
             "file": "DE-Germany.sql",
             "type": "file"
@@ -178,8 +418,18 @@
             "type": "file"
         },
         {
+            "name": "Gibraltar",
+            "file": "GI-Gibraltar.sql",
+            "type": "file"
+        },
+        {
             "name": "Greece",
             "file": "GR-Greece.sql",
+            "type": "file"
+        },
+        {
+            "name": "Grenada",
+            "file": "GD-Grenada.sql",
             "type": "file"
         },
         {
@@ -188,8 +438,33 @@
             "type": "file"
         },
         {
+            "name": "Guadeloupe",
+            "file": "GP-Guadeloupe.sql",
+            "type": "file"
+        },
+        {
+            "name": "Guam",
+            "file": "GU-Guam.sql",
+            "type": "file"
+        },
+        {
             "name": "Guatemala",
             "file": "GT-Guatemala.sql",
+            "type": "file"
+        },
+        {
+            "name": "Guernsey and Alderney",
+            "file": "GG-Guernsey_and_Alderney.sql",
+            "type": "file"
+        },
+        {
+            "name": "Guinea",
+            "file": "GN-Guinea.sql",
+            "type": "file"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "file": "GW-Guinea-Bissau.sql",
             "type": "file"
         },
         {
@@ -203,13 +478,28 @@
             "type": "file"
         },
         {
+            "name": "Heard and McDonald Islands",
+            "file": "HM-Heard_and_McDonald_Islands.sql",
+            "type": "file"
+        },
+        {
             "name": "Honduras",
             "file": "HN-Honduras.sql",
             "type": "file"
         },
         {
             "name": "Hong Kong",
-            "file": "HK-Hong Kong.sql",
+            "file": "HK-Hong_Kong_SAR.sql",
+            "type": "file"
+        },
+        {
+            "name": "Hungary",
+            "file": "HU-Hungary.sql",
+            "type": "file"
+        },
+        {
+            "name": "Iceland",
+            "file": "IS-Iceland.sql",
             "type": "file"
         },
         {
@@ -228,8 +518,18 @@
             "type": "file"
         },
         {
+            "name": "Iraq",
+            "file": "IQ-Iraq.sql",
+            "type": "file"
+        },
+        {
             "name": "Ireland",
             "file": "IE-Ireland.sql",
+            "type": "file"
+        },
+        {
+            "name": "Isle of Man",
+            "file": "IM-Man_Isle_of.sql",
             "type": "file"
         },
         {
@@ -244,7 +544,7 @@
         },
         {
             "name": "Ivory Coast",
-            "file": "CI-Ivory Coast.sql",
+            "file": "CI-Ivory_Coast.sql",
             "type": "file"
         },
         {
@@ -258,8 +558,48 @@
             "type": "file"
         },
         {
+            "name": "Jersey",
+            "file": "JE-Jersey.sql",
+            "type": "file"
+        },
+        {
+            "name": "Jordan",
+            "file": "JO-Jordan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Kazakhstan",
+            "file": "KZ-Kazakhstan.sql",
+            "type": "file"
+        },
+        {
             "name": "Kenya",
             "file": "KE-Kenya.sql",
+            "type": "file"
+        },
+        {
+            "name": "Kosovo",
+            "file": "XK-Kosovo.sql",
+            "type": "file"
+        },
+        {
+            "name": "Kiribati",
+            "file": "KI-Kiribati.sql",
+            "type": "file"
+        },
+        {
+            "name": "Kuwait",
+            "file": "KW-Kuwait.sql",
+            "type": "file"
+        },
+        {
+            "name": "Kyrgyzstan",
+            "file": "KG-Kyrgyzstan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Laos",
+            "file": "LA-Laos.sql",
             "type": "file"
         },
         {
@@ -273,8 +613,53 @@
             "type": "file"
         },
         {
+            "name": "Lesotho",
+            "file": "LS-Lesotho.sql",
+            "type": "file"
+        },
+        {
+            "name": "Liberia",
+            "file": "LR-Liberia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Libya",
+            "file": "LY-Libya.sql",
+            "type": "file"
+        },
+        {
+            "name": "Liechtenstein",
+            "file": "LI-Liechtenstein.sql",
+            "type": "file"
+        },
+        {
+            "name": "Lithuania",
+            "file": "LT-Lithuania.sql",
+            "type": "file"
+        },
+        {
             "name": "Luxembourg",
             "file": "LU-Luxembourg.sql",
+            "type": "file"
+        },
+        {
+            "name": "Macau",
+            "file": "MO-Macau_SAR.sql",
+            "type": "file"
+        },
+        {
+            "name": "Macedonia",
+            "file": "MK-Macedonia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Madagascar",
+            "file": "MG-Madagascar.sql",
+            "type": "file"
+        },
+        {
+            "name": "Malawi",
+            "file": "MW-Malawi.sql",
             "type": "file"
         },
         {
@@ -283,8 +668,78 @@
             "type": "file"
         },
         {
+            "name": "Maldives",
+            "file": "MV-Maldives.sql",
+            "type": "file"
+        },
+        {
+            "name": "Mali",
+            "file": "ML-Mali.sql",
+            "type": "file"
+        },
+        {
+            "name": "Malta",
+            "file": "MT-Malta.sql",
+            "type": "file"
+        },
+        {
+            "name": "Marshall Islands",
+            "file": "MH-Marshall_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Martinique",
+            "file": "MQ-Martinique.sql",
+            "type": "file"
+        },
+        {
+            "name": "Mauritania",
+            "file": "MR-Mauritania.sql",
+            "type": "file"
+        },
+        {
+            "name": "Mauritius",
+            "file": "MU-Mauritius.sql",
+            "type": "file"
+        },
+        {
+            "name": "Mayotte",
+            "file": "YT-Mayotte.sql",
+            "type": "file"
+        },
+        {
             "name": "Mexico",
             "file": "MX-Mexico.sql",
+            "type": "file"
+        },
+        {
+            "name": "Micronesia",
+            "file": "FM-Micronesia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Moldova",
+            "file": "MD-Moldova.sql",
+            "type": "file"
+        },
+        {
+            "name": "Monaco",
+            "file": "MC-Monaco.sql",
+            "type": "file"
+        },
+        {
+            "name": "Mongolia",
+            "file": "MN-Mongolia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Montenegro",
+            "file": "ME-Montenegro.sql",
+            "type": "file"
+        },
+        {
+            "name": "Montserrat",
+            "file": "MS-Montserrat.sql",
             "type": "file"
         },
         {
@@ -293,8 +748,48 @@
             "type": "file"
         },
         {
+            "name": "Mozambique",
+            "file": "MZ-Mozambique.sql",
+            "type": "file"
+        },
+        {
+            "name": "Myanmar",
+            "file": "MM-Myanmar.sql",
+            "type": "file"
+        },
+        {
+            "name": "Namibia",
+            "file": "NA-Namibia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Nauru",
+            "file": "NR-Nauru.sql",
+            "type": "file"
+        },
+        {
+            "name": "Nepal",
+            "file": "NP-Nepal.sql",
+            "type": "file"
+        },
+        {
+            "name": "Netherlands Antilles",
+            "file": "AN-Netherlands_Antilles.sql",
+            "type": "file"
+        },
+        {
             "name": "Netherlands",
-            "file": "NL-Netherlands.sql",
+            "file": "NL-Netherlands_The.sql",
+            "type": "file"
+        },
+        {
+            "name": "New Caledonia",
+            "file": "NV-New_Caledonia.sql",
+            "type": "file"
+        },
+        {
+            "name": "New Zealand",
+            "file": "NZ-New_Zealand.sql",
             "type": "file"
         },
         {
@@ -303,8 +798,33 @@
             "type": "file"
         },
         {
+            "name": "Niger",
+            "file": "NE-Niger.sql",
+            "type": "file"
+        },
+        {
             "name": "Nigeria",
             "file": "NG-Nigeria.sql",
+            "type": "file"
+        },
+        {
+            "name": "Niue",
+            "file": "NU-Niue.sql",
+            "type": "file"
+        },
+        {
+            "name": "Norfolk Island",
+            "file": "NF-Norfolk_Island.sql",
+            "type": "file"
+        },
+        {
+            "name": "North Korea",
+            "file": "KP-Korea_North.sql",
+            "type": "file"
+        },
+        {
+            "name": "Northern Mariana Islands",
+            "file": "MP-Northern_Mariana_Islands.sql",
             "type": "file"
         },
         {
@@ -313,13 +833,23 @@
             "type": "file"
         },
         {
+            "name": "Oman",
+            "file": "OM-Oman.sql",
+            "type": "file"
+        },
+        {
             "name": "Pakistan",
             "file": "PK-Pakistan.sql",
             "type": "file"
         },
         {
+            "name": "Palau",
+            "file": "PW-Palau.sql",
+            "type": "file"
+        },
+        {
             "name": "Palestinian Territory",
-            "file": "PS-Palestinian Territory.sql",
+            "file": "PS-Palestinian_Territory_Occupied.sql",
             "type": "file"
         },
         {
@@ -329,7 +859,7 @@
         },
         {
             "name": "Papua New Guinea",
-            "file": "PG-Papua New Guinea.sql",
+            "file": "PG-Papua_New_Guinea.sql",
             "type": "file"
         },
         {
@@ -348,6 +878,11 @@
             "type": "file"
         },
         {
+            "name": "Pitcairn Island",
+            "file": "PN-Pitcairn_Island.sql",
+            "type": "file"
+        },
+        {
             "name": "Poland",
             "file": "PL-Poland.sql",
             "type": "file"
@@ -359,7 +894,17 @@
         },
         {
             "name": "Puerto Rico",
-            "file": "PR-Puerto Rico.sql",
+            "file": "PR-Puerto_Rico.sql",
+            "type": "file"
+        },
+        {
+            "name": "Qatar",
+            "file": "QA-Qatar.sql",
+            "type": "file"
+        },
+        {
+            "name": "Reunion",
+            "file": "RE-Reunion.sql",
             "type": "file"
         },
         {
@@ -373,13 +918,68 @@
             "type": "file"
         },
         {
+            "name": "Rwanda",
+            "file": "RW-Rwanda.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint-Barthelemy",
+            "file": "BL-Saint-Barthelemy.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint Helena",
+            "file": "SH-Saint_Helena.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint Kitts and Nevis",
+            "file": "KN-Saint_Kitts_And_Nevis.sql",
+            "type": "file"
+        },
+        {
             "name": "Saint Lucia",
-            "file": "LC-Saint Lucia.sql",
+            "file": "LC-Saint_Lucia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint Pierre and Miquelon",
+            "file": "PM-Saint_Pierre_and_Miquelon.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint-Martin",
+            "file": "MF-Saint-Martin_French_part.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "file": "VC-Saint_Vincent_And_The_Grenadines.sql",
+            "type": "file"
+        },
+        {
+            "name": "Samoa",
+            "file": "WS-Samoa.sql",
             "type": "file"
         },
         {
             "name": "San Marino",
-            "file": "SM-San Marino.sql",
+            "file": "SM-San_Marino.sql",
+            "type": "file"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "file": "ST-Sao_Tome_and_Principe.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saudi Arabia",
+            "file": "SA-Saudi_Arabia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Senegal",
+            "file": "SN-Senegal.sql",
             "type": "file"
         },
         {
@@ -388,13 +988,58 @@
             "type": "file"
         },
         {
+            "name": "Seychelles",
+            "file": "SC-Seychelles.sql",
+            "type": "file"
+        },
+        {
+            "name": "Sierra Leone",
+            "file": "SL-Sierra_Leone.sql",
+            "type": "file"
+        },
+        {
             "name": "Singapore",
             "file": "SG-Singapore.sql",
             "type": "file"
         },
         {
+            "name": "Slovakia",
+            "file": "SK-Slovakia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Slovenia",
+            "file": "SI-Slovenia.sql",
+            "type": "file"
+        },
+        {
+            "name": "Solomon Islands",
+            "file": "SB-Solomon_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Somalia",
+            "file": "SO-Somalia.sql",
+            "type": "file"
+        },
+        {
             "name": "South Africa",
-            "file": "ZA-South Africa.sql",
+            "file": "ZA-South_Africa.sql",
+            "type": "file"
+        },
+        {
+            "name": "South Georgia",
+            "file": "GS-South_Georgia.sql",
+            "type": "file"
+        },
+        {
+            "name": "South Korea",
+            "file": "KR-Korea_South.sql",
+            "type": "file"
+        },
+        {
+            "name": "South Sudan",
+            "file": "SS-South_Sudan.sql",
             "type": "file"
         },
         {
@@ -404,7 +1049,27 @@
         },
         {
             "name": "Sri Lanka",
-            "file": "LK-Sri Lanka.sql",
+            "file": "LK-Sri_Lanka.sql",
+            "type": "file"
+        },
+        {
+            "name": "Sudan",
+            "file": "SD-Sudan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Suriname",
+            "file": "SR-Suriname.sql",
+            "type": "file"
+        },
+        {
+            "name": "Svalbard and Jan Mayen Islands",
+            "file": "SJ-Svalbard_And_Jan_Mayen_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Swaziland",
+            "file": "SZ-Swaziland.sql",
             "type": "file"
         },
         {
@@ -418,8 +1083,53 @@
             "type": "file"
         },
         {
+            "name": "Syria",
+            "file": "SY-Syria.sql",
+            "type": "file"
+        },
+        {
+            "name": "Taiwan",
+            "file": "TW-Taiwan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tajikistan",
+            "file": "TJ-Tajikistan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tanzania",
+            "file": "TZ-Tanzania.sql",
+            "type": "file"
+        },
+        {
             "name": "Thailand",
             "file": "TH-Thailand.sql",
+            "type": "file"
+        },
+        {
+            "name": "Togo",
+            "file": "TG-Togo.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tokelau",
+            "file": "TK-Tokelau.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tonga",
+            "file": "TO-Tonga.sql",
+            "type": "file"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "file": "TT-Trinidad_And_Tobago.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tunisia",
+            "file": "TN-Tunisia.sql",
             "type": "file"
         },
         {
@@ -428,18 +1138,53 @@
             "type": "file"
         },
         {
+            "name": "Turkmenistan",
+            "file": "TM-Turkmenistan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Turks and Caicos Islands",
+            "file": "TC-TUrks_And_Caicos_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Tuvalu",
+            "file": "TV-Tuvalu.sql",
+            "type": "file"
+        },
+        {
+            "name": "Uganda",
+            "file": "UG-Uganda.sql",
+            "type": "file"
+        },
+        {
             "name": "Ukraine",
             "file": "UA-Ukraine.sql",
             "type": "file"
         },
         {
+            "name": "United Arab Emirates",
+            "file": "AE-United_Arab_Emirates.sql",
+            "type": "file"
+        },
+        {
             "name": "United Kingdom",
-            "file": "GB-United Kingdom.sql",
+            "file": "GB-United_Kingdom.sql",
             "type": "file"
         },
         {
             "name": "United States",
-            "file": "US-United States.sql",
+            "file": "US-United_States.sql",
+            "type": "file"
+        },
+        {
+            "name": "United States Minor Outlying Islands",
+            "file": "UM-United_States_Minor_Outlying_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "United States Virgin Islands",
+            "file": "VI-Virgin_Islands_US.sql",
             "type": "file"
         },
         {
@@ -448,8 +1193,48 @@
             "type": "file"
         },
         {
+            "name": "Uzbekistan",
+            "file": "UZ-Uzbekistan.sql",
+            "type": "file"
+        },
+        {
+            "name": "Vanuatu",
+            "file": "VU-Vanuatu.sql",
+            "type": "file"
+        },
+        {
+            "name": "Vatican City",
+            "file": "VA-Vatican_City.sql",
+            "type": "file"
+        },
+        {
             "name": "Venezuela",
             "file": "VE-Venezuela.sql",
+            "type": "file"
+        },
+        {
+            "name": "Vietnam",
+            "file": "VN-Vietnam.sql",
+            "type": "file"
+        },
+        {
+            "name": "Wallis and Futuna Islands",
+            "file": "WF-Wallis_And_Futuna_Islands.sql",
+            "type": "file"
+        },
+        {
+            "name": "Western Sahara",
+            "file": "EH-Western_Sahara.sql",
+            "type": "file"
+        },
+        {
+            "name": "Yemen",
+            "file": "YE-Yemen.sql",
+            "type": "file"
+        },
+        {
+            "name": "Zambia",
+            "file": "ZM-Zambia.sql",
             "type": "file"
         },
         {

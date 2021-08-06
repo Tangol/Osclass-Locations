@@ -2,582 +2,270 @@ REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES
 ('CL', 'Chile', 'chile');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782516, 'CL', 'Parinacota', 1, 'parinacota');
+(1002832, 'CL', 'Antofagasta Region', 1, 'antofagasta-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(497985, 782516, 'CL', 'General Lagos', 1, 'general-lagos'),
-(497986, 782516, 'CL', 'Putre', 1, 'putre');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782517, 'CL', 'Arica', 1, 'arica');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(497988, 782517, 'CL', 'Arica', 1, 'arica'),
-(497987, 782517, 'CL', 'Camarones', 1, 'camarones');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782518, 'CL', 'Tamarugal', 1, 'tamarugal');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(497989, 782518, 'CL', 'Camiña', 1, 'camina'),
-(497990, 782518, 'CL', 'Colchane', 1, 'colchane'),
-(497991, 782518, 'CL', 'Huara', 1, 'huara'),
-(497992, 782518, 'CL', 'Pica', 1, 'pica'),
-(497993, 782518, 'CL', 'Pozo Almonte', 1, 'pozo-almonte');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018946, 1002832, 'CL', 'Antofagasta', 1, 'antofagasta', -23.65236000, -70.39540000),
+(1018952, 1002832, 'CL', 'Calama', 1, 'calama', -22.45667000, -68.92371000),
+(1019033, 1002832, 'CL', 'Provincia de Antofagasta', 1, 'provincia-de-antofagasta', -24.31122000, -69.57084000),
+(1019051, 1002832, 'CL', 'Provincia de El Loa', 1, 'provincia-de-el-loa', -22.96764000, -68.18716000),
+(1019074, 1002832, 'CL', 'Provincia de Tocopilla', 1, 'provincia-de-tocopilla', -22.02949000, -69.64006000),
+(1019107, 1002832, 'CL', 'San Pedro de Atacama', 1, 'san-pedro-de-atacama', -22.91110000, -68.20113000),
+(1019115, 1002832, 'CL', 'Taltal', 1, 'taltal', -25.40713000, -70.48554000),
+(1019118, 1002832, 'CL', 'Tocopilla', 1, 'tocopilla', -22.09198000, -70.19792000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782519, 'CL', 'Iquique', 1, 'iquique');
+(1002826, 'CL', 'Araucanía Region', 1, 'araucania-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(497994, 782519, 'CL', 'Alto Hospicio', 1, 'alto-hospicio'),
-(497995, 782519, 'CL', 'Iquique', 1, 'iquique');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782520, 'CL', 'Antofagasta', 1, 'antofagasta');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(497996, 782520, 'CL', 'María Elena', 1, 'maria-elena'),
-(497997, 782520, 'CL', 'Mejillones', 1, 'mejillones'),
-(497998, 782520, 'CL', 'Ollagüe', 1, 'ollague'),
-(497999, 782520, 'CL', 'Sierra Gorda', 1, 'sierra-gorda'),
-(498000, 782520, 'CL', 'San Pedro de Atacama', 1, 'san-pedro-de-atacama'),
-(498001, 782520, 'CL', 'Taltal', 1, 'taltal'),
-(498002, 782520, 'CL', 'Tocopilla', 1, 'tocopilla'),
-(498003, 782520, 'CL', 'Calama', 1, 'calama'),
-(498004, 782520, 'CL', 'Antofagasta', 1, 'antofagasta');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782521, 'CL', 'Chañaral', 1, 'chanaral');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498005, 782521, 'CL', 'Chañaral', 1, 'chanaral'),
-(498006, 782521, 'CL', 'Diego de Almagro', 1, 'diego-de-almagro');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018945, 1002826, 'CL', 'Angol', 1, 'angol', -37.79519000, -72.71636000),
+(1018954, 1002826, 'CL', 'Carahue', 1, 'carahue', -38.71122000, -73.16101000),
+(1018969, 1002826, 'CL', 'Collipulli', 1, 'collipulli', -37.95453000, -72.43438000),
+(1018983, 1002826, 'CL', 'Freire', 1, 'freire', -38.95252000, -72.62653000),
+(1019000, 1002826, 'CL', 'Lautaro', 1, 'lautaro', -38.53066000, -72.43652000),
+(1019006, 1002826, 'CL', 'Loncoche', 1, 'loncoche', -39.36708000, -72.63087000),
+(1019017, 1002826, 'CL', 'Nueva Imperial', 1, 'nueva-imperial', -38.74451000, -72.95025000),
+(1019027, 1002826, 'CL', 'Pitrufquén', 1, 'pitrufquen', -38.98635000, -72.63721000),
+(1019040, 1002826, 'CL', 'Provincia de Cautín', 1, 'provincia-de-cautin', -38.94719000, -72.36198000),
+(1019062, 1002826, 'CL', 'Provincia de Malleco', 1, 'provincia-de-malleco', -38.23591000, -72.13034000),
+(1019080, 1002826, 'CL', 'Pucón', 1, 'pucon', -39.28223000, -71.95427000),
+(1019116, 1002826, 'CL', 'Temuco', 1, 'temuco', -38.73965000, -72.59842000),
+(1019120, 1002826, 'CL', 'Traiguén', 1, 'traiguen', -38.24960000, -72.67027000),
+(1019124, 1002826, 'CL', 'Victoria', 1, 'victoria', -38.23291000, -72.33292000),
+(1019126, 1002826, 'CL', 'Vilcún', 1, 'vilcun', -38.66875000, -72.22565000),
+(1019129, 1002826, 'CL', 'Villarrica', 1, 'villarrica', -39.28569000, -72.22790000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782522, 'CL', 'Copiapó', 1, 'copiapo');
+(1002829, 'CL', 'Arica y Parinacota Region', 1, 'arica-y-parinacota-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498007, 782522, 'CL', 'Caldera', 1, 'caldera'),
-(498008, 782522, 'CL', 'Tierra Amarilla', 1, 'tierra-amarilla'),
-(498009, 782522, 'CL', 'Copiapó', 1, 'copiapo');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782523, 'CL', 'Huasco', 1, 'huasco');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498010, 782523, 'CL', 'Alto del Carmen', 1, 'alto-del-carmen'),
-(498011, 782523, 'CL', 'Freirina', 1, 'freirina'),
-(498012, 782523, 'CL', 'Huasco', 1, 'huasco'),
-(498013, 782523, 'CL', 'Vallenar', 1, 'vallenar');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018948, 1002829, 'CL', 'Arica', 1, 'arica', -18.47460000, -70.29792000),
+(1019035, 1002829, 'CL', 'Provincia de Arica', 1, 'provincia-de-arica', -18.70643000, -69.85607000),
+(1019067, 1002829, 'CL', 'Provincia de Parinacota', 1, 'provincia-de-parinacota', -18.19804000, -69.57161000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782524, 'CL', 'Elqui', 1, 'elqui');
+(1002823, 'CL', 'Atacama Region', 1, 'atacama-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498014, 782524, 'CL', 'Andacollo', 1, 'andacollo'),
-(498015, 782524, 'CL', 'La Higuera', 1, 'la-higuera'),
-(498016, 782524, 'CL', 'Paihuano', 1, 'paihuano'),
-(498017, 782524, 'CL', 'Vicuña', 1, 'vicuna'),
-(498018, 782524, 'CL', 'La Serena', 1, 'la-serena'),
-(498019, 782524, 'CL', 'Coquimbo', 1, 'coquimbo');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782525, 'CL', 'Limarí', 1, 'limari');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498020, 782525, 'CL', 'Combarbalá', 1, 'combarbala'),
-(498021, 782525, 'CL', 'Punitaqui', 1, 'punitaqui'),
-(498022, 782525, 'CL', 'Río Hurtado', 1, 'rio-hurtado'),
-(498023, 782525, 'CL', 'Monte Patria', 1, 'monte-patria'),
-(498024, 782525, 'CL', 'Ovalle', 1, 'ovalle');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018972, 1002823, 'CL', 'Copiapó', 1, 'copiapo', -27.36679000, -70.33140000),
+(1018981, 1002823, 'CL', 'Diego de Almagro', 1, 'diego-de-almagro', -26.36667000, -70.05000000),
+(1019042, 1002823, 'CL', 'Provincia de Chañaral', 1, 'provincia-de-chanaral', -26.32515000, -69.48751000),
+(1019047, 1002823, 'CL', 'Provincia de Copiapó', 1, 'provincia-de-copiapo', -27.56347000, -70.00063000),
+(1019053, 1002823, 'CL', 'Provincia de Huasco', 1, 'provincia-de-huasco', -28.68428000, -70.51474000),
+(1019122, 1002823, 'CL', 'Vallenar', 1, 'vallenar', -28.57617000, -70.75938000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782526, 'CL', 'Choapa', 1, 'choapa');
+(1002828, 'CL', 'Aysén Region', 1, 'aysen-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498025, 782526, 'CL', 'Canela', 1, 'canela'),
-(498026, 782526, 'CL', 'Los Vilos', 1, 'los-vilos'),
-(498027, 782526, 'CL', 'Salamanca', 1, 'salamanca'),
-(498028, 782526, 'CL', 'Illapel', 1, 'illapel');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782527, 'CL', 'Petorca', 1, 'petorca');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498029, 782527, 'CL', 'Cabildo', 1, 'cabildo'),
-(498030, 782527, 'CL', 'La Ligua', 1, 'la-ligua'),
-(498031, 782527, 'CL', 'Papudo', 1, 'papudo'),
-(498032, 782527, 'CL', 'Petorca', 1, 'petorca'),
-(498033, 782527, 'CL', 'Zapallar', 1, 'zapallar');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018962, 1002828, 'CL', 'Chile Chico', 1, 'chile-chico', -46.54100000, -71.72375000),
+(1018966, 1002828, 'CL', 'Cochrane', 1, 'cochrane', -47.25570000, -72.56950000),
+(1018976, 1002828, 'CL', 'Coyhaique', 1, 'coyhaique', -45.57524000, -72.06619000),
+(1018991, 1002828, 'CL', 'La Junta', 1, 'la-junta', -43.97434000, -72.40554000),
+(1019030, 1002828, 'CL', 'Provincia Capitán Prat', 1, 'provincia-capitan-prat', -47.97550000, -73.54155000),
+(1019032, 1002828, 'CL', 'Provincia de Aisén', 1, 'provincia-de-aisen', -45.35626000, -72.57322000),
+(1019049, 1002828, 'CL', 'Provincia de Coyhaique', 1, 'provincia-de-coyhaique', -45.63037000, -72.32025000),
+(1019031, 1002828, 'CL', 'Provincia General Carrera', 1, 'provincia-general-carrera', -46.63435000, -72.31476000),
+(1019082, 1002828, 'CL', 'Puerto Aysén', 1, 'puerto-aysen', -45.40303000, -72.69184000),
+(1019083, 1002828, 'CL', 'Puerto Chacabuco', 1, 'puerto-chacabuco', -45.46667000, -72.81667000),
+(1019084, 1002828, 'CL', 'Puerto Cisnes', 1, 'puerto-cisnes', -44.74736000, -72.69695000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782528, 'CL', 'Los Andes', 1, 'los-andes');
+(1002827, 'CL', 'Bío Bío Region', 1, 'bio-bio-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498034, 782528, 'CL', 'Calle Larga', 1, 'calle-larga'),
-(498035, 782528, 'CL', 'Rinconada', 1, 'rinconada'),
-(498036, 782528, 'CL', 'San Esteban', 1, 'san-esteban'),
-(498037, 782528, 'CL', 'Los Andes', 1, 'los-andes');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782529, 'CL', 'San Felipe de Aconcagua', 1, 'san-felipe-de-aconcagua');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498038, 782529, 'CL', 'Catemu', 1, 'catemu'),
-(498039, 782529, 'CL', 'Panquehue', 1, 'panquehue'),
-(498040, 782529, 'CL', 'Putaendo', 1, 'putaendo'),
-(498041, 782529, 'CL', 'Santa María', 1, 'santa-maria'),
-(498042, 782529, 'CL', 'Llaillay', 1, 'llaillay'),
-(498043, 782529, 'CL', 'San Felipe', 1, 'san-felipe');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782530, 'CL', 'Quillota', 1, 'quillota');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498044, 782530, 'CL', 'Hijuelas', 1, 'hijuelas'),
-(498045, 782530, 'CL', 'La Calera', 1, 'la-calera'),
-(498046, 782530, 'CL', 'La Cruz', 1, 'la-cruz'),
-(498047, 782530, 'CL', 'Nogales', 1, 'nogales'),
-(498048, 782530, 'CL', 'Quillota', 1, 'quillota');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018947, 1002827, 'CL', 'Arauco', 1, 'arauco', -37.24630000, -73.31752000),
+(1018951, 1002827, 'CL', 'Cabrero', 1, 'cabrero', -37.03394000, -72.40468000),
+(1018958, 1002827, 'CL', 'Cañete', 1, 'canete', -37.80128000, -73.39616000),
+(1018961, 1002827, 'CL', 'Chiguayante', 1, 'chiguayante', -36.92560000, -73.02841000),
+(1018970, 1002827, 'CL', 'Concepción', 1, 'concepcion', -36.82699000, -73.04977000),
+(1018974, 1002827, 'CL', 'Coronel', 1, 'coronel', -37.03386000, -73.14019000),
+(1018977, 1002827, 'CL', 'Curanilahue', 1, 'curanilahue', -37.47793000, -73.34495000),
+(1018996, 1002827, 'CL', 'Laja', 1, 'laja', -37.28415000, -72.71105000),
+(1019001, 1002827, 'CL', 'Lebu', 1, 'lebu', -37.60825000, -73.65356000),
+(1019009, 1002827, 'CL', 'Los Ángeles', 1, 'los-angeles', -37.46973000, -72.35366000),
+(1019010, 1002827, 'CL', 'Lota', 1, 'lota', -37.08994000, -73.15770000),
+(1019015, 1002827, 'CL', 'Mulchén', 1, 'mulchen', -37.71893000, -72.24099000),
+(1019016, 1002827, 'CL', 'Nacimiento', 1, 'nacimiento', -37.50253000, -72.67307000),
+(1019024, 1002827, 'CL', 'Penco', 1, 'penco', -36.74075000, -72.99528000),
+(1019034, 1002827, 'CL', 'Provincia de Arauco', 1, 'provincia-de-arauco', -37.74174000, -73.35799000),
+(1019036, 1002827, 'CL', 'Provincia de Biobío', 1, 'provincia-de-biobio', -37.59511000, -71.89553000),
+(1019046, 1002827, 'CL', 'Provincia de Concepción', 1, 'provincia-de-concepcion', -36.95773000, -72.89674000),
+(1019114, 1002827, 'CL', 'Talcahuano', 1, 'talcahuano', -36.72494000, -73.11684000),
+(1019119, 1002827, 'CL', 'Tomé', 1, 'tome', -36.61756000, -72.95593000),
+(1019131, 1002827, 'CL', 'Yumbel', 1, 'yumbel', -37.09820000, -72.56084000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782531, 'CL', 'Valparaíso', 1, 'valparaiso');
+(1002825, 'CL', 'Coquimbo Region', 1, 'coquimbo-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498049, 782531, 'CL', 'Casablanca', 1, 'casablanca'),
-(498050, 782531, 'CL', 'Concón', 1, 'concon'),
-(498051, 782531, 'CL', 'Juan Fernández', 1, 'juan-fernandez'),
-(498052, 782531, 'CL', 'Puchuncaví', 1, 'puchuncavi'),
-(498053, 782531, 'CL', 'Quintero', 1, 'quintero'),
-(498054, 782531, 'CL', 'Valparaíso', 1, 'valparaiso'),
-(498055, 782531, 'CL', 'Viña del Mar', 1, 'vina-del-mar');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782532, 'CL', 'Marga Marga', 1, 'marga-marga');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498056, 782532, 'CL', 'Olmué', 1, 'olmue'),
-(498057, 782532, 'CL', 'Limache', 1, 'limache'),
-(498058, 782532, 'CL', 'Villa Alemana', 1, 'villa-alemana'),
-(498059, 782532, 'CL', 'Quilpué', 1, 'quilpue');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018973, 1002825, 'CL', 'Coquimbo', 1, 'coquimbo', -29.95332000, -71.33947000),
+(1018988, 1002825, 'CL', 'Illapel', 1, 'illapel', -31.63349000, -71.16967000),
+(1018994, 1002825, 'CL', 'La Serena', 1, 'la-serena', -29.90453000, -71.24894000),
+(1019014, 1002825, 'CL', 'Monte Patria', 1, 'monte-patria', -30.69496000, -70.95770000),
+(1019019, 1002825, 'CL', 'Ovalle', 1, 'ovalle', -30.60106000, -71.19901000),
+(1019044, 1002825, 'CL', 'Provincia de Choapa', 1, 'provincia-de-choapa', -31.71090000, -70.99263000),
+(1019052, 1002825, 'CL', 'Provincia de Elqui', 1, 'provincia-de-elqui', -29.73588000, -70.64455000),
+(1019056, 1002825, 'CL', 'Provincia de Limarí', 1, 'provincia-de-limari', -30.75000000, -71.00000000),
+(1019099, 1002825, 'CL', 'Salamanca', 1, 'salamanca', -31.77922000, -70.96389000),
+(1019125, 1002825, 'CL', 'Vicuña', 1, 'vicuna', -30.03541000, -70.71274000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782533, 'CL', 'San Antonio', 1, 'san-antonio');
+(1002835, 'CL', 'Los Lagos Region', 1, 'los-lagos-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498060, 782533, 'CL', 'Algarrobo', 1, 'algarrobo'),
-(498061, 782533, 'CL', 'Cartagena', 1, 'cartagena'),
-(498062, 782533, 'CL', 'El Quisco', 1, 'el-quisco'),
-(498063, 782533, 'CL', 'El Tabo', 1, 'el-tabo'),
-(498064, 782533, 'CL', 'San Antonio', 1, 'san-antonio'),
-(498065, 782533, 'CL', 'Santo Domingo', 1, 'santo-domingo');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782534, 'CL', 'Isla de Pascua', 1, 'isla-de-pascua');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498066, 782534, 'CL', 'Isla de Pascua', 1, 'isla-de-pascua');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782535, 'CL', 'Cachapoal', 1, 'cachapoal');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498067, 782535, 'CL', 'Codegua', 1, 'codegua'),
-(498068, 782535, 'CL', 'Coltauco', 1, 'coltauco'),
-(498069, 782535, 'CL', 'Coínco', 1, 'coinco'),
-(498070, 782535, 'CL', 'Doñihue', 1, 'donihue'),
-(498071, 782535, 'CL', 'Graneros', 1, 'graneros'),
-(498072, 782535, 'CL', 'Las Cabras', 1, 'las-cabras'),
-(498073, 782535, 'CL', 'Malloa', 1, 'malloa'),
-(498074, 782535, 'CL', 'Mostazal', 1, 'mostazal'),
-(498075, 782535, 'CL', 'Olivar', 1, 'olivar'),
-(498076, 782535, 'CL', 'Peumo', 1, 'peumo'),
-(498077, 782535, 'CL', 'Pichidegua', 1, 'pichidegua'),
-(498078, 782535, 'CL', 'Quinta de Tilcoco', 1, 'quinta-de-tilcoco'),
-(498079, 782535, 'CL', 'Requínoa', 1, 'requinoa'),
-(498080, 782535, 'CL', 'San Vicente de Tagua Tagua', 1, 'san-vicente-de-tagua-tagua'),
-(498081, 782535, 'CL', 'Machalí', 1, 'machali'),
-(498082, 782535, 'CL', 'Rengo', 1, 'rengo'),
-(498083, 782535, 'CL', 'Rancagua', 1, 'rancagua');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018944, 1002835, 'CL', 'Ancud', 1, 'ancud', -41.87070000, -73.81622000),
+(1018953, 1002835, 'CL', 'Calbuco', 1, 'calbuco', -41.77338000, -73.13049000),
+(1018956, 1002835, 'CL', 'Castro', 1, 'castro', -42.47210000, -73.77319000),
+(1018959, 1002835, 'CL', 'Chaitén', 1, 'chaiten', -42.91596000, -72.70632000),
+(1018965, 1002835, 'CL', 'Chonchi', 1, 'chonchi', -42.62387000, -73.77500000),
+(1018980, 1002835, 'CL', 'Dalcahue', 1, 'dalcahue', -42.37845000, -73.65011000),
+(1018984, 1002835, 'CL', 'Futaleufú', 1, 'futaleufu', -43.18492000, -71.86722000),
+(1018990, 1002835, 'CL', 'La Ensenada', 1, 'la-ensenada', -41.20746000, -72.53840000),
+(1019018, 1002835, 'CL', 'Osorno', 1, 'osorno', -40.57395000, -73.13348000),
+(1019021, 1002835, 'CL', 'Palena', 1, 'palena', -43.61876000, -71.80434000),
+(1019043, 1002835, 'CL', 'Provincia de Chiloé', 1, 'provincia-de-chiloe', -42.57471000, -73.96062000),
+(1019058, 1002835, 'CL', 'Provincia de Llanquihue', 1, 'provincia-de-llanquihue', -41.34285000, -72.65800000),
+(1019065, 1002835, 'CL', 'Provincia de Osorno', 1, 'provincia-de-osorno', -40.77939000, -72.95299000),
+(1019066, 1002835, 'CL', 'Provincia de Palena', 1, 'provincia-de-palena', -43.16212000, -72.47818000),
+(1019085, 1002835, 'CL', 'Puerto Montt', 1, 'puerto-montt', -41.46930000, -72.94237000),
+(1019087, 1002835, 'CL', 'Puerto Varas', 1, 'puerto-varas', -41.31946000, -72.98538000),
+(1019089, 1002835, 'CL', 'Purranque', 1, 'purranque', -40.91305000, -73.15913000),
+(1019091, 1002835, 'CL', 'Quellón', 1, 'quellon', -43.11819000, -73.61661000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782536, 'CL', 'Curicó', 1, 'curico');
+(1002834, 'CL', 'Los Ríos Region', 1, 'los-rios-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498084, 782536, 'CL', 'Hualañé', 1, 'hualane'),
-(498085, 782536, 'CL', 'Licantén', 1, 'licanten'),
-(498086, 782536, 'CL', 'Rauco', 1, 'rauco'),
-(498087, 782536, 'CL', 'Romeral', 1, 'romeral'),
-(498088, 782536, 'CL', 'Sagrada Familia', 1, 'sagrada-familia'),
-(498089, 782536, 'CL', 'Vichuquén', 1, 'vichuquen'),
-(498090, 782536, 'CL', 'Teno', 1, 'teno'),
-(498091, 782536, 'CL', 'Molina', 1, 'molina'),
-(498092, 782536, 'CL', 'Curicó', 1, 'curico');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782537, 'CL', 'Talca', 1, 'talca');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498093, 782537, 'CL', 'Curepto', 1, 'curepto'),
-(498094, 782537, 'CL', 'Empedrado', 1, 'empedrado'),
-(498095, 782537, 'CL', 'Maule', 1, 'maule'),
-(498096, 782537, 'CL', 'Pelarco', 1, 'pelarco'),
-(498097, 782537, 'CL', 'Pencahue', 1, 'pencahue'),
-(498098, 782537, 'CL', 'Río Claro', 1, 'rio-claro'),
-(498099, 782537, 'CL', 'San Rafael', 1, 'san-rafael'),
-(498100, 782537, 'CL', 'Talca', 1, 'talca'),
-(498101, 782537, 'CL', 'San Clemente', 1, 'san-clemente'),
-(498102, 782537, 'CL', 'Constitución', 1, 'constitucion');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018975, 1002834, 'CL', 'Corral', 1, 'corral', -39.88730000, -73.43101000),
+(1018995, 1002834, 'CL', 'La Unión', 1, 'la-union', -40.29313000, -73.08167000),
+(1018998, 1002834, 'CL', 'Las Animas', 1, 'las-animas', -39.80867000, -73.21821000),
+(1018999, 1002834, 'CL', 'Las Gaviotas', 1, 'las-gaviotas', -39.86653000, -73.18834000),
+(1019022, 1002834, 'CL', 'Panguipulli', 1, 'panguipulli', -39.64355000, -72.33269000),
+(1019075, 1002834, 'CL', 'Provincia de Valdivia', 1, 'provincia-de-valdivia', -39.80273000, -72.54690000),
+(1019078, 1002834, 'CL', 'Provincia del Ranco', 1, 'provincia-del-ranco', -40.13689000, -72.37793000),
+(1019090, 1002834, 'CL', 'Puyehue', 1, 'puyehue', -40.65944000, -72.60172000),
+(1019098, 1002834, 'CL', 'Río Bueno', 1, 'rio-bueno', -40.33494000, -72.95564000),
+(1019121, 1002834, 'CL', 'Valdivia', 1, 'valdivia', -39.81422000, -73.24589000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782538, 'CL', 'Linares', 1, 'linares');
+(1002836, 'CL', 'Magellan and the Chilean Antarctic Region', 1, 'magellan-and-the-chilean-antarctic-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498103, 782538, 'CL', 'Colbún', 1, 'colbun'),
-(498104, 782538, 'CL', 'Parral', 1, 'parral'),
-(498105, 782538, 'CL', 'Retiro', 1, 'retiro'),
-(498106, 782538, 'CL', 'San Javier de Loncomilla', 1, 'san-javier-de-loncomilla'),
-(498107, 782538, 'CL', 'Villa Alegre', 1, 'villa-alegre'),
-(498108, 782538, 'CL', 'Yerbas Buenas', 1, 'yerbas-buenas'),
-(498109, 782538, 'CL', 'Longaví', 1, 'longavi'),
-(498110, 782538, 'CL', 'Linares', 1, 'linares');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782539, 'CL', 'Cauquenes', 1, 'cauquenes');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498111, 782539, 'CL', 'Chanco', 1, 'chanco'),
-(498112, 782539, 'CL', 'Pelluhue', 1, 'pelluhue'),
-(498113, 782539, 'CL', 'Cauquenes', 1, 'cauquenes');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018979, 1002836, 'CL', 'Cámeron', 1, 'cameron', -53.63988000, -69.64693000),
+(1019028, 1002836, 'CL', 'Porvenir', 1, 'porvenir', -53.29600000, -70.36629000),
+(1019029, 1002836, 'CL', 'Provincia Antártica Chilena', 1, 'provincia-antartica-chilena', -55.02250000, -69.22781000),
+(1019060, 1002836, 'CL', 'Provincia de Magallanes', 1, 'provincia-de-magallanes', -52.91667000, -71.08333000),
+(1019073, 1002836, 'CL', 'Provincia de Tierra del Fuego', 1, 'provincia-de-tierra-del-fuego', -53.66083000, -69.45173000),
+(1019077, 1002836, 'CL', 'Provincia de Última Esperanza', 1, 'provincia-de-ultima-esperanza', -50.75000000, -74.00000000),
+(1019086, 1002836, 'CL', 'Puerto Natales', 1, 'puerto-natales', -51.72987000, -72.50603000),
+(1019088, 1002836, 'CL', 'Punta Arenas', 1, 'punta-arenas', -53.15483000, -70.91129000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782540, 'CL', 'Ñuble', 1, 'nuble');
+(1002833, 'CL', 'Maule Region', 1, 'maule-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498114, 782540, 'CL', 'Chillán Viejo', 1, 'chillan-viejo'),
-(498115, 782540, 'CL', 'Cobquecura', 1, 'cobquecura'),
-(498116, 782540, 'CL', 'Coelemu', 1, 'coelemu'),
-(498117, 782540, 'CL', 'Coihueco', 1, 'coihueco'),
-(498118, 782540, 'CL', 'El Carmen', 1, 'el-carmen'),
-(498119, 782540, 'CL', 'Ninhue', 1, 'ninhue'),
-(498120, 782540, 'CL', 'Pemuco', 1, 'pemuco'),
-(498121, 782540, 'CL', 'Pinto', 1, 'pinto'),
-(498122, 782540, 'CL', 'Portezuelo', 1, 'portezuelo'),
-(498123, 782540, 'CL', 'Quillón', 1, 'quillon'),
-(498124, 782540, 'CL', 'Quirihue', 1, 'quirihue'),
-(498125, 782540, 'CL', 'Ránquil', 1, 'ranquil'),
-(498126, 782540, 'CL', 'San Carlos', 1, 'san-carlos'),
-(498127, 782540, 'CL', 'San Fabián', 1, 'san-fabian'),
-(498128, 782540, 'CL', 'San Ignacio', 1, 'san-ignacio'),
-(498129, 782540, 'CL', 'San Nicolás', 1, 'san-nicolas'),
-(498130, 782540, 'CL', 'Treguaco', 1, 'treguaco'),
-(498131, 782540, 'CL', 'Yungay', 1, 'yungay'),
-(498132, 782540, 'CL', 'Ñiquén', 1, 'niquen'),
-(498133, 782540, 'CL', 'Bulnes', 1, 'bulnes'),
-(498134, 782540, 'CL', 'Chillán', 1, 'chillan');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018957, 1002833, 'CL', 'Cauquenes', 1, 'cauquenes', -35.96710000, -72.32248000),
+(1018968, 1002833, 'CL', 'Colbún', 1, 'colbun', -35.69494000, -71.40568000),
+(1018971, 1002833, 'CL', 'Constitución', 1, 'constitucion', -35.33321000, -72.41156000),
+(1018978, 1002833, 'CL', 'Curicó', 1, 'curico', -34.98279000, -71.23943000),
+(1019003, 1002833, 'CL', 'Linares', 1, 'linares', -35.84667000, -71.59308000),
+(1019007, 1002833, 'CL', 'Longaví', 1, 'longavi', -35.96496000, -71.68360000),
+(1019013, 1002833, 'CL', 'Molina', 1, 'molina', -35.11428000, -71.28232000),
+(1019023, 1002833, 'CL', 'Parral', 1, 'parral', -36.14311000, -71.82605000),
+(1019039, 1002833, 'CL', 'Provincia de Cauquenes', 1, 'provincia-de-cauquenes', -35.96828000, -72.32918000),
+(1019050, 1002833, 'CL', 'Provincia de Curicó', 1, 'provincia-de-curico', -35.04932000, -71.09148000),
+(1019057, 1002833, 'CL', 'Provincia de Linares', 1, 'provincia-de-linares', -36.02955000, -71.43099000),
+(1019072, 1002833, 'CL', 'Provincia de Talca', 1, 'provincia-de-talca', -35.43780000, -71.35326000),
+(1019096, 1002833, 'CL', 'Rauco', 1, 'rauco', -34.92546000, -71.31722000),
+(1019104, 1002833, 'CL', 'San Clemente', 1, 'san-clemente', -35.53777000, -71.48700000),
+(1019106, 1002833, 'CL', 'San Javier', 1, 'san-javier', -35.59520000, -71.72924000),
+(1019113, 1002833, 'CL', 'Talca', 1, 'talca', -35.42640000, -71.65542000),
+(1019117, 1002833, 'CL', 'Teno', 1, 'teno', -34.87055000, -71.16219000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782541, 'CL', 'Biobío', 1, 'biobio');
+(1002831, 'CL', 'Ñuble Region', 1, 'nuble-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498135, 782541, 'CL', 'Alto Biobío', 1, 'alto-biobio'),
-(498136, 782541, 'CL', 'Antuco', 1, 'antuco'),
-(498137, 782541, 'CL', 'Los Ángeles', 1, 'los-angeles'),
-(498138, 782541, 'CL', 'Negrete', 1, 'negrete'),
-(498139, 782541, 'CL', 'Quilaco', 1, 'quilaco'),
-(498140, 782541, 'CL', 'Quilleco', 1, 'quilleco'),
-(498141, 782541, 'CL', 'San Rosendo', 1, 'san-rosendo'),
-(498142, 782541, 'CL', 'Santa Bárbara', 1, 'santa-barbara'),
-(498143, 782541, 'CL', 'Tucapel', 1, 'tucapel'),
-(498144, 782541, 'CL', 'Yumbel', 1, 'yumbel'),
-(498145, 782541, 'CL', 'Laja', 1, 'laja'),
-(498146, 782541, 'CL', 'Cabrero', 1, 'cabrero'),
-(498147, 782541, 'CL', 'Nacimiento', 1, 'nacimiento'),
-(498148, 782541, 'CL', 'Mulchén', 1, 'mulchen');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018950, 1002831, 'CL', 'Bulnes', 1, 'bulnes', -36.74232000, -72.29854000),
+(1018963, 1002831, 'CL', 'Chillán', 1, 'chillan', -36.60664000, -72.10344000),
+(1018967, 1002831, 'CL', 'Coihueco', 1, 'coihueco', -36.62785000, -71.83068000),
+(1019094, 1002831, 'CL', 'Quirihue', 1, 'quirihue', -36.27998000, -72.54118000),
+(1019103, 1002831, 'CL', 'San Carlos', 1, 'san-carlos', -36.42477000, -71.95800000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782542, 'CL', 'Concepción', 1, 'concepcion');
+(1002838, 'CL', 'O\'Higgins', 1, 'o-higgins');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498149, 782542, 'CL', 'Coronel', 1, 'coronel'),
-(498150, 782542, 'CL', 'Florida', 1, 'florida'),
-(498151, 782542, 'CL', 'Hualpén', 1, 'hualpen'),
-(498152, 782542, 'CL', 'Hualqui', 1, 'hualqui'),
-(498153, 782542, 'CL', 'San Pedro de la Paz', 1, 'san-pedro-de-la-paz'),
-(498154, 782542, 'CL', 'Santa Juana', 1, 'santa-juana'),
-(498155, 782542, 'CL', 'Penco', 1, 'penco'),
-(498156, 782542, 'CL', 'Tomé', 1, 'tome'),
-(498157, 782542, 'CL', 'Lota', 1, 'lota'),
-(498158, 782542, 'CL', 'Chiguayante', 1, 'chiguayante'),
-(498159, 782542, 'CL', 'Concepción', 1, 'concepcion'),
-(498160, 782542, 'CL', 'Talcahuano', 1, 'talcahuano');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782543, 'CL', 'Arauco', 1, 'arauco');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498161, 782543, 'CL', 'Cañete', 1, 'canete'),
-(498162, 782543, 'CL', 'Contulmo', 1, 'contulmo'),
-(498163, 782543, 'CL', 'Los Álamos', 1, 'los-alamos'),
-(498164, 782543, 'CL', 'Tirúa', 1, 'tirua'),
-(498165, 782543, 'CL', 'Lebu', 1, 'lebu'),
-(498166, 782543, 'CL', 'Arauco', 1, 'arauco'),
-(498167, 782543, 'CL', 'Curanilahue', 1, 'curanilahue');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018964, 1002838, 'CL', 'Chimbarongo', 1, 'chimbarongo', -34.71247000, -71.04340000),
+(1018985, 1002838, 'CL', 'Graneros', 1, 'graneros', -34.06863000, -70.72747000),
+(1019011, 1002838, 'CL', 'Machalí', 1, 'machali', -34.18082000, -70.64933000),
+(1019037, 1002838, 'CL', 'Provincia de Cachapoal', 1, 'provincia-de-cachapoal', -34.29987000, -70.72061000),
+(1019038, 1002838, 'CL', 'Provincia de Cardenal Caro', 1, 'provincia-de-cardenal-caro', -34.38651000, -71.94500000),
+(1019045, 1002838, 'CL', 'Provincia de Colchagua', 1, 'provincia-de-colchagua', -34.69485000, -71.07606000),
+(1019095, 1002838, 'CL', 'Rancagua', 1, 'rancagua', -34.17083000, -70.74444000),
+(1019097, 1002838, 'CL', 'Rengo', 1, 'rengo', -34.40639000, -70.85834000),
+(1019108, 1002838, 'CL', 'San Vicente', 1, 'san-vicente', -34.43333000, -71.08333000),
+(1019109, 1002838, 'CL', 'San Vicente de Tagua Tagua', 1, 'san-vicente-de-tagua-tagua', -34.43859000, -71.07751000),
+(1019110, 1002838, 'CL', 'Santa Cruz', 1, 'santa-cruz', -34.63881000, -71.36576000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782544, 'CL', 'Malleco', 1, 'malleco');
+(1002824, 'CL', 'Santiago Metropolitan Region', 1, 'santiago-metropolitan-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498168, 782544, 'CL', 'Curacautín', 1, 'curacautin'),
-(498169, 782544, 'CL', 'Ercilla', 1, 'ercilla'),
-(498170, 782544, 'CL', 'Lonquimay', 1, 'lonquimay'),
-(498171, 782544, 'CL', 'Los Sauces', 1, 'los-sauces'),
-(498172, 782544, 'CL', 'Lumaco', 1, 'lumaco'),
-(498173, 782544, 'CL', 'Purén', 1, 'puren'),
-(498174, 782544, 'CL', 'Renaico', 1, 'renaico'),
-(498175, 782544, 'CL', 'Traiguén', 1, 'traiguen'),
-(498176, 782544, 'CL', 'Collipulli', 1, 'collipulli'),
-(498177, 782544, 'CL', 'Victoria', 1, 'victoria'),
-(498178, 782544, 'CL', 'Angol', 1, 'angol');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782545, 'CL', 'Cautín', 1, 'cautin');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498179, 782545, 'CL', 'Cholchol', 1, 'cholchol'),
-(498180, 782545, 'CL', 'Cunco', 1, 'cunco'),
-(498181, 782545, 'CL', 'Curarrehue', 1, 'curarrehue'),
-(498182, 782545, 'CL', 'Galvarino', 1, 'galvarino'),
-(498183, 782545, 'CL', 'Gorbea', 1, 'gorbea'),
-(498184, 782545, 'CL', 'Melipeuco', 1, 'melipeuco'),
-(498185, 782545, 'CL', 'Padre Las Casas', 1, 'padre-las-casas'),
-(498186, 782545, 'CL', 'Perquenco', 1, 'perquenco'),
-(498187, 782545, 'CL', 'Saavedra', 1, 'saavedra'),
-(498188, 782545, 'CL', 'Temuco', 1, 'temuco'),
-(498189, 782545, 'CL', 'Teodoro Schmidt', 1, 'teodoro-schmidt'),
-(498190, 782545, 'CL', 'Toltén', 1, 'tolten'),
-(498191, 782545, 'CL', 'Freire', 1, 'freire'),
-(498192, 782545, 'CL', 'Vilcún', 1, 'vilcun'),
-(498193, 782545, 'CL', 'Carahue', 1, 'carahue'),
-(498194, 782545, 'CL', 'Pitrufquén', 1, 'pitrufquen'),
-(498195, 782545, 'CL', 'Loncoche', 1, 'loncoche'),
-(498196, 782545, 'CL', 'Nueva Imperial', 1, 'nueva-imperial'),
-(498197, 782545, 'CL', 'Lautaro', 1, 'lautaro'),
-(498198, 782545, 'CL', 'Pucón', 1, 'pucon'),
-(498199, 782545, 'CL', 'Villarrica', 1, 'villarrica');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018949, 1002824, 'CL', 'Buin', 1, 'buin', -33.73257000, -70.74281000),
+(1018960, 1002824, 'CL', 'Chicureo Abajo', 1, 'chicureo-abajo', -33.28379000, -70.65333000),
+(1018982, 1002824, 'CL', 'El Monte', 1, 'el-monte', -33.67969000, -70.98482000),
+(1018993, 1002824, 'CL', 'La Pintana', 1, 'la-pintana', -33.58331000, -70.63419000),
+(1018997, 1002824, 'CL', 'Lampa', 1, 'lampa', -33.28630000, -70.87561000),
+(1019005, 1002824, 'CL', 'Lo Prado', 1, 'lo-prado', -33.44430000, -70.72552000),
+(1019012, 1002824, 'CL', 'Melipilla', 1, 'melipilla', -33.68909000, -71.21528000),
+(1019020, 1002824, 'CL', 'Paine', 1, 'paine', -33.80796000, -70.74109000),
+(1019026, 1002824, 'CL', 'Peñaflor', 1, 'penaflor', -33.60627000, -70.87649000),
+(1019041, 1002824, 'CL', 'Provincia de Chacabuco', 1, 'provincia-de-chacabuco', -33.15940000, -70.81650000),
+(1019048, 1002824, 'CL', 'Provincia de Cordillera', 1, 'provincia-de-cordillera', -33.67921000, -70.54665000),
+(1019061, 1002824, 'CL', 'Provincia de Maipo', 1, 'provincia-de-maipo', -33.83333000, -70.75000000),
+(1019064, 1002824, 'CL', 'Provincia de Melipilla', 1, 'provincia-de-melipilla', -33.75000000, -71.16667000),
+(1019070, 1002824, 'CL', 'Provincia de Santiago', 1, 'provincia-de-santiago', -33.33333000, -70.66667000),
+(1019071, 1002824, 'CL', 'Provincia de Talagante', 1, 'provincia-de-talagante', -33.66667000, -70.91667000),
+(1019081, 1002824, 'CL', 'Puente Alto', 1, 'puente-alto', -33.61169000, -70.57577000),
+(1019102, 1002824, 'CL', 'San Bernardo', 1, 'san-bernardo', -33.59217000, -70.69960000),
+(1019111, 1002824, 'CL', 'Santiago', 1, 'santiago', -33.45694000, -70.64827000),
+(1019112, 1002824, 'CL', 'Talagante', 1, 'talagante', -33.66386000, -70.92734000),
+(1019128, 1002824, 'CL', 'Villa Presidente Frei, Ñuñoa, Santiago, Chile', 1, 'villa-presidente-frei-nunoa-santiago-chile', -33.46069000, -70.58024000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782546, 'CL', 'Valdivia', 1, 'valdivia');
+(1002837, 'CL', 'Tarapacá Region', 1, 'tarapaca-region');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498200, 782546, 'CL', 'Lanco', 1, 'lanco'),
-(498201, 782546, 'CL', 'Los Lagos', 1, 'los-lagos'),
-(498202, 782546, 'CL', 'Mariquina', 1, 'mariquina'),
-(498203, 782546, 'CL', 'Máfil', 1, 'mafil'),
-(498204, 782546, 'CL', 'Paillaco', 1, 'paillaco'),
-(498205, 782546, 'CL', 'Valdivia', 1, 'valdivia'),
-(498206, 782546, 'CL', 'Corral', 1, 'corral'),
-(498207, 782546, 'CL', 'Panguipulli', 1, 'panguipulli');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018989, 1002837, 'CL', 'Iquique', 1, 'iquique', -20.21326000, -70.15027000),
+(1019054, 1002837, 'CL', 'Provincia de Iquique', 1, 'provincia-de-iquique', -20.24158000, -70.08728000),
+(1019079, 1002837, 'CL', 'Provincia del Tamarugal', 1, 'provincia-del-tamarugal', -20.26445000, -69.81606000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782547, 'CL', 'Ranco', 1, 'ranco');
+(1002830, 'CL', 'Valparaíso', 1, 'valparaiso');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498208, 782547, 'CL', 'Futrono', 1, 'futrono'),
-(498209, 782547, 'CL', 'La Unión', 1, 'la-union'),
-(498210, 782547, 'CL', 'Lago Ranco', 1, 'lago-ranco'),
-(498211, 782547, 'CL', 'Río Bueno', 1, 'rio-bueno');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782548, 'CL', 'Osorno', 1, 'osorno');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498212, 782548, 'CL', 'Puerto Octay', 1, 'puerto-octay'),
-(498213, 782548, 'CL', 'Puyehue', 1, 'puyehue'),
-(498214, 782548, 'CL', 'Río Negro', 1, 'rio-negro'),
-(498215, 782548, 'CL', 'San Juan de la Costa', 1, 'san-juan-de-la-costa'),
-(498216, 782548, 'CL', 'San Pablo', 1, 'san-pablo'),
-(498217, 782548, 'CL', 'Purranque', 1, 'purranque'),
-(498218, 782548, 'CL', 'Osorno', 1, 'osorno');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782549, 'CL', 'Puerto Montt', 1, 'puerto-montt');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498219, 782549, 'CL', 'Cochamó', 1, 'cochamo'),
-(498220, 782549, 'CL', 'Fresia', 1, 'fresia'),
-(498221, 782549, 'CL', 'Frutillar', 1, 'frutillar'),
-(498222, 782549, 'CL', 'Llanquihue', 1, 'llanquihue'),
-(498223, 782549, 'CL', 'Los Muermos', 1, 'los-muermos'),
-(498224, 782549, 'CL', 'Maullín', 1, 'maullin'),
-(498225, 782549, 'CL', 'Calbuco', 1, 'calbuco'),
-(498226, 782549, 'CL', 'Puerto Varas', 1, 'puerto-varas'),
-(498227, 782549, 'CL', 'Puerto Montt', 1, 'puerto-montt');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782550, 'CL', 'Chiloé', 1, 'chiloe');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498228, 782550, 'CL', 'Curaco de Vélez', 1, 'curaco-de-velez'),
-(498229, 782550, 'CL', 'Dalcahue', 1, 'dalcahue'),
-(498230, 782550, 'CL', 'Puqueldón', 1, 'puqueldon'),
-(498231, 782550, 'CL', 'Queilén', 1, 'queilen'),
-(498232, 782550, 'CL', 'Quellón', 1, 'quellon'),
-(498233, 782550, 'CL', 'Quemchi', 1, 'quemchi'),
-(498234, 782550, 'CL', 'Quinchao', 1, 'quinchao'),
-(498235, 782550, 'CL', 'Chonchi', 1, 'chonchi'),
-(498236, 782550, 'CL', 'Ancud', 1, 'ancud'),
-(498237, 782550, 'CL', 'Castro', 1, 'castro');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782551, 'CL', 'Palena', 1, 'palena');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498238, 782551, 'CL', 'Hualaihué', 1, 'hualaihue'),
-(498239, 782551, 'CL', 'Palena', 1, 'palena'),
-(498240, 782551, 'CL', 'Futaleufú', 1, 'futaleufu'),
-(498241, 782551, 'CL', 'Chaitén', 1, 'chaiten');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782552, 'CL', 'Coyhaique', 1, 'coyhaique');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498243, 782552, 'CL', 'Coyhaique', 1, 'coyhaique'),
-(498242, 782552, 'CL', 'Lago Verde', 1, 'lago-verde');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782553, 'CL', 'Aysén', 1, 'aysen');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498244, 782553, 'CL', 'Cisnes', 1, 'cisnes'),
-(498245, 782553, 'CL', 'Guaitecas', 1, 'guaitecas'),
-(498246, 782553, 'CL', 'Aysén', 1, 'aysen');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782554, 'CL', 'General Carrera', 1, 'general-carrera');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498248, 782554, 'CL', 'Chile Chico', 1, 'chile-chico'),
-(498247, 782554, 'CL', 'Río Ibáñez', 1, 'rio-ibanez');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782555, 'CL', 'Capitán Prat', 1, 'capitan-prat');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498249, 782555, 'CL', 'O\'Higgins', 1, 'ohiggins'),
-(498250, 782555, 'CL', 'Tortel', 1, 'tortel'),
-(498251, 782555, 'CL', 'Cochrane', 1, 'cochrane');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782556, 'CL', 'Última Esperanza', 1, 'ultima-esperanza');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498253, 782556, 'CL', 'Natales', 1, 'natales'),
-(498252, 782556, 'CL', 'Torres del Paine', 1, 'torres-del-paine');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782557, 'CL', 'Magallanes', 1, 'magallanes');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498254, 782557, 'CL', 'Laguna Blanca', 1, 'laguna-blanca'),
-(498255, 782557, 'CL', 'Río Verde', 1, 'rio-verde'),
-(498256, 782557, 'CL', 'San Gregorio', 1, 'san-gregorio'),
-(498257, 782557, 'CL', 'Punta Arenas', 1, 'punta-arenas');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782558, 'CL', 'Tierra del Fuego', 1, 'tierra-del-fuego');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498258, 782558, 'CL', 'Porvenir', 1, 'porvenir'),
-(498259, 782558, 'CL', 'Primavera', 1, 'primavera'),
-(498260, 782558, 'CL', 'Timaukel', 1, 'timaukel');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782559, 'CL', 'Antártica Chilena', 1, 'antartica-chilena');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498261, 782559, 'CL', 'Antártica', 1, 'antartica'),
-(498262, 782559, 'CL', 'Cabo de Hornos', 1, 'cabo-de-hornos');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782560, 'CL', 'Chacabuco', 1, 'chacabuco');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498263, 782560, 'CL', 'Colina', 1, 'colina'),
-(498264, 782560, 'CL', 'Tiltil', 1, 'tiltil'),
-(498265, 782560, 'CL', 'Lampa', 1, 'lampa');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782561, 'CL', 'Cordillera', 1, 'cordillera');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498266, 782561, 'CL', 'Pirque', 1, 'pirque'),
-(498267, 782561, 'CL', 'San José de Maipo', 1, 'san-jose-de-maipo'),
-(498268, 782561, 'CL', 'Puente Alto', 1, 'puente-alto');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782562, 'CL', 'Maipo', 1, 'maipo');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498269, 782562, 'CL', 'Calera de Tango', 1, 'calera-de-tango'),
-(498270, 782562, 'CL', 'San Bernardo', 1, 'san-bernardo'),
-(498271, 782562, 'CL', 'Paine', 1, 'paine'),
-(498272, 782562, 'CL', 'Buin', 1, 'buin');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782563, 'CL', 'Talagante', 1, 'talagante');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498273, 782563, 'CL', 'Isla de Maipo', 1, 'isla-de-maipo'),
-(498274, 782563, 'CL', 'Padre Hurtado', 1, 'padre-hurtado'),
-(498275, 782563, 'CL', 'Peñaflor', 1, 'penaflor'),
-(498276, 782563, 'CL', 'El Monte', 1, 'el-monte'),
-(498277, 782563, 'CL', 'Talagante', 1, 'talagante');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782564, 'CL', 'Melipilla', 1, 'melipilla');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498278, 782564, 'CL', 'Alhué', 1, 'alhue'),
-(498279, 782564, 'CL', 'Curacaví', 1, 'curacavi'),
-(498280, 782564, 'CL', 'María Pinto', 1, 'maria-pinto'),
-(498281, 782564, 'CL', 'San Pedro', 1, 'san-pedro'),
-(498282, 782564, 'CL', 'Melipilla', 1, 'melipilla');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782565, 'CL', 'Santiago', 1, 'santiago');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(498283, 782565, 'CL', 'Cerrillos', 1, 'cerrillos'),
-(498284, 782565, 'CL', 'Cerro Navia', 1, 'cerro-navia'),
-(498285, 782565, 'CL', 'Conchalí', 1, 'conchali'),
-(498286, 782565, 'CL', 'El Bosque', 1, 'el-bosque'),
-(498287, 782565, 'CL', 'Estación Central', 1, 'estacion-central'),
-(498288, 782565, 'CL', 'Huechuraba', 1, 'huechuraba'),
-(498289, 782565, 'CL', 'Independencia', 1, 'independencia'),
-(498290, 782565, 'CL', 'La Cisterna', 1, 'la-cisterna'),
-(498291, 782565, 'CL', 'La Florida', 1, 'la-florida'),
-(498292, 782565, 'CL', 'La Granja', 1, 'la-granja'),
-(498293, 782565, 'CL', 'La Reina', 1, 'la-reina'),
-(498294, 782565, 'CL', 'Las Condes', 1, 'las-condes'),
-(498295, 782565, 'CL', 'Lo Barnechea', 1, 'lo-barnechea'),
-(498296, 782565, 'CL', 'Lo Espejo', 1, 'lo-espejo'),
-(498297, 782565, 'CL', 'Macul', 1, 'macul'),
-(498298, 782565, 'CL', 'Maipú', 1, 'maipu'),
-(498299, 782565, 'CL', 'Pedro Aguirre Cerda', 1, 'pedro-aguirre-cerda'),
-(498300, 782565, 'CL', 'Peñalolén', 1, 'penalolen'),
-(498301, 782565, 'CL', 'Providencia', 1, 'providencia'),
-(498302, 782565, 'CL', 'Pudahuel', 1, 'pudahuel'),
-(498303, 782565, 'CL', 'Quilicura', 1, 'quilicura'),
-(498304, 782565, 'CL', 'Quinta Normal', 1, 'quinta-normal'),
-(498305, 782565, 'CL', 'Recoleta', 1, 'recoleta'),
-(498306, 782565, 'CL', 'Renca', 1, 'renca'),
-(498307, 782565, 'CL', 'San Joaquín', 1, 'san-joaquin'),
-(498308, 782565, 'CL', 'San Miguel', 1, 'san-miguel'),
-(498309, 782565, 'CL', 'San Ramón', 1, 'san-ramon'),
-(498310, 782565, 'CL', 'Vitacura', 1, 'vitacura'),
-(498311, 782565, 'CL', 'Ñuñoa', 1, 'nunoa'),
-(498312, 782565, 'CL', 'Lo Prado', 1, 'lo-prado'),
-(498313, 782565, 'CL', 'La Pintana', 1, 'la-pintana'),
-(498314, 782565, 'CL', 'Santiago', 1, 'santiago');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1018955, 1002830, 'CL', 'Cartagena', 1, 'cartagena', -33.55384000, -71.60761000),
+(1018986, 1002830, 'CL', 'Hacienda La Calera', 1, 'hacienda-la-calera', -32.78333000, -71.21667000),
+(1018987, 1002830, 'CL', 'Hanga Roa', 1, 'hanga-roa', -27.15474000, -109.43241000),
+(1018992, 1002830, 'CL', 'La Ligua', 1, 'la-ligua', -32.45242000, -71.23106000),
+(1019002, 1002830, 'CL', 'Limache', 1, 'limache', -33.01667000, -71.26667000),
+(1019004, 1002830, 'CL', 'Llaillay', 1, 'llaillay', -32.84043000, -70.95623000),
+(1019008, 1002830, 'CL', 'Los Andes', 1, 'los-andes', -32.83369000, -70.59827000),
+(1019025, 1002830, 'CL', 'Petorca Province', 1, 'petorca-province', -32.33333000, -71.00000000),
+(1019055, 1002830, 'CL', 'Provincia de Isla de Pascua', 1, 'provincia-de-isla-de-pascua', -27.11048000, -109.29749000),
+(1019059, 1002830, 'CL', 'Provincia de Los Andes', 1, 'provincia-de-los-andes', -32.82556000, -70.33518000),
+(1019063, 1002830, 'CL', 'Provincia de Marga Marga', 1, 'provincia-de-marga-marga', -33.04378000, -71.39465000),
+(1019068, 1002830, 'CL', 'Provincia de Quillota', 1, 'provincia-de-quillota', -32.80753000, -71.17957000),
+(1019069, 1002830, 'CL', 'Provincia de San Felipe de Aconcagua', 1, 'provincia-de-san-felipe-de-aconcagua', -32.60401000, -70.65930000),
+(1019076, 1002830, 'CL', 'Provincia de Valparaíso', 1, 'provincia-de-valparaiso', -33.06105000, -71.59241000),
+(1019092, 1002830, 'CL', 'Quillota', 1, 'quillota', -32.88341000, -71.24882000),
+(1019093, 1002830, 'CL', 'Quilpué', 1, 'quilpue', -33.04752000, -71.44249000),
+(1019100, 1002830, 'CL', 'San Antonio', 1, 'san-antonio', -33.59473000, -71.60746000),
+(1019101, 1002830, 'CL', 'San Antonio Province', 1, 'san-antonio-province', -33.58333000, -71.50000000),
+(1019105, 1002830, 'CL', 'San Felipe', 1, 'san-felipe', -32.74976000, -70.72584000),
+(1019123, 1002830, 'CL', 'Valparaíso', 1, 'valparaiso', -33.03600000, -71.62963000),
+(1019127, 1002830, 'CL', 'Villa Alemana', 1, 'villa-alemana', -33.04222000, -71.37333000),
+(1019130, 1002830, 'CL', 'Viña del Mar', 1, 'vina-del-mar', -33.02457000, -71.55183000);
 

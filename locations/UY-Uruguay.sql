@@ -2,431 +2,220 @@ REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES
 ('UY', 'Uruguay', 'uruguay');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(312, 'uy', 'Montevideo', 1, 'montevideo');
+(1003205, 'UY', 'Artigas Department', 1, 'artigas-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22776, 312, 'uy', 'Aguada', 1, 'aguada'),
-(22777, 312, 'uy', 'Aires Puros', 1, 'aires-puros'),
-(22778, 312, 'uy', 'Bella Vista', 1, 'bella-vista'),
-(22779, 312, 'uy', 'Belvedere', 1, 'belvedere'),
-(22780, 312, 'uy', 'Buceo', 1, 'buceo'),
-(22781, 312, 'uy', 'Capurro', 1, 'capurro'),
-(22782, 312, 'uy', 'Carrasco', 1, 'carrasco'),
-(22783, 312, 'uy', 'Centro', 1, 'centro'),
-(22784, 312, 'uy', 'Cerro', 1, 'cerro'),
-(22785, 312, 'uy', 'Ciudad Vieja', 1, 'ciudad-vieja'),
-(22786, 312, 'uy', 'Colón', 1, 'colon'),
-(22787, 312, 'uy', 'Cordón', 1, 'cordon'),
-(22788, 312, 'uy', 'Goes', 1, 'goes'),
-(22789, 312, 'uy', 'La Blanqueada', 1, 'la-blanqueada'),
-(22790, 312, 'uy', 'La Comercial', 1, 'la-comercial'),
-(22791, 312, 'uy', 'La Cruz', 1, 'la-cruz'),
-(22792, 312, 'uy', 'La Teja', 1, 'la-teja'),
-(22793, 312, 'uy', 'Lezica', 1, 'lezica'),
-(22794, 312, 'uy', 'Malvín', 1, 'malvin'),
-(22795, 312, 'uy', 'Maroñas', 1, 'maronas'),
-(22796, 312, 'uy', 'Nuevo París', 1, 'nuevo-paris'),
-(22797, 312, 'uy', 'Palermo', 1, 'palermo'),
-(22798, 312, 'uy', 'Parque Battle', 1, 'parque-battle'),
-(22799, 312, 'uy', 'Parque Rodó', 1, 'parque-rodo'),
-(22800, 312, 'uy', 'Paso de la Arena', 1, 'paso-de-la-arena'),
-(22801, 312, 'uy', 'Paso Molino', 1, 'paso-molino'),
-(22802, 312, 'uy', 'Peñarol', 1, 'penarol'),
-(22803, 312, 'uy', 'Piedras Blancas', 1, 'piedras-blancas'),
-(22804, 312, 'uy', 'Pocitos', 1, 'pocitos'),
-(22805, 312, 'uy', 'Prado', 1, 'prado'),
-(22806, 312, 'uy', 'Punta Carretas', 1, 'punta-carretas'),
-(22807, 312, 'uy', 'Punta Gorda', 1, 'punta-gorda'),
-(22808, 312, 'uy', 'Reducto', 1, 'reducto'),
-(22809, 312, 'uy', 'Sayago', 1, 'sayago'),
-(22810, 312, 'uy', 'Sur', 1, 'sur'),
-(22811, 312, 'uy', 'Tres Cruces', 1, 'tres-cruces'),
-(22812, 312, 'uy', 'Unión', 1, 'union');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129777, 1003205, 'UY', 'Artigas', 1, 'artigas', -30.40000000, -56.46667000),
+(1129779, 1003205, 'UY', 'Baltasar Brum', 1, 'baltasar-brum', -30.71905000, -57.32596000),
+(1129782, 1003205, 'UY', 'Bella Unión', 1, 'bella-union', -30.25966000, -57.59919000),
+(1129820, 1003205, 'UY', 'Las Piedras', 1, 'las-piedras', -30.26204000, -57.58174000),
+(1129881, 1003205, 'UY', 'Tomás Gomensoro', 1, 'tomas-gomensoro', -30.42870000, -57.43609000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707041, 'uy', 'Artigas', 1, 'artigas');
+(1003213, 'UY', 'Canelones Department', 1, 'canelones-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22593, 707041, 'uy', 'Artigas', 1, 'artigas'),
-(22594, 707041, 'uy', 'Baltasar Brum', 1, 'baltasar-brum'),
-(22595, 707041, 'uy', 'Bella Unión', 1, 'bella-union'),
-(22596, 707041, 'uy', 'Bernabe Rivera', 1, 'bernabe-rivera'),
-(22597, 707041, 'uy', 'Calpica Itacumbú', 1, 'calpica-itacumbu'),
-(22598, 707041, 'uy', 'Catalán Grande', 1, 'catalan-grande'),
-(22599, 707041, 'uy', 'Cerro Amarillo', 1, 'cerro-amarillo'),
-(22600, 707041, 'uy', 'Colonia Palma', 1, 'colonia-palma'),
-(22601, 707041, 'uy', 'Cuaró', 1, 'cuaro'),
-(22602, 707041, 'uy', 'Javier de Viana', 1, 'javier-de-viana'),
-(22603, 707041, 'uy', 'Paso Campamento', 1, 'paso-campamento'),
-(22604, 707041, 'uy', 'Paso Farías', 1, 'paso-farias'),
-(22605, 707041, 'uy', 'Pintado Grande', 1, 'pintado-grande'),
-(22606, 707041, 'uy', 'Sequeira', 1, 'sequeira'),
-(22607, 707041, 'uy', 'Tomas Gomensoro', 1, 'tomas-gomensoro');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707057, 'uy', 'Canelones', 1, 'canelones');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22608, 707057, 'uy', 'Aeropuerto', 1, 'aeropuerto'),
-(22609, 707057, 'uy', 'Aguas Corrientes', 1, 'aguas-corrientes'),
-(22610, 707057, 'uy', 'Araminda', 1, 'araminda'),
-(22611, 707057, 'uy', 'Atlántida', 1, 'atlantida'),
-(22612, 707057, 'uy', 'Barra de Carrasco', 1, 'barra-de-carrasco'),
-(22613, 707057, 'uy', 'Barros Blancos', 1, 'barros-blancos'),
-(22614, 707057, 'uy', 'Bello Horizonte', 1, 'bello-horizonte'),
-(22615, 707057, 'uy', 'Biarritz', 1, 'biarritz'),
-(22616, 707057, 'uy', 'Bolívar', 1, 'bolivar'),
-(22617, 707057, 'uy', 'Canelón Grande Represa', 1, 'canelon-grande-represa'),
-(22618, 707057, 'uy', 'Canelones', 1, 'canelones'),
-(22619, 707057, 'uy', 'Castellanos', 1, 'castellanos'),
-(22620, 707057, 'uy', 'Chamizo', 1, 'chamizo'),
-(22621, 707057, 'uy', 'Colonia Nicolich', 1, 'colonia-nicolich'),
-(22622, 707057, 'uy', 'Colonia Treinta y Tres Orientales', 1, 'colonia-treinta-y-tres-orientales'),
-(22623, 707057, 'uy', 'Costa Azul', 1, 'costa-azul'),
-(22624, 707057, 'uy', 'Cuchilla Alta', 1, 'cuchilla-alta'),
-(22625, 707057, 'uy', 'El Bosque', 1, 'el-bosque'),
-(22626, 707057, 'uy', 'El Dorado', 1, 'el-dorado'),
-(22627, 707057, 'uy', 'El Fortín de Santa Rosa', 1, 'el-fortin-de-santa-rosa'),
-(22628, 707057, 'uy', 'El Pinar', 1, 'el-pinar'),
-(22629, 707057, 'uy', 'Empalme Olmos', 1, 'empalme-olmos'),
-(22630, 707057, 'uy', 'Estación Migues', 1, 'estacion-migues'),
-(22631, 707057, 'uy', 'Estación Pedrera', 1, 'estacion-pedrera'),
-(22632, 707057, 'uy', 'Estación Tapia', 1, 'estacion-tapia'),
-(22633, 707057, 'uy', 'Fray Marcos', 1, 'fray-marcos'),
-(22634, 707057, 'uy', 'Guazuvirá', 1, 'guazuvira'),
-(22635, 707057, 'uy', 'Jaureguiberry', 1, 'jaureguiberry'),
-(22636, 707057, 'uy', 'Joanicó', 1, 'joanico'),
-(22637, 707057, 'uy', 'Joaquín Suárez', 1, 'joaquin-suarez'),
-(22638, 707057, 'uy', 'La Escobilla', 1, 'la-escobilla'),
-(22639, 707057, 'uy', 'La Floresta', 1, 'la-floresta'),
-(22640, 707057, 'uy', 'La Paz', 1, 'la-paz'),
-(22641, 707057, 'uy', 'Lagomar', 1, 'lagomar'),
-(22642, 707057, 'uy', 'Las Piedras', 1, 'las-piedras'),
-(22643, 707057, 'uy', 'Las Toscas', 1, 'las-toscas'),
-(22644, 707057, 'uy', 'Las Vegas', 1, 'las-vegas'),
-(22645, 707057, 'uy', 'Lomas de Solymar', 1, 'lomas-de-solymar'),
-(22646, 707057, 'uy', 'Los Cerrillos', 1, 'los-cerrillos'),
-(22647, 707057, 'uy', 'Los Titanes', 1, 'los-titanes'),
-(22648, 707057, 'uy', 'Marindia', 1, 'marindia'),
-(22649, 707057, 'uy', 'Médanos de Solymar', 1, 'medanos-de-solymar'),
-(22650, 707057, 'uy', 'Migues', 1, 'migues'),
-(22651, 707057, 'uy', 'Montes', 1, 'montes'),
-(22652, 707057, 'uy', 'Neptunia', 1, 'neptunia'),
-(22653, 707057, 'uy', 'Pando', 1, 'pando'),
-(22654, 707057, 'uy', 'Paraje San Juan', 1, 'paraje-san-juan'),
-(22655, 707057, 'uy', 'Parque Carrasco', 1, 'parque-carrasco'),
-(22656, 707057, 'uy', 'Parque Del Plata', 1, 'parque-del-plata'),
-(22657, 707057, 'uy', 'Paso de Carrasco', 1, 'paso-de-carrasco'),
-(22658, 707057, 'uy', 'Paso de Pache', 1, 'paso-de-pache'),
-(22659, 707057, 'uy', 'Paso Del Bote', 1, 'paso-del-bote'),
-(22660, 707057, 'uy', 'Piedras de Afilar', 1, 'piedras-de-afilar'),
-(22661, 707057, 'uy', 'Pinamar', 1, 'pinamar'),
-(22662, 707057, 'uy', 'Progreso', 1, 'progreso'),
-(22663, 707057, 'uy', 'Salinas', 1, 'salinas'),
-(22664, 707057, 'uy', 'San Antonio', 1, 'san-antonio'),
-(22665, 707057, 'uy', 'San Bautista', 1, 'san-bautista'),
-(22666, 707057, 'uy', 'San Jacinto', 1, 'san-jacinto'),
-(22667, 707057, 'uy', 'San José de Carrasco', 1, 'san-jose-de-carrasco'),
-(22668, 707057, 'uy', 'San Luis', 1, 'san-luis'),
-(22669, 707057, 'uy', 'San Ramón', 1, 'san-ramon'),
-(22670, 707057, 'uy', 'Santa Ana', 1, 'santa-ana'),
-(22671, 707057, 'uy', 'Santa Lucía', 1, 'santa-lucia'),
-(22672, 707057, 'uy', 'Santa Lucía Del Este', 1, 'santa-lucia-del-este'),
-(22673, 707057, 'uy', 'Santa Rosa', 1, 'santa-rosa'),
-(22674, 707057, 'uy', 'Sauce', 1, 'sauce'),
-(22675, 707057, 'uy', 'Shangrila', 1, 'shangrila'),
-(22676, 707057, 'uy', 'Soca', 1, 'soca'),
-(22677, 707057, 'uy', 'Solymar', 1, 'solymar'),
-(22678, 707057, 'uy', 'Tala', 1, 'tala'),
-(22679, 707057, 'uy', 'Toledo', 1, 'toledo'),
-(22680, 707057, 'uy', 'Villa Argentina', 1, 'villa-argentina');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129774, 1003213, 'UY', 'Aguas Corrientes', 1, 'aguas-corrientes', -34.52194000, -56.39361000),
+(1129778, 1003213, 'UY', 'Atlántida', 1, 'atlantida', -34.77190000, -55.75840000),
+(1129780, 1003213, 'UY', 'Barra de Carrasco', 1, 'barra-de-carrasco', -34.87722000, -56.02972000),
+(1129781, 1003213, 'UY', 'Barros Blancos', 1, 'barros-blancos', -34.75240000, -56.00259000),
+(1129785, 1003213, 'UY', 'Canelones', 1, 'canelones', -34.52278000, -56.27778000),
+(1129794, 1003213, 'UY', 'Colonia Nicolich', 1, 'colonia-nicolich', -34.81516000, -56.02435000),
+(1129802, 1003213, 'UY', 'Empalme Olmos', 1, 'empalme-olmos', -34.69753000, -55.89268000),
+(1129809, 1003213, 'UY', 'Joaquín Suárez', 1, 'joaquin-suarez', -34.73501000, -56.03470000),
+(1129814, 1003213, 'UY', 'Juanicó', 1, 'juanico', -34.59454000, -56.25334000),
+(1129815, 1003213, 'UY', 'La Floresta', 1, 'la-floresta', -34.75572000, -55.68141000),
+(1129818, 1003213, 'UY', 'La Paz', 1, 'la-paz', -34.76031000, -56.22590000),
+(1129819, 1003213, 'UY', 'Las Piedras', 1, 'las-piedras', -34.73020000, -56.21915000),
+(1129821, 1003213, 'UY', 'Las Toscas', 1, 'las-toscas', -34.73333000, -55.71667000),
+(1129824, 1003213, 'UY', 'Los Cerrillos', 1, 'los-cerrillos', -34.60500000, -56.35639000),
+(1129829, 1003213, 'UY', 'Migues', 1, 'migues', -34.48759000, -55.62793000),
+(1129832, 1003213, 'UY', 'Montes', 1, 'montes', -34.49339000, -55.56219000),
+(1129841, 1003213, 'UY', 'Pando', 1, 'pando', -34.71716000, -55.95840000),
+(1129842, 1003213, 'UY', 'Paso de Carrasco', 1, 'paso-de-carrasco', -34.86028000, -56.05222000),
+(1129847, 1003213, 'UY', 'Progreso', 1, 'progreso', -34.66737000, -56.21758000),
+(1129858, 1003213, 'UY', 'San Antonio', 1, 'san-antonio', -34.45130000, -56.08036000),
+(1129859, 1003213, 'UY', 'San Bautista', 1, 'san-bautista', -34.44016000, -55.95861000),
+(1129862, 1003213, 'UY', 'San Jacinto', 1, 'san-jacinto', -34.54465000, -55.87151000),
+(1129865, 1003213, 'UY', 'San Ramón', 1, 'san-ramon', -34.29155000, -55.95571000),
+(1129869, 1003213, 'UY', 'Santa Lucía', 1, 'santa-lucia', -34.45333000, -56.39056000),
+(1129870, 1003213, 'UY', 'Santa Rosa', 1, 'santa-rosa', -34.49819000, -56.03795000),
+(1129874, 1003213, 'UY', 'Sauce', 1, 'sauce', -34.65191000, -56.06431000),
+(1129875, 1003213, 'UY', 'Soca', 1, 'soca', -34.68432000, -55.70200000),
+(1129878, 1003213, 'UY', 'Tala', 1, 'tala', -34.34349000, -55.76375000),
+(1129880, 1003213, 'UY', 'Toledo', 1, 'toledo', -34.73807000, -56.09469000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707131, 'uy', 'Cerro Largo', 1, 'cerro-largo');
+(1003211, 'UY', 'Cerro Largo Department', 1, 'cerro-largo-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22681, 707131, 'uy', 'Aceguá', 1, 'acegua'),
-(22682, 707131, 'uy', 'Bañado de Medina', 1, 'banado-de-medina'),
-(22683, 707131, 'uy', 'Cerro de las Cuentas', 1, 'cerro-de-las-cuentas'),
-(22684, 707131, 'uy', 'Cerro Largo', 1, 'cerro-largo'),
-(22685, 707131, 'uy', 'Fraile Muerto', 1, 'fraile-muerto'),
-(22686, 707131, 'uy', 'Isidoro Noblía', 1, 'isidoro-noblia'),
-(22687, 707131, 'uy', 'Melo', 1, 'melo'),
-(22688, 707131, 'uy', 'Plácido Rosas', 1, 'placido-rosas'),
-(22689, 707131, 'uy', 'Río Branco', 1, 'rio-branco'),
-(22690, 707131, 'uy', 'Tupambaé', 1, 'tupambae');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129773, 1003211, 'UY', 'Aceguá', 1, 'acegua', -31.87178000, -54.16351000),
+(1129808, 1003211, 'UY', 'Isidoro Noblía', 1, 'isidoro-noblia', -31.96218000, -54.12309000),
+(1129827, 1003211, 'UY', 'Melo', 1, 'melo', -32.37028000, -54.16750000),
+(1129856, 1003211, 'UY', 'Río Branco', 1, 'rio-branco', -32.59802000, -53.38583000),
+(1129885, 1003211, 'UY', 'Tupambaé', 1, 'tupambae', -32.83333000, -54.76667000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707142, 'uy', 'Colonia', 1, 'colonia');
+(1003208, 'UY', 'Colonia Department', 1, 'colonia-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22691, 707142, 'uy', 'Agraciada', 1, 'agraciada'),
-(22692, 707142, 'uy', 'Barker', 1, 'barker'),
-(22693, 707142, 'uy', 'Campana', 1, 'campana'),
-(22694, 707142, 'uy', 'Carmelo', 1, 'carmelo'),
-(22695, 707142, 'uy', 'Colonia', 1, 'colonia'),
-(22696, 707142, 'uy', 'Colonia Valdense', 1, 'colonia-valdense'),
-(22697, 707142, 'uy', 'Conchillas', 1, 'conchillas'),
-(22698, 707142, 'uy', 'Cufré', 1, 'cufre'),
-(22699, 707142, 'uy', 'Florencio Sánchez', 1, 'florencio-sanchez'),
-(22700, 707142, 'uy', 'Juan Lacaze', 1, 'juan-lacaze'),
-(22701, 707142, 'uy', 'La Estanzuela', 1, 'la-estanzuela'),
-(22702, 707142, 'uy', 'La Paz', 1, 'la-paz'),
-(22703, 707142, 'uy', 'Los Pinos', 1, 'los-pinos'),
-(22704, 707142, 'uy', 'Miguelete', 1, 'miguelete'),
-(22705, 707142, 'uy', 'Minuano', 1, 'minuano'),
-(22706, 707142, 'uy', 'Nueva Helvecia', 1, 'nueva-helvecia'),
-(22707, 707142, 'uy', 'Nueva Palmira', 1, 'nueva-palmira'),
-(22708, 707142, 'uy', 'Ombúes de Lavalle', 1, 'ombues-de-lavalle'),
-(22709, 707142, 'uy', 'Playa Fomento', 1, 'playa-fomento'),
-(22710, 707142, 'uy', 'Riachuelo', 1, 'riachuelo'),
-(22711, 707142, 'uy', 'Rosario', 1, 'rosario'),
-(22712, 707142, 'uy', 'Santa Ana', 1, 'santa-ana'),
-(22713, 707142, 'uy', 'Tarariras', 1, 'tarariras');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129789, 1003208, 'UY', 'Carmelo', 1, 'carmelo', -34.00023000, -58.28402000),
+(1129795, 1003208, 'UY', 'Colonia del Sacramento', 1, 'colonia-del-sacramento', -34.46262000, -57.83976000),
+(1129804, 1003208, 'UY', 'Florencio Sánchez', 1, 'florencio-sanchez', -33.87785000, -57.37166000),
+(1129813, 1003208, 'UY', 'Juan L. Lacaze', 1, 'juan-l-lacaze', -34.41888000, -57.45285000),
+(1129834, 1003208, 'UY', 'Nueva Helvecia', 1, 'nueva-helvecia', -34.30000000, -57.23333000),
+(1129835, 1003208, 'UY', 'Nueva Palmira', 1, 'nueva-palmira', -33.87031000, -58.41176000),
+(1129837, 1003208, 'UY', 'Ombúes de Lavalle', 1, 'ombues-de-lavalle', -33.93783000, -57.80959000),
+(1129855, 1003208, 'UY', 'Rosario', 1, 'rosario', -34.31667000, -57.35000000),
+(1129879, 1003208, 'UY', 'Tarariras', 1, 'tarariras', -34.26555000, -57.61866000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707166, 'uy', 'Durazno', 1, 'durazno');
+(1003209, 'UY', 'Durazno Department', 1, 'durazno-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22714, 707166, 'uy', 'Blanquillo', 1, 'blanquillo'),
-(22715, 707166, 'uy', 'Carlos Reyles', 1, 'carlos-reyles'),
-(22716, 707166, 'uy', 'Centenario', 1, 'centenario'),
-(22717, 707166, 'uy', 'Durazno', 1, 'durazno'),
-(22718, 707166, 'uy', 'Feliciano', 1, 'feliciano'),
-(22719, 707166, 'uy', 'La Paloma', 1, 'la-paloma'),
-(22720, 707166, 'uy', 'Santa Bernardina', 1, 'santa-bernardina'),
-(22721, 707166, 'uy', 'Sarandí del Yí', 1, 'sarandi-del-yi');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707175, 'uy', 'Flores', 1, 'flores');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22722, 707175, 'uy', 'Andresito', 1, 'andresito'),
-(22723, 707175, 'uy', 'Flores', 1, 'flores'),
-(22724, 707175, 'uy', 'Ismael Cortinas', 1, 'ismael-cortinas'),
-(22725, 707175, 'uy', 'Trinidad', 1, 'trinidad');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129784, 1003209, 'UY', 'Blanquillo', 1, 'blanquillo', -32.76667000, -55.63333000),
+(1129788, 1003209, 'UY', 'Carlos Reyles', 1, 'carlos-reyles', -33.05658000, -56.47652000),
+(1129800, 1003209, 'UY', 'Durazno', 1, 'durazno', -33.38056000, -56.52361000),
+(1129817, 1003209, 'UY', 'La Paloma', 1, 'la-paloma', -32.72689000, -55.58270000),
+(1129866, 1003209, 'UY', 'Santa Bernardina', 1, 'santa-bernardina', -33.35360000, -56.52498000),
+(1129873, 1003209, 'UY', 'Sarandí del Yi', 1, 'sarandi-del-yi', -33.35000000, -55.63333000),
+(1129892, 1003209, 'UY', 'Villa del Carmen', 1, 'villa-del-carmen', -33.23943000, -56.00936000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707180, 'uy', 'Florida', 1, 'florida');
+(1003203, 'UY', 'Flores Department', 1, 'flores-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22726, 707180, 'uy', '25 de Agosto', 1, '25-de-agosto'),
-(22727, 707180, 'uy', '25 de Mayo', 1, '25-de-mayo'),
-(22728, 707180, 'uy', 'Capilla Del Sauce', 1, 'capilla-del-sauce'),
-(22729, 707180, 'uy', 'Cardal', 1, 'cardal'),
-(22730, 707180, 'uy', 'Casupá', 1, 'casupa'),
-(22731, 707180, 'uy', 'Cerro Colorado', 1, 'cerro-colorado'),
-(22732, 707180, 'uy', 'Chamizo', 1, 'chamizo'),
-(22733, 707180, 'uy', 'Florida', 1, 'florida'),
-(22734, 707180, 'uy', 'Fray Marcos', 1, 'fray-marcos'),
-(22735, 707180, 'uy', 'Goñi', 1, 'goni'),
-(22736, 707180, 'uy', 'Independencia', 1, 'independencia'),
-(22737, 707180, 'uy', 'La Cruz', 1, 'la-cruz'),
-(22738, 707180, 'uy', 'Mendoza Chico', 1, 'mendoza-chico'),
-(22739, 707180, 'uy', 'Mendoza Grande', 1, 'mendoza-grande'),
-(22740, 707180, 'uy', 'Monte Coral', 1, 'monte-coral'),
-(22741, 707180, 'uy', 'Pintado', 1, 'pintado'),
-(22742, 707180, 'uy', 'Polanco del Yí', 1, 'polanco-del-yi'),
-(22743, 707180, 'uy', 'Puntas de Maciel', 1, 'puntas-de-maciel'),
-(22744, 707180, 'uy', 'Reboledo', 1, 'reboledo'),
-(22745, 707180, 'uy', 'Sarandí Grande', 1, 'sarandi-grande');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129884, 1003203, 'UY', 'Trinidad', 1, 'trinidad', -33.51650000, -56.89957000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707201, 'uy', 'Lavalleja', 1, 'lavalleja');
+(1003217, 'UY', 'Florida Department', 1, 'florida-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22746, 707201, 'uy', 'Colon', 1, 'colon'),
-(22747, 707201, 'uy', 'Estación Solís', 1, 'estacion-solis'),
-(22748, 707201, 'uy', 'Illescas', 1, 'illescas'),
-(22749, 707201, 'uy', 'Jose Batlle y Ordoñez', 1, 'jose-batlle-y-ordonez'),
-(22750, 707201, 'uy', 'Jose Pedro Varela', 1, 'jose-pedro-varela'),
-(22751, 707201, 'uy', 'Lavalleja', 1, 'lavalleja'),
-(22752, 707201, 'uy', 'Mariscala', 1, 'mariscala'),
-(22753, 707201, 'uy', 'Minas', 1, 'minas'),
-(22754, 707201, 'uy', 'Nico Pérez', 1, 'nico-perez'),
-(22755, 707201, 'uy', 'Piraraja', 1, 'piraraja'),
-(22756, 707201, 'uy', 'Polanco Norte', 1, 'polanco-norte'),
-(22757, 707201, 'uy', 'Solis de Mataojo', 1, 'solis-de-mataojo'),
-(22758, 707201, 'uy', 'Valentines', 1, 'valentines'),
-(22759, 707201, 'uy', 'Zapican', 1, 'zapican');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129771, 1003217, 'UY', '25 de Agosto', 1, '25-de-agosto', -34.41167000, -56.40222000),
+(1129772, 1003217, 'UY', '25 de Mayo', 1, '25-de-mayo', -34.18917000, -56.33944000),
+(1129776, 1003217, 'UY', 'Alejandro Gallinal', 1, 'alejandro-gallinal', -33.86252000, -55.54264000),
+(1129786, 1003217, 'UY', 'Cardal', 1, 'cardal', -34.29056000, -56.38889000),
+(1129791, 1003217, 'UY', 'Casupá', 1, 'casupa', -34.09994000, -55.64811000),
+(1129805, 1003217, 'UY', 'Florida', 1, 'florida', -34.09556000, -56.21417000),
+(1129872, 1003217, 'UY', 'Sarandí Grande', 1, 'sarandi-grande', -33.73333000, -56.33333000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707216, 'uy', 'Maldonado', 1, 'maldonado');
+(1003215, 'UY', 'Lavalleja Department', 1, 'lavalleja-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22760, 707216, 'uy', 'Aiguá', 1, 'aigua'),
-(22761, 707216, 'uy', 'Garzón', 1, 'garzon'),
-(22762, 707216, 'uy', 'La Barra', 1, 'la-barra'),
-(22763, 707216, 'uy', 'Las Flores', 1, 'las-flores'),
-(22764, 707216, 'uy', 'Maldonado', 1, 'maldonado'),
-(22765, 707216, 'uy', 'Manantiales', 1, 'manantiales'),
-(22766, 707216, 'uy', 'Pan de Azúcar', 1, 'pan-de-azucar'),
-(22767, 707216, 'uy', 'Pinares', 1, 'pinares'),
-(22768, 707216, 'uy', 'Piriápolis', 1, 'piriapolis'),
-(22769, 707216, 'uy', 'Playa Verde', 1, 'playa-verde'),
-(22770, 707216, 'uy', 'Punta Ballena', 1, 'punta-ballena'),
-(22771, 707216, 'uy', 'Punta Del Este', 1, 'punta-del-este'),
-(22772, 707216, 'uy', 'San Carlos', 1, 'san-carlos'),
-(22773, 707216, 'uy', 'San Rafael', 1, 'san-rafael'),
-(22774, 707216, 'uy', 'Sauce de Portezuelo', 1, 'sauce-de-portezuelo'),
-(22775, 707216, 'uy', 'Solís', 1, 'solis');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129810, 1003215, 'UY', 'José Batlle y Ordóñez', 1, 'jose-batlle-y-ordonez', -33.46667000, -55.11667000),
+(1129812, 1003215, 'UY', 'José Pedro Varela', 1, 'jose-pedro-varela', -33.45451000, -54.53586000),
+(1129826, 1003215, 'UY', 'Mariscala', 1, 'mariscala', -34.04085000, -54.77732000),
+(1129830, 1003215, 'UY', 'Minas', 1, 'minas', -34.37589000, -55.23771000),
+(1129876, 1003215, 'UY', 'Solís de Mataojo', 1, 'solis-de-mataojo', -34.59951000, -55.46808000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707271, 'uy', 'Paysandú', 1, 'paysandu');
+(1003206, 'UY', 'Maldonado Department', 1, 'maldonado-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22813, 707271, 'uy', 'Algorta', 1, 'algorta'),
-(22814, 707271, 'uy', 'Beisso', 1, 'beisso'),
-(22815, 707271, 'uy', 'Cerro Chato', 1, 'cerro-chato'),
-(22816, 707271, 'uy', 'Chapicuy', 1, 'chapicuy'),
-(22817, 707271, 'uy', 'Eucaliptus', 1, 'eucaliptus'),
-(22818, 707271, 'uy', 'Gallinal', 1, 'gallinal'),
-(22819, 707271, 'uy', 'Guichón', 1, 'guichon'),
-(22820, 707271, 'uy', 'Lorenzo Geyres', 1, 'lorenzo-geyres'),
-(22821, 707271, 'uy', 'Merinos', 1, 'merinos'),
-(22822, 707271, 'uy', 'Paysandú', 1, 'paysandu'),
-(22823, 707271, 'uy', 'Piedras Coloradas', 1, 'piedras-coloradas'),
-(22824, 707271, 'uy', 'Piñera', 1, 'pinera'),
-(22825, 707271, 'uy', 'Porvenir', 1, 'porvenir'),
-(22826, 707271, 'uy', 'Quebracho', 1, 'quebracho'),
-(22827, 707271, 'uy', 'San Javier', 1, 'san-javier');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129775, 1003206, 'UY', 'Aiguá', 1, 'aigua', -34.20498000, -54.75665000),
+(1129825, 1003206, 'UY', 'Maldonado', 1, 'maldonado', -34.90000000, -54.95000000),
+(1129840, 1003206, 'UY', 'Pan de Azúcar', 1, 'pan-de-azucar', -34.77870000, -55.23582000),
+(1129846, 1003206, 'UY', 'Piriápolis', 1, 'piriapolis', -34.86287000, -55.27471000),
+(1129848, 1003206, 'UY', 'Punta del Este', 1, 'punta-del-este', -34.94747000, -54.93382000),
+(1129860, 1003206, 'UY', 'San Carlos', 1, 'san-carlos', -34.79123000, -54.91824000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707287, 'uy', 'Río Negro', 1, 'rio-negro');
+(1003218, 'UY', 'Montevideo Department', 1, 'montevideo-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22828, 707287, 'uy', 'Algorta', 1, 'algorta'),
-(22829, 707287, 'uy', 'Bellaco', 1, 'bellaco'),
-(22830, 707287, 'uy', 'Fray Bentos', 1, 'fray-bentos'),
-(22831, 707287, 'uy', 'Menafra', 1, 'menafra'),
-(22832, 707287, 'uy', 'Nuevo Berlín', 1, 'nuevo-berlin'),
-(22833, 707287, 'uy', 'Paso de los Mellizos', 1, 'paso-de-los-mellizos'),
-(22834, 707287, 'uy', 'Rio Negro', 1, 'rio-negro'),
-(22835, 707287, 'uy', 'San Javier', 1, 'san-javier'),
-(22836, 707287, 'uy', 'Sarandí de Navarro', 1, 'sarandi-de-navarro'),
-(22837, 707287, 'uy', 'Young', 1, 'young');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129833, 1003218, 'UY', 'Montevideo', 1, 'montevideo', -34.90328000, -56.18816000),
+(1129838, 1003218, 'UY', 'Pajas Blancas', 1, 'pajas-blancas', -34.80167000, -56.33417000),
+(1129871, 1003218, 'UY', 'Santiago Vázquez', 1, 'santiago-vazquez', -34.79028000, -56.35000000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707298, 'uy', 'Rivera', 1, 'rivera');
+(1003212, 'UY', 'Paysandú Department', 1, 'paysandu-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22838, 707298, 'uy', 'Lapuente', 1, 'lapuente'),
-(22839, 707298, 'uy', 'Masoller', 1, 'masoller'),
-(22840, 707298, 'uy', 'Minas de Corrales', 1, 'minas-de-corrales'),
-(22841, 707298, 'uy', 'Rivera', 1, 'rivera'),
-(22842, 707298, 'uy', 'Tranqueras', 1, 'tranqueras'),
-(22843, 707298, 'uy', 'Vichadero', 1, 'vichadero');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707305, 'uy', 'Rocha', 1, 'rocha');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22844, 707305, 'uy', '18 de Julio', 1, '18-de-julio'),
-(22845, 707305, 'uy', '19 de Abril', 1, '19-de-abril'),
-(22846, 707305, 'uy', 'Aguas Dulces', 1, 'aguas-dulces'),
-(22847, 707305, 'uy', 'Arachania', 1, 'arachania'),
-(22848, 707305, 'uy', 'Barra Del Chuy', 1, 'barra-del-chuy'),
-(22849, 707305, 'uy', 'Castillos', 1, 'castillos'),
-(22850, 707305, 'uy', 'Cebollatí', 1, 'cebollati'),
-(22851, 707305, 'uy', 'Chuy', 1, 'chuy'),
-(22852, 707305, 'uy', 'La Aguada', 1, 'la-aguada'),
-(22853, 707305, 'uy', 'La Coronilla', 1, 'la-coronilla'),
-(22854, 707305, 'uy', 'La Paloma', 1, 'la-paloma'),
-(22855, 707305, 'uy', 'La Pedrera', 1, 'la-pedrera'),
-(22856, 707305, 'uy', 'Lascano', 1, 'lascano'),
-(22857, 707305, 'uy', 'Punta Del Diablo', 1, 'punta-del-diablo'),
-(22858, 707305, 'uy', 'Rocha', 1, 'rocha'),
-(22859, 707305, 'uy', 'San Luis Al Medio', 1, 'san-luis-al-medio'),
-(22860, 707305, 'uy', 'Velázquez', 1, 'velazquez');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129803, 1003212, 'UY', 'Estación Porvenir', 1, 'estacion-porvenir', -32.37085000, -57.85371000),
+(1129807, 1003212, 'UY', 'Guichón', 1, 'guichon', -32.35846000, -57.19778000),
+(1129844, 1003212, 'UY', 'Paysandú', 1, 'paysandu', -32.31710000, -58.08072000),
+(1129845, 1003212, 'UY', 'Piedras Coloradas', 1, 'piedras-coloradas', -32.37183000, -57.60901000),
+(1129850, 1003212, 'UY', 'Quebracho', 1, 'quebracho', -31.93526000, -57.90140000),
+(1129861, 1003212, 'UY', 'San Félix', 1, 'san-felix', -32.34631000, -58.10094000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707323, 'uy', 'Salto', 1, 'salto');
+(1003210, 'UY', 'Río Negro Department', 1, 'rio-negro-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22861, 707323, 'uy', 'Belén', 1, 'belen'),
-(22862, 707323, 'uy', 'Biassini', 1, 'biassini'),
-(22863, 707323, 'uy', 'Cerro de Vera', 1, 'cerro-de-vera'),
-(22864, 707323, 'uy', 'Colonia Itapebí', 1, 'colonia-itapebi'),
-(22865, 707323, 'uy', 'Constitución', 1, 'constitucion'),
-(22866, 707323, 'uy', 'Palomas', 1, 'palomas'),
-(22867, 707323, 'uy', 'Puntas de Valentín', 1, 'puntas-de-valentin'),
-(22868, 707323, 'uy', 'Salto', 1, 'salto'),
-(22869, 707323, 'uy', 'San Antonio', 1, 'san-antonio'),
-(22870, 707323, 'uy', 'Sarandí Del Arapey', 1, 'sarandi-del-arapey'),
-(22871, 707323, 'uy', 'Saucedo', 1, 'saucedo');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129806, 1003210, 'UY', 'Fray Bentos', 1, 'fray-bentos', -33.11651000, -58.31067000),
+(1129836, 1003210, 'UY', 'Nuevo Berlín', 1, 'nuevo-berlin', -32.97974000, -58.05858000),
+(1129863, 1003210, 'UY', 'San Javier', 1, 'san-javier', -32.66523000, -58.13320000),
+(1129893, 1003210, 'UY', 'Young', 1, 'young', -32.69844000, -57.62693000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707335, 'uy', 'San José', 1, 'san-jose');
+(1003207, 'UY', 'Rivera Department', 1, 'rivera-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22872, 707335, 'uy', 'Capurro', 1, 'capurro'),
-(22873, 707335, 'uy', 'Delta Del Tigre', 1, 'delta-del-tigre'),
-(22874, 707335, 'uy', 'Ecilda Paullier', 1, 'ecilda-paullier'),
-(22875, 707335, 'uy', 'Ituzaingó', 1, 'ituzaingo'),
-(22876, 707335, 'uy', 'Juan Soler', 1, 'juan-soler'),
-(22877, 707335, 'uy', 'Kiyú - Ordeig', 1, 'kiyu-ordeig'),
-(22878, 707335, 'uy', 'Libertad', 1, 'libertad'),
-(22879, 707335, 'uy', 'Mal Abrigo', 1, 'mal-abrigo'),
-(22880, 707335, 'uy', 'Playa Pascual', 1, 'playa-pascual'),
-(22881, 707335, 'uy', 'Puntas de Valdés', 1, 'puntas-de-valdes'),
-(22882, 707335, 'uy', 'Rafael Perazza', 1, 'rafael-perazza'),
-(22883, 707335, 'uy', 'Rincón de la Bolsa', 1, 'rincon-de-la-bolsa'),
-(22884, 707335, 'uy', 'San José', 1, 'san-jose'),
-(22885, 707335, 'uy', 'San José de Mayo', 1, 'san-jose-de-mayo'),
-(22886, 707335, 'uy', 'Villa María', 1, 'villa-maria'),
-(22887, 707335, 'uy', 'Villa Rodriguez', 1, 'villa-rodriguez');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129831, 1003207, 'UY', 'Minas de Corrales', 1, 'minas-de-corrales', -31.57375000, -55.47075000),
+(1129852, 1003207, 'UY', 'Rivera', 1, 'rivera', -30.90534000, -55.55076000),
+(1129882, 1003207, 'UY', 'Tranqueras', 1, 'tranqueras', -31.20000000, -55.75000000),
+(1129888, 1003207, 'UY', 'Vichadero', 1, 'vichadero', -31.77794000, -54.69183000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707352, 'uy', 'Soriano', 1, 'soriano');
+(1003216, 'UY', 'Rocha Department', 1, 'rocha-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22888, 707352, 'uy', 'Cañada Nieto', 1, 'canada-nieto'),
-(22889, 707352, 'uy', 'Cardona', 1, 'cardona'),
-(22890, 707352, 'uy', 'Cuchilla Del Perdido', 1, 'cuchilla-del-perdido'),
-(22891, 707352, 'uy', 'Dolores', 1, 'dolores'),
-(22892, 707352, 'uy', 'Egaña', 1, 'egana'),
-(22893, 707352, 'uy', 'José Enrique Rodó', 1, 'jose-enrique-rodo'),
-(22894, 707352, 'uy', 'Mercedes', 1, 'mercedes'),
-(22895, 707352, 'uy', 'Palmar', 1, 'palmar'),
-(22896, 707352, 'uy', 'Palmitas', 1, 'palmitas'),
-(22897, 707352, 'uy', 'Palo Solo', 1, 'palo-solo'),
-(22898, 707352, 'uy', 'Risso', 1, 'risso'),
-(22899, 707352, 'uy', 'Santa Catalina', 1, 'santa-catalina'),
-(22900, 707352, 'uy', 'Soriano', 1, 'soriano'),
-(22901, 707352, 'uy', 'Villa Darwin', 1, 'villa-darwin'),
-(22902, 707352, 'uy', 'Villa de Soriano', 1, 'villa-de-soriano');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129790, 1003216, 'UY', 'Castillos', 1, 'castillos', -34.19871000, -53.85919000),
+(1129792, 1003216, 'UY', 'Cebollatí', 1, 'cebollati', -33.26703000, -53.79425000),
+(1129793, 1003216, 'UY', 'Chui', 1, 'chui', -33.69792000, -53.45926000),
+(1129798, 1003216, 'UY', 'Dieciocho de Julio', 1, 'dieciocho-de-julio', -33.68216000, -53.55325000),
+(1129816, 1003216, 'UY', 'La Paloma', 1, 'la-paloma', -34.66268000, -54.16452000),
+(1129822, 1003216, 'UY', 'Lascano', 1, 'lascano', -33.67235000, -54.20650000),
+(1129853, 1003216, 'UY', 'Rocha', 1, 'rocha', -34.48333000, -54.33333000),
+(1129886, 1003216, 'UY', 'Velázquez', 1, 'velazquez', -34.03631000, -54.28054000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707368, 'uy', 'Tacuarembó', 1, 'tacuarembo');
+(1003220, 'UY', 'Salto Department', 1, 'salto-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22903, 707368, 'uy', 'Achar', 1, 'achar'),
-(22904, 707368, 'uy', 'Ansina', 1, 'ansina'),
-(22905, 707368, 'uy', 'Cardoso', 1, 'cardoso'),
-(22906, 707368, 'uy', 'Chamberlain', 1, 'chamberlain'),
-(22907, 707368, 'uy', 'Cuchilla de Peralta', 1, 'cuchilla-de-peralta'),
-(22908, 707368, 'uy', 'Curtina', 1, 'curtina'),
-(22909, 707368, 'uy', 'La Pedrera', 1, 'la-pedrera'),
-(22910, 707368, 'uy', 'Las Toscas', 1, 'las-toscas'),
-(22911, 707368, 'uy', 'Laureles', 1, 'laureles'),
-(22912, 707368, 'uy', 'Paso Bonilla', 1, 'paso-bonilla'),
-(22913, 707368, 'uy', 'Paso de los Toros', 1, 'paso-de-los-toros'),
-(22914, 707368, 'uy', 'Paso Del Cerro', 1, 'paso-del-cerro'),
-(22915, 707368, 'uy', 'Piedra Sola', 1, 'piedra-sola'),
-(22916, 707368, 'uy', 'San Gregorio de Polanco', 1, 'san-gregorio-de-polanco'),
-(22917, 707368, 'uy', 'Tacuarembó', 1, 'tacuarembo'),
-(22918, 707368, 'uy', 'Tambores', 1, 'tambores'),
-(22919, 707368, 'uy', 'Valle Edén', 1, 'valle-eden');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129783, 1003220, 'UY', 'Belén', 1, 'belen', -30.78716000, -57.77577000),
+(1129857, 1003220, 'UY', 'Salto', 1, 'salto', -31.38333000, -57.96667000),
+(1129889, 1003220, 'UY', 'Villa Constitución', 1, 'villa-constitucion', -31.06913000, -57.84946000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(707386, 'uy', 'Treinta y Tres', 1, 'treinta-y-tres');
+(1003204, 'UY', 'San José Department', 1, 'san-jose-department');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(22920, 707386, 'uy', 'Cerro Chato', 1, 'cerro-chato'),
-(22921, 707386, 'uy', 'Isla Patrulla', 1, 'isla-patrulla'),
-(22922, 707386, 'uy', 'María Albina', 1, 'maria-albina'),
-(22923, 707386, 'uy', 'Santa Clara de Olimar', 1, 'santa-clara-de-olimar'),
-(22924, 707386, 'uy', 'Treinta y Tres', 1, 'treinta-y-tres'),
-(22925, 707386, 'uy', 'Valentines', 1, 'valentines'),
-(22926, 707386, 'uy', 'Vergara', 1, 'vergara');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129797, 1003204, 'UY', 'Delta del Tigre', 1, 'delta-del-tigre', -34.76488000, -56.36450000),
+(1129801, 1003204, 'UY', 'Ecilda Paullier', 1, 'ecilda-paullier', -34.35778000, -57.04883000),
+(1129823, 1003204, 'UY', 'Libertad', 1, 'libertad', -34.63459000, -56.61739000),
+(1129849, 1003204, 'UY', 'Puntas de Valdéz', 1, 'puntas-de-valdez', -34.58550000, -56.70097000),
+(1129851, 1003204, 'UY', 'Rafael Perazza', 1, 'rafael-perazza', -34.52335000, -56.79710000),
+(1129854, 1003204, 'UY', 'Rodríguez', 1, 'rodriguez', -34.38100000, -56.53797000),
+(1129864, 1003204, 'UY', 'San José de Mayo', 1, 'san-jose-de-mayo', -34.33750000, -56.71361000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003219, 'UY', 'Soriano Department', 1, 'soriano-department');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129787, 1003219, 'UY', 'Cardona', 1, 'cardona', -33.87049000, -57.36954000),
+(1129799, 1003219, 'UY', 'Dolores', 1, 'dolores', -33.53009000, -58.21701000),
+(1129811, 1003219, 'UY', 'José Enrique Rodó', 1, 'jose-enrique-rodo', -33.69618000, -57.53153000),
+(1129828, 1003219, 'UY', 'Mercedes', 1, 'mercedes', -33.25240000, -58.03047000),
+(1129839, 1003219, 'UY', 'Palmitas', 1, 'palmitas', -33.50719000, -57.80079000),
+(1129867, 1003219, 'UY', 'Santa Catalina', 1, 'santa-catalina', -33.79100000, -57.48824000),
+(1129891, 1003219, 'UY', 'Villa Soriano', 1, 'villa-soriano', -33.39811000, -58.32177000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003221, 'UY', 'Tacuarembó Department', 1, 'tacuarembo-department');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129796, 1003221, 'UY', 'Curtina', 1, 'curtina', -32.15000000, -56.11667000),
+(1129843, 1003221, 'UY', 'Paso de los Toros', 1, 'paso-de-los-toros', -32.81667000, -56.51667000),
+(1129877, 1003221, 'UY', 'Tacuarembó', 1, 'tacuarembo', -31.71694000, -55.98111000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003214, 'UY', 'Treinta y Tres Department', 1, 'treinta-y-tres-department');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1129868, 1003214, 'UY', 'Santa Clara de Olimar', 1, 'santa-clara-de-olimar', -32.92254000, -54.94447000),
+(1129883, 1003214, 'UY', 'Treinta y Tres', 1, 'treinta-y-tres', -33.23333000, -54.38333000),
+(1129887, 1003214, 'UY', 'Vergara', 1, 'vergara', -32.94419000, -53.93810000),
+(1129890, 1003214, 'UY', 'Villa Sara', 1, 'villa-sara', -33.25340000, -54.41947000);
 

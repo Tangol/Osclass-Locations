@@ -2,474 +2,439 @@ REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES
 ('MA', 'Morocco', 'morocco');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782777, 'ma', 'Grand Casablanca', 1, 'grand-casablanca');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511894, 782777, 'ma', 'Aïn Harrouda', 1, 'ain-harrouda'),
-(511895, 782777, 'ma', 'Ben Yakhlef', 1, 'ben-yakhlef'),
-(511896, 782777, 'ma', 'Bouskoura', 1, 'bouskoura'),
-(511897, 782777, 'ma', 'Casablanca', 1, 'casablanca'),
-(511898, 782777, 'ma', 'Médiouna', 1, 'mediouna'),
-(511899, 782777, 'ma', 'Mohammédia', 1, 'mohammedia'),
-(511900, 782777, 'ma', 'Tit Mellil', 1, 'tit-mellil');
+(1003320, 'MA', 'Al Haouz Province', 1, 'al-haouz-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782778, 'ma', 'Chaouia-Ouardigha', 1, 'chaouia-ouardigha');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511901, 782778, 'ma', 'Ben Yakhlef', 1, 'ben-yakhlef'),
-(511902, 782778, 'ma', 'Bejaâd', 1, 'bejaad'),
-(511903, 782778, 'ma', 'Ben Ahmed', 1, 'ben-ahmed'),
-(511904, 782778, 'ma', 'Benslimane', 1, 'benslimane'),
-(511905, 782778, 'ma', 'Berrechid', 1, 'berrechid'),
-(511906, 782778, 'ma', 'Boujniba', 1, 'boujniba'),
-(511907, 782778, 'ma', 'Boulanouare', 1, 'boulanouare'),
-(511908, 782778, 'ma', 'Bouznika', 1, 'bouznika'),
-(511909, 782778, 'ma', 'Deroua', 1, 'deroua'),
-(511910, 782778, 'ma', 'El Borouj', 1, 'el-borouj'),
-(511911, 782778, 'ma', 'El Gara', 1, 'el-gara'),
-(511912, 782778, 'ma', 'Guisser', 1, 'guisser'),
-(511913, 782778, 'ma', 'Hattane', 1, 'hattane'),
-(511914, 782778, 'ma', 'Khouribga', 1, 'khouribga'),
-(511915, 782778, 'ma', 'Loulad', 1, 'loulad'),
-(511916, 782778, 'ma', 'Oued Zem', 1, 'oued-zem'),
-(511917, 782778, 'ma', 'Oulad Abbou', 1, 'oulad-abbou'),
-(511918, 782778, 'ma', 'Oulad H\'Riz Sahel', 1, 'oulad-hriz-sahel'),
-(511919, 782778, 'ma', 'Oulad M\'rah', 1, 'oulad-mrah'),
-(511920, 782778, 'ma', 'Oulad Saïd', 1, 'oulad-said'),
-(511921, 782778, 'ma', 'Oulad Sidi Ben Daoud', 1, 'oulad-sidi-ben-daoud'),
-(511922, 782778, 'ma', 'Ras El Aïn', 1, 'ras-el-ain'),
-(511923, 782778, 'ma', 'Settat', 1, 'settat'),
-(511924, 782778, 'ma', 'Sidi Rahhal Chataï', 1, 'sidi-rahhal-chatai'),
-(511925, 782778, 'ma', 'Soualem', 1, 'soualem');
+(1003267, 'MA', 'Al Hoceïma Province', 1, 'al-hoceima-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782779, 'ma', 'Doukkala-Abda', 1, 'doukkala-abda');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511926, 782779, 'ma', 'Azemmour', 1, 'azemmour'),
-(511927, 782779, 'ma', 'Bir Jdid', 1, 'bir-jdid'),
-(511928, 782779, 'ma', 'Bouguedra', 1, 'bouguedra'),
-(511929, 782779, 'ma', 'Echemmaia', 1, 'echemmaia'),
-(511930, 782779, 'ma', 'El Jadida', 1, 'el-jadida'),
-(511931, 782779, 'ma', 'Hrara', 1, 'hrara'),
-(511932, 782779, 'ma', 'Ighoud', 1, 'ighoud'),
-(511933, 782779, 'ma', 'Jamâat Shaim', 1, 'jamaat-shaim'),
-(511934, 782779, 'ma', 'Jorf Lasfar', 1, 'jorf-lasfar'),
-(511935, 782779, 'ma', 'Khemis Zemamra', 1, 'khemis-zemamra'),
-(511936, 782779, 'ma', 'Laaounate', 1, 'laaounate'),
-(511937, 782779, 'ma', 'Moulay Abdallah', 1, 'moulay-abdallah'),
-(511938, 782779, 'ma', 'Oualidia', 1, 'oualidia'),
-(511939, 782779, 'ma', 'Oulad Amrane', 1, 'oulad-amrane'),
-(511940, 782779, 'ma', 'Oulad Frej', 1, 'oulad-frej'),
-(511941, 782779, 'ma', 'Oulad Ghadbane', 1, 'oulad-ghadbane'),
-(511942, 782779, 'ma', 'Safi', 1, 'safi'),
-(511943, 782779, 'ma', 'Sebt El Maârif', 1, 'sebt-el-maarif'),
-(511944, 782779, 'ma', 'Sebt Gzoula', 1, 'sebt-gzoula'),
-(511945, 782779, 'ma', 'Sidi Ahmed', 1, 'sidi-ahmed'),
-(511946, 782779, 'ma', 'Sidi Ali Ban Hamdouche', 1, 'sidi-ali-ban-hamdouche'),
-(511947, 782779, 'ma', 'Sidi Bennour', 1, 'sidi-bennour'),
-(511948, 782779, 'ma', 'Sidi Bouzid', 1, 'sidi-bouzid'),
-(511949, 782779, 'ma', 'Sidi Smaïl', 1, 'sidi-smail'),
-(511950, 782779, 'ma', 'Youssoufia', 1, 'youssoufia');
+(1003266, 'MA', 'Aousserd Province', 1, 'aousserd-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782780, 'ma', 'Fès-Boulemane', 1, 'fes-boulemane');
+(1003297, 'MA', 'Assa-Zag Province', 1, 'assa-zag-province');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511951, 782780, 'ma', 'Fès', 1, 'fes'),
-(511952, 782780, 'ma', 'Aïn Cheggag', 1, 'ain-cheggag'),
-(511953, 782780, 'ma', 'Bhalil', 1, 'bhalil'),
-(511954, 782780, 'ma', 'Boulemane', 1, 'boulemane'),
-(511955, 782780, 'ma', 'El Menzel', 1, 'el-menzel'),
-(511956, 782780, 'ma', 'Guigou', 1, 'guigou'),
-(511957, 782780, 'ma', 'Imouzzer Kandar', 1, 'imouzzer-kandar'),
-(511958, 782780, 'ma', 'Imouzzer Marmoucha', 1, 'imouzzer-marmoucha'),
-(511959, 782780, 'ma', 'Missour', 1, 'missour'),
-(511960, 782780, 'ma', 'Moulay Yaâcoub', 1, 'moulay-yaacoub'),
-(511961, 782780, 'ma', 'Ouled Tayeb', 1, 'ouled-tayeb'),
-(511962, 782780, 'ma', 'Outat El Haj', 1, 'outat-el-haj'),
-(511963, 782780, 'ma', 'Ribate El Kheir', 1, 'ribate-el-kheir'),
-(511964, 782780, 'ma', 'Séfrou', 1, 'sefrou'),
-(511965, 782780, 'ma', 'Skhinate', 1, 'skhinate'),
-(511966, 782780, 'ma', 'Tafajight', 1, 'tafajight');
-
-REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782781, 'ma', 'Gharb-Chrarda-Beni Hssen', 1, 'gharb-chrarda-beni-hssen');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511967, 782781, 'ma', 'Arbaoua', 1, 'arbaoua'),
-(511968, 782781, 'ma', 'Aïn Dorij', 1, 'ain-dorij'),
-(511969, 782781, 'ma', 'Dar Gueddari', 1, 'dar-gueddari'),
-(511970, 782781, 'ma', 'Had Kourt', 1, 'had-kourt'),
-(511971, 782781, 'ma', 'Jorf El Melha', 1, 'jorf-el-melha'),
-(511972, 782781, 'ma', 'Kénitra', 1, 'kenitra'),
-(511973, 782781, 'ma', 'Khenichet', 1, 'khenichet'),
-(511974, 782781, 'ma', 'Lalla Mimouna', 1, 'lalla-mimouna'),
-(511975, 782781, 'ma', 'Mechra Bel Ksiri', 1, 'mechra-bel-ksiri'),
-(511976, 782781, 'ma', 'Mehdia', 1, 'mehdia'),
-(511977, 782781, 'ma', 'Moulay Bousselham', 1, 'moulay-bousselham'),
-(511978, 782781, 'ma', 'Sidi Allal Tazi', 1, 'sidi-allal-tazi'),
-(511979, 782781, 'ma', 'Sidi Kacem', 1, 'sidi-kacem'),
-(511980, 782781, 'ma', 'Sidi Slimane', 1, 'sidi-slimane'),
-(511981, 782781, 'ma', 'Sidi Taibi', 1, 'sidi-taibi'),
-(511982, 782781, 'ma', 'Sidi Yahya El Gharb', 1, 'sidi-yahya-el-gharb'),
-(511983, 782781, 'ma', 'Souk El Arbaa', 1, 'souk-el-arbaa');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067046, 1003297, 'MA', 'Agadir', 1, 'agadir', 30.42018000, -9.59815000),
+(1067047, 1003297, 'MA', 'Agadir Melloul', 1, 'agadir-melloul', 30.22492000, -7.79601000),
+(1067048, 1003297, 'MA', 'Agadir-Ida-ou-Tnan', 1, 'agadir-ida-ou-tnan', 30.58333000, -9.50000000),
+(1067062, 1003297, 'MA', 'Aoulouz', 1, 'aoulouz', 30.67307000, -8.18087000),
+(1067063, 1003297, 'MA', 'Aourir', 1, 'aourir', 30.49238000, -9.63550000),
+(1067065, 1003297, 'MA', 'Arazane', 1, 'arazane', 30.50346000, -8.60637000),
+(1067068, 1003297, 'MA', 'Argana', 1, 'argana', 30.78250000, -9.11968000),
+(1067084, 1003297, 'MA', 'Bigoudine', 1, 'bigoudine', 30.72376000, -9.21097000),
+(1067102, 1003297, 'MA', 'Chtouka-Ait-Baha', 1, 'chtouka-ait-baha', 30.02948000, -9.30909000),
+(1067136, 1003297, 'MA', 'Inezgane', 1, 'inezgane', 30.35535000, -9.53639000),
+(1067137, 1003297, 'MA', 'Inezgane-Ait Melloul', 1, 'inezgane-ait-melloul', 30.10000000, -9.03333000),
+(1067185, 1003297, 'MA', 'Ouijjane', 1, 'ouijjane', 29.62777000, -9.53959000),
+(1067190, 1003297, 'MA', 'Oulad Teïma', 1, 'oulad-teima', 30.39467000, -9.20897000),
+(1067194, 1003297, 'MA', 'Reggada', 1, 'reggada', 29.58016000, -9.70086000),
+(1067208, 1003297, 'MA', 'Sidi Ifni', 1, 'sidi-ifni', 29.37975000, -10.17299000),
+(1067223, 1003297, 'MA', 'Tadrart', 1, 'tadrart', 30.77477000, -9.45951000),
+(1067224, 1003297, 'MA', 'Tafraout', 1, 'tafraout', 29.72449000, -8.97470000),
+(1067225, 1003297, 'MA', 'Taghazout', 1, 'taghazout', 30.54259000, -9.71115000),
+(1067227, 1003297, 'MA', 'Taliouine', 1, 'taliouine', 30.52917000, -7.91262000),
+(1067231, 1003297, 'MA', 'Tamri', 1, 'tamri', 30.69602000, -9.82972000),
+(1067233, 1003297, 'MA', 'Tanalt', 1, 'tanalt', 29.77548000, -9.16796000),
+(1067241, 1003297, 'MA', 'Taroudannt', 1, 'taroudannt', 30.50000000, -8.41667000),
+(1067242, 1003297, 'MA', 'Taroudant', 1, 'taroudant', 30.47028000, -8.87695000),
+(1067243, 1003297, 'MA', 'Tarsouat', 1, 'tarsouat', 29.58153000, -9.02664000),
+(1067244, 1003297, 'MA', 'Tata', 1, 'tata', 29.66667000, -7.83333000),
+(1067259, 1003297, 'MA', 'Tiznit', 1, 'tiznit', 29.58333000, -9.50000000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782782, 'ma', 'Guelmim-Es Semara', 1, 'guelmim-es-semara');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511984, 782782, 'ma', 'Akka', 1, 'akka'),
-(511985, 782782, 'ma', 'Assa', 1, 'assa'),
-(511986, 782782, 'ma', 'Bouizakarne', 1, 'bouizakarne'),
-(511987, 782782, 'ma', 'El Ouatia', 1, 'el-ouatia'),
-(511988, 782782, 'ma', 'Es-Semara', 1, 'es-semara'),
-(511989, 782782, 'ma', 'Fam El Hisn', 1, 'fam-el-hisn'),
-(511990, 782782, 'ma', 'Foum Zguid', 1, 'foum-zguid'),
-(511991, 782782, 'ma', 'Guelmim', 1, 'guelmim'),
-(511992, 782782, 'ma', 'Taghjijt', 1, 'taghjijt'),
-(511993, 782782, 'ma', 'Tan-Tan', 1, 'tan-tan'),
-(511994, 782782, 'ma', 'Tata', 1, 'tata'),
-(511995, 782782, 'ma', 'Zag', 1, 'zag');
+(1003321, 'MA', 'Azilal Province', 1, 'azilal-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782783, 'ma', 'Marrakech-Tensift-Al Haouz', 1, 'marrakech-tensift-al-haouz');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(511996, 782783, 'ma', 'Marrakech', 1, 'marrakech'),
-(511997, 782783, 'ma', 'Ait Daoud', 1, 'ait-daoud'),
-(511998, 782783, 'ma', 'Amizmiz', 1, 'amizmiz'),
-(511999, 782783, 'ma', 'Assahrij', 1, 'assahrij'),
-(512000, 782783, 'ma', 'Aït Ourir', 1, 'ait-ourir'),
-(512001, 782783, 'ma', 'Ben Guerir', 1, 'ben-guerir'),
-(512002, 782783, 'ma', 'Chichaoua', 1, 'chichaoua'),
-(512003, 782783, 'ma', 'El Hanchane', 1, 'el-hanchane'),
-(512004, 782783, 'ma', 'El Kelaâ des Sraghna', 1, 'el-kelaa-des-sraghna'),
-(512005, 782783, 'ma', 'Essaouira', 1, 'essaouira'),
-(512006, 782783, 'ma', 'Fraïta', 1, 'fraita'),
-(512007, 782783, 'ma', 'Ghmate', 1, 'ghmate'),
-(512008, 782783, 'ma', 'Ighounane', 1, 'ighounane'),
-(512009, 782783, 'ma', 'Imintanoute', 1, 'imintanoute'),
-(512010, 782783, 'ma', 'Kattara', 1, 'kattara'),
-(512011, 782783, 'ma', 'Lalla Takerkoust', 1, 'lalla-takerkoust'),
-(512012, 782783, 'ma', 'Loudaya', 1, 'loudaya'),
-(512013, 782783, 'ma', 'Lâattaouia', 1, 'laattaouia'),
-(512014, 782783, 'ma', 'Moulay Brahim', 1, 'moulay-brahim'),
-(512015, 782783, 'ma', 'Mzouda', 1, 'mzouda'),
-(512016, 782783, 'ma', 'Ounagha', 1, 'ounagha'),
-(512017, 782783, 'ma', 'Sid L\'Mokhtar', 1, 'sid-lmokhtar'),
-(512018, 782783, 'ma', 'Sid Zouin', 1, 'sid-zouin'),
-(512019, 782783, 'ma', 'Sidi Abdallah Ghiat', 1, 'sidi-abdallah-ghiat'),
-(512020, 782783, 'ma', 'Sidi Bou Othmane', 1, 'sidi-bou-othmane'),
-(512021, 782783, 'ma', 'Sidi Rahhal', 1, 'sidi-rahhal'),
-(512022, 782783, 'ma', 'Skhour Rehamna', 1, 'skhour-rehamna'),
-(512023, 782783, 'ma', 'Smimou', 1, 'smimou'),
-(512024, 782783, 'ma', 'Tafetachte', 1, 'tafetachte'),
-(512025, 782783, 'ma', 'Tahannaout', 1, 'tahannaout'),
-(512026, 782783, 'ma', 'Talmest', 1, 'talmest'),
-(512027, 782783, 'ma', 'Tamallalt', 1, 'tamallalt'),
-(512028, 782783, 'ma', 'Tamanar', 1, 'tamanar'),
-(512029, 782783, 'ma', 'Tamansourt', 1, 'tamansourt'),
-(512030, 782783, 'ma', 'Tameslouht', 1, 'tameslouht'),
-(512031, 782783, 'ma', 'Tanalt', 1, 'tanalt'),
-(512032, 782783, 'ma', 'Zeubelemok', 1, 'zeubelemok');
+(1003304, 'MA', 'Ben Slimane Province', 1, 'ben-slimane-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782784, 'ma', 'Meknès-Tafilalet', 1, 'meknes-tafilalet');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512033, 782784, 'ma', 'Meknès‎', 1, 'meknes'),
-(512034, 782784, 'ma', 'Khénifra', 1, 'khenifra'),
-(512035, 782784, 'ma', 'Agourai', 1, 'agourai'),
-(512036, 782784, 'ma', 'Ain Taoujdate', 1, 'ain-taoujdate'),
-(512037, 782784, 'ma', 'MyAliCherif', 1, 'myalicherif'),
-(512038, 782784, 'ma', 'Rissani', 1, 'rissani'),
-(512039, 782784, 'ma', 'Amalou Ighriben', 1, 'amalou-ighriben'),
-(512040, 782784, 'ma', 'Aoufous', 1, 'aoufous'),
-(512041, 782784, 'ma', 'Arfoud', 1, 'arfoud'),
-(512042, 782784, 'ma', 'Azrou', 1, 'azrou'),
-(512043, 782784, 'ma', 'Aïn Jemaa', 1, 'ain-jemaa'),
-(512044, 782784, 'ma', 'Aïn Karma', 1, 'ain-karma'),
-(512045, 782784, 'ma', 'Aïn Leuh', 1, 'ain-leuh'),
-(512046, 782784, 'ma', 'Aït Boubidmane', 1, 'ait-boubidmane'),
-(512047, 782784, 'ma', 'Aït Ishaq', 1, 'ait-ishaq'),
-(512048, 782784, 'ma', 'Boudnib', 1, 'boudnib'),
-(512049, 782784, 'ma', 'Boufakrane', 1, 'boufakrane'),
-(512050, 782784, 'ma', 'Boumia', 1, 'boumia'),
-(512051, 782784, 'ma', 'El Hajeb', 1, 'el-hajeb'),
-(512052, 782784, 'ma', 'Elkbab', 1, 'elkbab'),
-(512053, 782784, 'ma', 'Er-Rich', 1, 'er-rich'),
-(512054, 782784, 'ma', 'Errachidia', 1, 'errachidia'),
-(512055, 782784, 'ma', 'Gardmit', 1, 'gardmit'),
-(512056, 782784, 'ma', 'Goulmima', 1, 'goulmima'),
-(512057, 782784, 'ma', 'Gourrama', 1, 'gourrama'),
-(512058, 782784, 'ma', 'Had Bouhssoussen', 1, 'had-bouhssoussen'),
-(512059, 782784, 'ma', 'Haj Kaddour', 1, 'haj-kaddour'),
-(512060, 782784, 'ma', 'Ifrane', 1, 'ifrane'),
-(512061, 782784, 'ma', 'Itzer', 1, 'itzer'),
-(512062, 782784, 'ma', 'Jorf', 1, 'jorf'),
-(512063, 782784, 'ma', 'Kehf Nsour', 1, 'kehf-nsour'),
-(512064, 782784, 'ma', 'Kerrouchen', 1, 'kerrouchen'),
-(512065, 782784, 'ma', 'M\'haya', 1, 'mhaya'),
-(512066, 782784, 'ma', 'M\'rirt', 1, 'mrirt'),
-(512067, 782784, 'ma', 'Midelt', 1, 'midelt'),
-(512068, 782784, 'ma', 'Moulay Ali Cherif', 1, 'moulay-ali-cherif'),
-(512069, 782784, 'ma', 'Moulay Bouazza', 1, 'moulay-bouazza'),
-(512070, 782784, 'ma', 'Moulay Idriss Zerhoun', 1, 'moulay-idriss-zerhoun'),
-(512071, 782784, 'ma', 'Moussaoua', 1, 'moussaoua'),
-(512072, 782784, 'ma', 'N\'Zalat Bni Amar', 1, 'nzalat-bni-amar'),
-(512073, 782784, 'ma', 'Ouaoumana', 1, 'ouaoumana'),
-(512074, 782784, 'ma', 'Oued Ifrane', 1, 'oued-ifrane'),
-(512075, 782784, 'ma', 'Sabaa Aiyoun', 1, 'sabaa-aiyoun'),
-(512076, 782784, 'ma', 'Sebt Jahjouh', 1, 'sebt-jahjouh'),
-(512077, 782784, 'ma', 'Sidi Addi', 1, 'sidi-addi'),
-(512078, 782784, 'ma', 'Tichoute', 1, 'tichoute'),
-(512079, 782784, 'ma', 'Tighassaline', 1, 'tighassaline'),
-(512080, 782784, 'ma', 'Tighza', 1, 'tighza'),
-(512081, 782784, 'ma', 'Timahdite', 1, 'timahdite'),
-(512082, 782784, 'ma', 'Tinejdad', 1, 'tinejdad'),
-(512083, 782784, 'ma', 'Tizguite', 1, 'tizguite'),
-(512084, 782784, 'ma', 'Toulal', 1, 'toulal'),
-(512085, 782784, 'ma', 'Tounfite', 1, 'tounfite'),
-(512086, 782784, 'ma', 'Zaouia d\'Ifrane', 1, 'zaouia-difrane'),
-(512087, 782784, 'ma', 'Zaïda', 1, 'zaida');
+(1003278, 'MA', 'Béni Mellal-Khénifra', 1, 'beni-mellal-khenifra');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782785, 'ma', 'l\'Oriental', 1, 'loriental');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512088, 782785, 'ma', 'Ahfir', 1, 'ahfir'),
-(512089, 782785, 'ma', 'Aklim', 1, 'aklim'),
-(512090, 782785, 'ma', 'Al Aroui', 1, 'al-aroui'),
-(512091, 782785, 'ma', 'Aïn Bni Mathar', 1, 'ain-bni-mathar'),
-(512092, 782785, 'ma', 'Aïn Erreggada', 1, 'ain-erreggada'),
-(512093, 782785, 'ma', 'Ben Taïeb', 1, 'ben-taieb'),
-(512094, 782785, 'ma', 'Berkane', 1, 'berkane'),
-(512095, 782785, 'ma', 'Bni Ansar', 1, 'bni-ansar'),
-(512096, 782785, 'ma', 'Bni Chiker', 1, 'bni-chiker'),
-(512097, 782785, 'ma', 'Bni Drar', 1, 'bni-drar'),
-(512098, 782785, 'ma', 'Bni Tadjite', 1, 'bni-tadjite'),
-(512099, 782785, 'ma', 'Bouanane', 1, 'bouanane'),
-(512100, 782785, 'ma', 'Bouarfa', 1, 'bouarfa'),
-(512101, 782785, 'ma', 'Bouhdila', 1, 'bouhdila'),
-(512102, 782785, 'ma', 'Dar El Kebdani', 1, 'dar-el-kebdani'),
-(512103, 782785, 'ma', 'Debdou', 1, 'debdou'),
-(512104, 782785, 'ma', 'Douar Kannine', 1, 'douar-kannine'),
-(512105, 782785, 'ma', 'Driouch', 1, 'driouch'),
-(512106, 782785, 'ma', 'El Aïoun Sidi Mellouk', 1, 'el-aioun-sidi-mellouk'),
-(512107, 782785, 'ma', 'Farkhana', 1, 'farkhana'),
-(512108, 782785, 'ma', 'Figuig', 1, 'figuig'),
-(512109, 782785, 'ma', 'Ihddaden', 1, 'ihddaden'),
-(512110, 782785, 'ma', 'Jaâdar', 1, 'jaadar'),
-(512111, 782785, 'ma', 'Jerada', 1, 'jerada'),
-(512112, 782785, 'ma', 'Kariat Arekmane', 1, 'kariat-arekmane'),
-(512113, 782785, 'ma', 'Kassita', 1, 'kassita'),
-(512114, 782785, 'ma', 'Kerouna', 1, 'kerouna'),
-(512115, 782785, 'ma', 'Laâtamna', 1, 'laatamna'),
-(512116, 782785, 'ma', 'Madagh', 1, 'madagh'),
-(512117, 782785, 'ma', 'Midar', 1, 'midar'),
-(512118, 782785, 'ma', 'Nador', 1, 'nador'),
-(512119, 782785, 'ma', 'Naima', 1, 'naima'),
-(512120, 782785, 'ma', 'Oued Heimer', 1, 'oued-heimer'),
-(512121, 782785, 'ma', 'Oujda', 1, 'oujda'),
-(512122, 782785, 'ma', 'Ras El Ma', 1, 'ras-el-ma'),
-(512123, 782785, 'ma', 'Saïdia', 1, 'saidia'),
-(512124, 782785, 'ma', 'Selouane', 1, 'selouane'),
-(512125, 782785, 'ma', 'Sidi Boubker', 1, 'sidi-boubker'),
-(512126, 782785, 'ma', 'Sidi Slimane Echcharaa', 1, 'sidi-slimane-echcharaa'),
-(512127, 782785, 'ma', 'Talsint', 1, 'talsint'),
-(512128, 782785, 'ma', 'Taourirt', 1, 'taourirt'),
-(512129, 782785, 'ma', 'Tendrara', 1, 'tendrara'),
-(512130, 782785, 'ma', 'Tiztoutine', 1, 'tiztoutine'),
-(512131, 782785, 'ma', 'Touima', 1, 'touima'),
-(512132, 782785, 'ma', 'Touissit', 1, 'touissit'),
-(512133, 782785, 'ma', 'Zaïo', 1, 'zaio'),
-(512134, 782785, 'ma', 'Zeghanghane', 1, 'zeghanghane');
+(1003272, 'MA', 'Béni-Mellal Province', 1, 'beni-mellal-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782786, 'ma', 'Rabat-Salé-Zemmour-Zaër', 1, 'rabat-sale-zemmour-zaer');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512135, 782786, 'ma', 'Rabat', 1, 'rabat'),
-(512136, 782786, 'ma', 'Salé', 1, 'sale'),
-(512137, 782786, 'ma', 'Ain El Aouda', 1, 'ain-el-aouda'),
-(512138, 782786, 'ma', 'Harhoura', 1, 'harhoura'),
-(512139, 782786, 'ma', 'Khémisset', 1, 'khemisset'),
-(512140, 782786, 'ma', 'Oulmès', 1, 'oulmes'),
-(512141, 782786, 'ma', 'Rommani', 1, 'rommani'),
-(512142, 782786, 'ma', 'Sidi Allal El Bahraoui', 1, 'sidi-allal-el-bahraoui'),
-(512143, 782786, 'ma', 'Sidi Bouknadel', 1, 'sidi-bouknadel'),
-(512144, 782786, 'ma', 'Skhirat', 1, 'skhirat'),
-(512145, 782786, 'ma', 'Tamesna', 1, 'tamesna'),
-(512146, 782786, 'ma', 'Témara', 1, 'temara'),
-(512147, 782786, 'ma', 'Tiddas', 1, 'tiddas'),
-(512148, 782786, 'ma', 'Tiflet', 1, 'tiflet'),
-(512149, 782786, 'ma', 'Touarga', 1, 'touarga');
+(1003285, 'MA', 'Berkane Province', 1, 'berkane-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782787, 'ma', 'Souss-Massa-Draâ', 1, 'souss-massa-draa');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512150, 782787, 'ma', 'Agadir', 1, 'agadir'),
-(512151, 782787, 'ma', 'Agdz', 1, 'agdz'),
-(512152, 782787, 'ma', 'Agni Izimmer', 1, 'agni-izimmer'),
-(512153, 782787, 'ma', 'Aït Melloul', 1, 'ait-melloul'),
-(512154, 782787, 'ma', 'Alnif', 1, 'alnif'),
-(512155, 782787, 'ma', 'Anzi', 1, 'anzi'),
-(512156, 782787, 'ma', 'Aoulouz', 1, 'aoulouz'),
-(512157, 782787, 'ma', 'Aourir', 1, 'aourir'),
-(512158, 782787, 'ma', 'Arazane', 1, 'arazane'),
-(512159, 782787, 'ma', 'Aït Baha', 1, 'ait-baha'),
-(512160, 782787, 'ma', 'Aït Iaâza', 1, 'ait-iaaza'),
-(512161, 782787, 'ma', 'Aït Yalla', 1, 'ait-yalla'),
-(512162, 782787, 'ma', 'Ben Sergao', 1, 'ben-sergao'),
-(512163, 782787, 'ma', 'Biougra', 1, 'biougra'),
-(512164, 782787, 'ma', 'Boumalne-Dadès', 1, 'boumalne-dades'),
-(512165, 782787, 'ma', 'Dcheira El Jihadia', 1, 'dcheira-el-jihadia'),
-(512166, 782787, 'ma', 'Drargua', 1, 'drargua'),
-(512167, 782787, 'ma', 'El Guerdane', 1, 'el-guerdane'),
-(512168, 782787, 'ma', 'Harte Lyamine', 1, 'harte-lyamine'),
-(512169, 782787, 'ma', 'Ida Ougnidif', 1, 'ida-ougnidif'),
-(512170, 782787, 'ma', 'Ifri', 1, 'ifri'),
-(512171, 782787, 'ma', 'Igdamen', 1, 'igdamen'),
-(512172, 782787, 'ma', 'Ighil n\'Oumgoun', 1, 'ighil-noumgoun'),
-(512173, 782787, 'ma', 'Imassine', 1, 'imassine'),
-(512174, 782787, 'ma', 'Inezgane', 1, 'inezgane'),
-(512175, 782787, 'ma', 'Irherm', 1, 'irherm'),
-(512176, 782787, 'ma', 'Kelaat-M\'Gouna', 1, 'kelaat-mgouna'),
-(512177, 782787, 'ma', 'Lakhsas', 1, 'lakhsas'),
-(512178, 782787, 'ma', 'Lakhsass', 1, 'lakhsass'),
-(512179, 782787, 'ma', 'Lqliâa', 1, 'lqliaa'),
-(512180, 782787, 'ma', 'M\'semrir', 1, 'msemrir'),
-(512181, 782787, 'ma', 'Massa (Maroc)', 1, 'massa-maroc'),
-(512182, 782787, 'ma', 'Megousse', 1, 'megousse'),
-(512183, 782787, 'ma', 'Ouarzazate', 1, 'ouarzazate'),
-(512184, 782787, 'ma', 'Oulad Berhil', 1, 'oulad-berhil'),
-(512185, 782787, 'ma', 'Oulad Teïma', 1, 'oulad-teima'),
-(512186, 782787, 'ma', 'Sarghine', 1, 'sarghine'),
-(512187, 782787, 'ma', 'Sidi Ifni', 1, 'sidi-ifni'),
-(512188, 782787, 'ma', 'Skoura', 1, 'skoura'),
-(512189, 782787, 'ma', 'Tabounte', 1, 'tabounte'),
-(512190, 782787, 'ma', 'Tafraout', 1, 'tafraout'),
-(512191, 782787, 'ma', 'Taghzout', 1, 'taghzout'),
-(512192, 782787, 'ma', 'Tagzen', 1, 'tagzen'),
-(512193, 782787, 'ma', 'Taliouine', 1, 'taliouine'),
-(512194, 782787, 'ma', 'Tamegroute', 1, 'tamegroute'),
-(512195, 782787, 'ma', 'Tamraght', 1, 'tamraght'),
-(512196, 782787, 'ma', 'Tanoumrite Nkob Zagora', 1, 'tanoumrite-nkob-zagora'),
-(512197, 782787, 'ma', 'Taourirt ait zaghar', 1, 'taourirt-ait-zaghar'),
-(512198, 782787, 'ma', 'Taroudant', 1, 'taroudant'),
-(512199, 782787, 'ma', 'Temsia', 1, 'temsia'),
-(512200, 782787, 'ma', 'Tifnit', 1, 'tifnit'),
-(512201, 782787, 'ma', 'Tisgdal', 1, 'tisgdal'),
-(512202, 782787, 'ma', 'Tiznit', 1, 'tiznit'),
-(512203, 782787, 'ma', 'Toundoute', 1, 'toundoute'),
-(512204, 782787, 'ma', 'Zagora', 1, 'zagora');
+(1003275, 'MA', 'Boujdour Province', 1, 'boujdour-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782788, 'ma', 'Tadla-Azilal', 1, 'tadla-azilal');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512205, 782788, 'ma', 'Afourar', 1, 'afourar'),
-(512206, 782788, 'ma', 'Aghbala', 1, 'aghbala'),
-(512207, 782788, 'ma', 'Azilal', 1, 'azilal'),
-(512208, 782788, 'ma', 'Aït Majden', 1, 'ait-majden'),
-(512209, 782788, 'ma', 'Beni Ayat', 1, 'beni-ayat'),
-(512210, 782788, 'ma', 'Béni Mellal', 1, 'beni-mellal'),
-(512211, 782788, 'ma', 'Bin elouidane', 1, 'bin-elouidane'),
-(512212, 782788, 'ma', 'Bradia', 1, 'bradia'),
-(512213, 782788, 'ma', 'Bzou', 1, 'bzou'),
-(512214, 782788, 'ma', 'Dar Oulad Zidouh', 1, 'dar-oulad-zidouh'),
-(512215, 782788, 'ma', 'Demnate', 1, 'demnate'),
-(512216, 782788, 'ma', 'Dra\'a', 1, 'draa'),
-(512217, 782788, 'ma', 'El Ksiba', 1, 'el-ksiba'),
-(512218, 782788, 'ma', 'Foum Jamaa', 1, 'foum-jamaa'),
-(512219, 782788, 'ma', 'Fquih Ben Salah', 1, 'fquih-ben-salah'),
-(512220, 782788, 'ma', 'Kasba Tadla', 1, 'kasba-tadla'),
-(512221, 782788, 'ma', 'Ouaouizeght', 1, 'ouaouizeght'),
-(512222, 782788, 'ma', 'Oulad Ayad', 1, 'oulad-ayad'),
-(512223, 782788, 'ma', 'Oulad M\'Barek', 1, 'oulad-mbarek'),
-(512224, 782788, 'ma', 'Oulad Yaich', 1, 'oulad-yaich'),
-(512225, 782788, 'ma', 'Sidi Jaber', 1, 'sidi-jaber'),
-(512226, 782788, 'ma', 'Souk Sebt Oulad Nemma', 1, 'souk-sebt-oulad-nemma'),
-(512227, 782788, 'ma', 'Zaouïat Cheikh', 1, 'zaouiat-cheikh');
+(1003270, 'MA', 'Boulemane Province', 1, 'boulemane-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782789, 'ma', 'Tanger-Tétouan', 1, 'tanger-tetouan');
+(1003303, 'MA', 'Casablanca-Settat', 1, 'casablanca-settat');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512228, 782789, 'ma', 'Tanger‎', 1, 'tanger'),
-(512229, 782789, 'ma', 'Tétouan‎', 1, 'tetouan'),
-(512230, 782789, 'ma', 'Akchour', 1, 'akchour'),
-(512231, 782789, 'ma', 'Assilah', 1, 'assilah'),
-(512232, 782789, 'ma', 'Bab Berred', 1, 'bab-berred'),
-(512233, 782789, 'ma', 'Bab Taza', 1, 'bab-taza'),
-(512234, 782789, 'ma', 'Brikcha', 1, 'brikcha'),
-(512235, 782789, 'ma', 'Chefchaouen', 1, 'chefchaouen'),
-(512236, 782789, 'ma', 'Dar Bni Karrich', 1, 'dar-bni-karrich'),
-(512237, 782789, 'ma', 'Dar Chaoui', 1, 'dar-chaoui'),
-(512238, 782789, 'ma', 'Fnideq', 1, 'fnideq'),
-(512239, 782789, 'ma', 'Gueznaia', 1, 'gueznaia'),
-(512240, 782789, 'ma', 'Jebha', 1, 'jebha'),
-(512241, 782789, 'ma', 'Karia', 1, 'karia'),
-(512242, 782789, 'ma', 'Khémis Sahel', 1, 'khemis-sahel'),
-(512243, 782789, 'ma', 'Ksar El Kébir', 1, 'ksar-el-kebir'),
-(512244, 782789, 'ma', 'Larache', 1, 'larache'),
-(512245, 782789, 'ma', 'M\'diq', 1, 'mdiq'),
-(512246, 782789, 'ma', 'Martil', 1, 'martil'),
-(512247, 782789, 'ma', 'Moqrisset', 1, 'moqrisset'),
-(512248, 782789, 'ma', 'Oued Laou', 1, 'oued-laou'),
-(512249, 782789, 'ma', 'Oued Rmel', 1, 'oued-rmel'),
-(512250, 782789, 'ma', 'Ouezzane', 1, 'ouezzane'),
-(512251, 782789, 'ma', 'Point Cires', 1, 'point-cires'),
-(512252, 782789, 'ma', 'Sidi Lyamani', 1, 'sidi-lyamani'),
-(512253, 782789, 'ma', 'Sidi Mohamed ben Abdallah el-Raisuni', 1, 'sidi-mohamed-ben-abdallah-el-raisuni'),
-(512254, 782789, 'ma', 'Zinat', 1, 'zinat');
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067071, 1003303, 'MA', 'Azemmour', 1, 'azemmour', 33.28952000, -8.34250000),
+(1067079, 1003303, 'MA', 'Benslimane', 1, 'benslimane', 33.50000000, -7.16667000),
+(1067081, 1003303, 'MA', 'Berrechid', 1, 'berrechid', 33.26553000, -7.58754000),
+(1067082, 1003303, 'MA', 'Berrechid Province', 1, 'berrechid-province', 33.26582000, -7.58142000),
+(1067091, 1003303, 'MA', 'Boulaouane', 1, 'boulaouane', 32.85995000, -8.05555000),
+(1067093, 1003303, 'MA', 'Bouskoura', 1, 'bouskoura', 33.44976000, -7.65239000),
+(1067094, 1003303, 'MA', 'Bouznika', 1, 'bouznika', 33.78942000, -7.15968000),
+(1067098, 1003303, 'MA', 'Casablanca', 1, 'casablanca', 33.58840000, -7.55785000),
+(1067110, 1003303, 'MA', 'El Jadid', 1, 'el-jadid', 33.25682000, -8.50882000),
+(1067113, 1003303, 'MA', 'El-Jadida', 1, 'el-jadida', 32.90000000, -8.50000000),
+(1067162, 1003303, 'MA', 'Mediouna', 1, 'mediouna', 33.52012000, -7.50350000),
+(1067170, 1003303, 'MA', 'Mohammedia', 1, 'mohammedia', 33.68607000, -7.38298000),
+(1067174, 1003303, 'MA', 'Nouaceur', 1, 'nouaceur', 33.45839000, -7.64726000),
+(1067175, 1003303, 'MA', 'Oualidia', 1, 'oualidia', 32.73372000, -9.03059000),
+(1067188, 1003303, 'MA', 'Oulad Frej', 1, 'oulad-frej', 32.95956000, -8.22740000),
+(1067203, 1003303, 'MA', 'Settat', 1, 'settat', 33.00103000, -7.61662000),
+(1067204, 1003303, 'MA', 'Settat Province', 1, 'settat-province', 33.08333000, -7.41667000),
+(1067206, 1003303, 'MA', 'Sidi Bennour', 1, 'sidi-bennour', 32.64896000, -8.42686000),
+(1067215, 1003303, 'MA', 'Sidi Smai’il', 1, 'sidi-smai-il', 32.82461000, -8.51122000),
+(1067258, 1003303, 'MA', 'Tit Mellil', 1, 'tit-mellil', 33.55808000, -7.48647000),
+(1067265, 1003303, 'MA', 'Zawyat an Nwaçer', 1, 'zawyat-an-nwacer', 33.37981000, -7.61932000);
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782790, 'ma', 'Taza-Al Hoceïma-Taounate', 1, 'taza-al-hoceima-taounate');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512255, 782790, 'ma', 'Ajdir‎', 1, 'ajdir'),
-(512256, 782790, 'ma', 'Aknoul‎', 1, 'aknoul'),
-(512257, 782790, 'ma', 'Al Hoceïma‎', 1, 'al-hoceima'),
-(512258, 782790, 'ma', 'Aït Hichem‎', 1, 'ait-hichem'),
-(512259, 782790, 'ma', 'Bni Bouayach‎', 1, 'bni-bouayach'),
-(512260, 782790, 'ma', 'Bni Hadifa‎', 1, 'bni-hadifa'),
-(512261, 782790, 'ma', 'Ghafsai‎', 1, 'ghafsai'),
-(512262, 782790, 'ma', 'Guercif‎', 1, 'guercif'),
-(512263, 782790, 'ma', 'Imzouren‎', 1, 'imzouren'),
-(512264, 782790, 'ma', 'Inahnahen‎', 1, 'inahnahen'),
-(512265, 782790, 'ma', 'Issaguen (Ketama)‎', 1, 'issaguen-ketama'),
-(512266, 782790, 'ma', 'Karia (El Jadida)‎', 1, 'karia-el-jadida'),
-(512267, 782790, 'ma', 'Karia Ba Mohamed‎', 1, 'karia-ba-mohamed'),
-(512268, 782790, 'ma', 'Oued Amlil‎', 1, 'oued-amlil'),
-(512269, 782790, 'ma', 'Oulad Zbair‎', 1, 'oulad-zbair'),
-(512270, 782790, 'ma', 'Tahla‎', 1, 'tahla'),
-(512271, 782790, 'ma', 'Tala Tazegwaght‎', 1, 'tala-tazegwaght'),
-(512272, 782790, 'ma', 'Tamassint‎', 1, 'tamassint'),
-(512273, 782790, 'ma', 'Taounate‎', 1, 'taounate'),
-(512274, 782790, 'ma', 'Targuist‎', 1, 'targuist'),
-(512275, 782790, 'ma', 'Taza‎', 1, 'taza'),
-(512276, 782790, 'ma', 'Taïnaste‎', 1, 'tainaste'),
-(512277, 782790, 'ma', 'Thar Es-Souk‎', 1, 'thar-es-souk'),
-(512278, 782790, 'ma', 'Tissa‎', 1, 'tissa'),
-(512279, 782790, 'ma', 'Tizi Ouasli‎', 1, 'tizi-ouasli');
+(1003310, 'MA', 'Chefchaouen Province', 1, 'chefchaouen-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782791, 'ma', 'Laayoune-Boujdour-Sakia-Hamra', 1, 'laayoune-boujdour-sakia-hamra');
-
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512280, 782791, 'ma', 'Laayoune‎', 1, 'laayoune'),
-(512281, 782791, 'ma', 'El Marsa‎', 1, 'el-marsa'),
-(512282, 782791, 'ma', 'Tarfaya‎', 1, 'tarfaya'),
-(512283, 782791, 'ma', 'Boujdour‎', 1, 'boujdour');
+(1003274, 'MA', 'Chichaoua Province', 1, 'chichaoua-province');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(782792, 'ma', 'Oued-Eddahab-Lagouira', 1, 'oued-eddahab-lagouira');
+(1003306, 'MA', 'Dakhla-Oued Ed-Dahab', 1, 'dakhla-oued-ed-dahab');
 
-REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
-(512284, 782792, 'ma', 'Awsard', 1, 'awsard'),
-(512285, 782792, 'ma', 'Oued-Eddahab ', 1, 'oued-eddahab');
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003290, 'MA', 'Drâa-Tafilalet', 1, 'draa-tafilalet');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067049, 1003290, 'MA', 'Agdz', 1, 'agdz', 30.69356000, -6.44628000),
+(1067060, 1003290, 'MA', 'Alnif', 1, 'alnif', 31.11411000, -5.17154000),
+(1067061, 1003290, 'MA', 'Aoufous', 1, 'aoufous', 31.68000000, -4.17000000),
+(1067067, 1003290, 'MA', 'Arfoud', 1, 'arfoud', 31.43530000, -4.23258000),
+(1067114, 1003290, 'MA', 'Errachidia', 1, 'errachidia', 31.75000000, -4.50000000),
+(1067133, 1003290, 'MA', 'Imilchil', 1, 'imilchil', 32.15309000, -5.62453000),
+(1067140, 1003290, 'MA', 'Jebel Tiskaouine', 1, 'jebel-tiskaouine', 31.02722000, -5.11643000),
+(1067142, 1003290, 'MA', 'Jorf', 1, 'jorf', 31.49442000, -4.40598000),
+(1067145, 1003290, 'MA', 'Kelaat Mgouna', 1, 'kelaat-mgouna', 31.24573000, -6.13260000),
+(1067165, 1003290, 'MA', 'Mhamid', 1, 'mhamid', 29.82000000, -5.72000000),
+(1067168, 1003290, 'MA', 'Midelt', 1, 'midelt', 32.68055000, -4.73691000),
+(1067177, 1003290, 'MA', 'Ouarzazat', 1, 'ouarzazat', 30.91894000, -6.89341000),
+(1067178, 1003290, 'MA', 'Ouarzazate', 1, 'ouarzazate', 30.94130000, -6.90285000),
+(1067196, 1003290, 'MA', 'Reçani', 1, 'recani', 31.28318000, -4.26565000),
+(1067246, 1003290, 'MA', 'Taznakht', 1, 'taznakht', 30.57836000, -7.20341000),
+(1067247, 1003290, 'MA', 'Telouet', 1, 'telouet', 31.28925000, -7.23789000),
+(1067255, 1003290, 'MA', 'Tinghir', 1, 'tinghir', 31.51472000, -5.53278000),
+(1067256, 1003290, 'MA', 'Tinghir Province', 1, 'tinghir-province', 31.51965000, -5.52999000),
+(1067264, 1003290, 'MA', 'Zagora', 1, 'zagora', 30.34839000, -5.83649000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003291, 'MA', 'El Hajeb Province', 1, 'el-hajeb-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003280, 'MA', 'El Jadida Province', 1, 'el-jadida-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003299, 'MA', 'Errachidia Province', 1, 'errachidia-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003292, 'MA', 'Es Semara Province', 1, 'es-semara-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003316, 'MA', 'Essaouira Province', 1, 'essaouira-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003300, 'MA', 'Fahs Anjra Province', 1, 'fahs-anjra-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003313, 'MA', 'Fès-Meknès', 1, 'fes-meknes');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067076, 1003313, 'MA', 'Aïn Leuh', 1, 'ain-leuh', 33.28984000, -5.33863000),
+(1067053, 1003313, 'MA', 'Aknoul', 1, 'aknoul', 34.65371000, -3.86754000),
+(1067059, 1003313, 'MA', 'Almis Marmoucha', 1, 'almis-marmoucha', 33.32000000, -4.18000000),
+(1067074, 1003313, 'MA', 'Azrou', 1, 'azrou', 33.43443000, -5.22126000),
+(1067083, 1003313, 'MA', 'Bhalil', 1, 'bhalil', 33.85194000, -4.87228000),
+(1067088, 1003313, 'MA', 'Bouarouss', 1, 'bouarouss', 34.36000000, -4.81000000),
+(1067092, 1003313, 'MA', 'Boulemane', 1, 'boulemane', 33.16667000, -4.00000000),
+(1067109, 1003313, 'MA', 'El Hajeb', 1, 'el-hajeb', 33.68786000, -5.37100000),
+(1067112, 1003313, 'MA', 'El-Hajeb', 1, 'el-hajeb', 33.72883000, -5.46119000),
+(1067118, 1003313, 'MA', 'Fes', 1, 'fes', 34.04000000, -4.87000000),
+(1067122, 1003313, 'MA', 'Fès', 1, 'fes', 34.03313000, -5.00028000),
+(1067123, 1003313, 'MA', 'Fès al Bali', 1, 'fes-al-bali', 34.07010000, -4.95473000),
+(1067124, 1003313, 'MA', 'Galaz', 1, 'galaz', 34.54424000, -4.80355000),
+(1067125, 1003313, 'MA', 'Ghouazi', 1, 'ghouazi', 34.47737000, -5.30235000),
+(1067128, 1003313, 'MA', 'Guercif', 1, 'guercif', 34.22568000, -3.35361000),
+(1067132, 1003313, 'MA', 'Ifrane', 1, 'ifrane', 33.33333000, -5.25000000),
+(1067163, 1003313, 'MA', 'Meknes', 1, 'meknes', 33.97761000, -5.52496000),
+(1067164, 1003313, 'MA', 'Meknès', 1, 'meknes', 33.89352000, -5.54727000),
+(1067169, 1003313, 'MA', 'Missour', 1, 'missour', 33.04893000, -3.98947000),
+(1067171, 1003313, 'MA', 'Moulay Bouchta', 1, 'moulay-bouchta', 34.48922000, -5.13023000),
+(1067172, 1003313, 'MA', 'Moulay-Yacoub', 1, 'moulay-yacoub', 34.14558000, -5.10259000),
+(1067179, 1003313, 'MA', 'Oued Amlil', 1, 'oued-amlil', 34.20000000, -4.28000000),
+(1067189, 1003313, 'MA', 'Oulad Tayeb', 1, 'oulad-tayeb', 33.94633000, -4.99509000),
+(1067192, 1003313, 'MA', 'Ourtzagh', 1, 'ourtzagh', 34.53477000, -4.96878000),
+(1067200, 1003313, 'MA', 'Sefrou', 1, 'sefrou', 33.79979000, -4.68000000),
+(1067226, 1003313, 'MA', 'Tahla', 1, 'tahla', 34.04965000, -4.42162000),
+(1067228, 1003313, 'MA', 'Talzemt', 1, 'talzemt', 33.59000000, -4.19000000),
+(1067237, 1003313, 'MA', 'Taounate', 1, 'taounate', 34.50000000, -4.83333000),
+(1067245, 1003313, 'MA', 'Taza', 1, 'taza', 34.25000000, -3.75000000),
+(1067261, 1003313, 'MA', 'Tmourghout', 1, 'tmourghout', 33.90650000, -4.02696000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003301, 'MA', 'Figuig Province', 1, 'figuig-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003265, 'MA', 'Guelmim Province', 1, 'guelmim-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003305, 'MA', 'Guelmim-Oued Noun', 1, 'guelmim-oued-noun');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067070, 1003305, 'MA', 'Assa-Zag', 1, 'assa-zag', 28.16667000, -9.41667000),
+(1067126, 1003305, 'MA', 'Guelmim', 1, 'guelmim', 28.75000000, -10.00000000),
+(1067209, 1003305, 'MA', 'Sidi Ifni', 1, 'sidi-ifni', 29.37719000, -10.17111000),
+(1067232, 1003305, 'MA', 'Tan-Tan', 1, 'tan-tan', 28.08333000, -11.08333000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003325, 'MA', 'Ifrane Province', 1, 'ifrane-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003294, 'MA', 'Inezgane-Aït Melloul Prefecture', 1, 'inezgane-ait-melloul-prefecture');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003307, 'MA', 'Jerada Province', 1, 'jerada-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003309, 'MA', 'Kelaat Sraghna Province', 1, 'kelaat-sraghna-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003308, 'MA', 'Kénitra Province', 1, 'kenitra-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067066, 1003308, 'MA', 'Arbaoua', 1, 'arbaoua', 34.90239000, -5.94871000),
+(1067130, 1003308, 'MA', 'Had Kourt', 1, 'had-kourt', 34.61588000, -5.74040000),
+(1067146, 1003308, 'MA', 'Kenitra', 1, 'kenitra', 34.26101000, -6.58020000),
+(1067147, 1003308, 'MA', 'Kenitra Province', 1, 'kenitra-province', 34.58333000, -6.33333000),
+(1067149, 1003308, 'MA', 'Khemisset', 1, 'khemisset', 33.66667000, -6.25000000),
+(1067161, 1003308, 'MA', 'Mechraa Bel Ksiri', 1, 'mechraa-bel-ksiri', 34.57373000, -5.95585000),
+(1067191, 1003308, 'MA', 'Oulmes', 1, 'oulmes', 33.42585000, -6.00137000),
+(1067193, 1003308, 'MA', 'Rabat', 1, 'rabat', 34.01325000, -6.83255000),
+(1067199, 1003308, 'MA', 'Sale', 1, 'sale', 34.05310000, -6.79846000),
+(1067207, 1003308, 'MA', 'Sidi Bousber', 1, 'sidi-bousber', 34.56283000, -5.36208000),
+(1067211, 1003308, 'MA', 'Sidi Qacem', 1, 'sidi-qacem', 34.22149000, -5.70775000),
+(1067213, 1003308, 'MA', 'Sidi Redouane', 1, 'sidi-redouane', 34.68692000, -5.44538000),
+(1067214, 1003308, 'MA', 'Sidi Slimane', 1, 'sidi-slimane', 34.26479000, -5.92598000),
+(1067216, 1003308, 'MA', 'Sidi Yahia El Gharb', 1, 'sidi-yahia-el-gharb', 34.30494000, -6.30404000),
+(1067217, 1003308, 'MA', 'Sidi-Kacem', 1, 'sidi-kacem', 34.58333000, -5.75000000),
+(1067218, 1003308, 'MA', 'Skhirate', 1, 'skhirate', 33.85270000, -7.03171000),
+(1067219, 1003308, 'MA', 'Skhirate-Temara', 1, 'skhirate-temara', 33.77000000, -6.87000000),
+(1067222, 1003308, 'MA', 'Souq Larb’a al Gharb', 1, 'souq-larb-a-al-gharb', 34.68664000, -6.00272000),
+(1067248, 1003308, 'MA', 'Temara', 1, 'temara', 33.92866000, -6.90656000),
+(1067249, 1003308, 'MA', 'Teroual', 1, 'teroual', 34.67452000, -5.27331000),
+(1067252, 1003308, 'MA', 'Tiflet', 1, 'tiflet', 33.89469000, -6.30649000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003276, 'MA', 'Khémisset Province', 1, 'khemisset-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003317, 'MA', 'Khénifra Province', 1, 'khenifra-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067050, 1003317, 'MA', 'Aguelmous', 1, 'aguelmous', 33.16139000, -5.84626000),
+(1067055, 1003317, 'MA', 'Al Fqih Ben Çalah', 1, 'al-fqih-ben-calah', 32.50213000, -6.68771000),
+(1067072, 1003317, 'MA', 'Azilal', 1, 'azilal', 31.96156000, -6.57109000),
+(1067073, 1003317, 'MA', 'Azilal Province', 1, 'azilal-province', 31.91667000, -6.50000000),
+(1067077, 1003317, 'MA', 'Beni Mellal', 1, 'beni-mellal', 32.33725000, -6.34983000),
+(1067078, 1003317, 'MA', 'Beni-Mellal', 1, 'beni-mellal', 32.50000000, -6.33333000),
+(1067090, 1003317, 'MA', 'Boujniba', 1, 'boujniba', 32.90046000, -6.77464000),
+(1067096, 1003317, 'MA', 'Bzou', 1, 'bzou', 32.09171000, -7.04786000),
+(1067103, 1003317, 'MA', 'Dar Ould Zidouh', 1, 'dar-ould-zidouh', 32.31247000, -6.90494000),
+(1067105, 1003317, 'MA', 'Demnate', 1, 'demnate', 31.73443000, -7.00505000),
+(1067111, 1003317, 'MA', 'El Ksiba', 1, 'el-ksiba', 32.57286000, -6.01947000),
+(1067121, 1003317, 'MA', 'Fquih Ben Salah Province', 1, 'fquih-ben-salah-province', 32.50108000, -6.68415000),
+(1067131, 1003317, 'MA', 'Ifrane', 1, 'ifrane', 31.70217000, -6.34940000),
+(1067138, 1003317, 'MA', 'Isseksi', 1, 'isseksi', 32.22981000, -6.27661000),
+(1067139, 1003317, 'MA', 'Itzer', 1, 'itzer', 32.87830000, -5.05150000),
+(1067143, 1003317, 'MA', 'Kasba Tadla', 1, 'kasba-tadla', 32.59770000, -6.26844000),
+(1067148, 1003317, 'MA', 'Kerrouchen', 1, 'kerrouchen', 32.79639000, -5.31880000),
+(1067150, 1003317, 'MA', 'Khenifra', 1, 'khenifra', 32.93333000, -5.66667000),
+(1067151, 1003317, 'MA', 'Khouribga', 1, 'khouribga', 32.88108000, -6.90630000),
+(1067152, 1003317, 'MA', 'Khouribga Province', 1, 'khouribga-province', 32.93333000, -6.60000000),
+(1067167, 1003317, 'MA', 'Midelt', 1, 'midelt', 32.68520000, -4.74512000),
+(1067176, 1003317, 'MA', 'Ouaoula', 1, 'ouaoula', 31.87000000, -6.75000000),
+(1067181, 1003317, 'MA', 'Oued Zem', 1, 'oued-zem', 32.86270000, -6.57359000),
+(1067210, 1003317, 'MA', 'Sidi Jaber', 1, 'sidi-jaber', 32.38952000, -6.42095000),
+(1067254, 1003317, 'MA', 'Timoulilt', 1, 'timoulilt', 32.20368000, -6.46660000),
+(1067266, 1003317, 'MA', 'Zawyat ech Cheïkh', 1, 'zawyat-ech-cheikh', 32.64445000, -5.91826000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003326, 'MA', 'Khouribga Province', 1, 'khouribga-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003293, 'MA', 'Laâyoune Province', 1, 'laayoune-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003298, 'MA', 'Laâyoune-Sakia El Hamra', 1, 'laayoune-sakia-el-hamra');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067052, 1003298, 'MA', 'Akhfennir', 1, 'akhfennir', 28.09455000, -12.05157000),
+(1067089, 1003298, 'MA', 'Boujdour', 1, 'boujdour', 25.66172000, -13.68419000),
+(1067115, 1003298, 'MA', 'Es-Semara', 1, 'es-semara', 27.75000000, -11.00000000),
+(1067127, 1003298, 'MA', 'Gueltat Zemmour', 1, 'gueltat-zemmour', 25.14276000, -12.37168000),
+(1067154, 1003298, 'MA', 'Laayoune', 1, 'laayoune', 27.83333000, -12.33333000),
+(1067220, 1003298, 'MA', 'Smara', 1, 'smara', 26.73841000, -11.67194000),
+(1067239, 1003298, 'MA', 'Tarfaya', 1, 'tarfaya', 27.93901000, -12.92082000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003268, 'MA', 'Larache Province', 1, 'larache-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003288, 'MA', 'Marrakesh-Safi', 1, 'marrakesh-safi');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003284, 'MA', 'Mediouna Province', 1, 'mediouna-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003315, 'MA', 'Moulay Yacoub Province', 1, 'moulay-yacoub-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003281, 'MA', 'Nador Province', 1, 'nador-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003287, 'MA', 'Nouaceur Province', 1, 'nouaceur-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003271, 'MA', 'Oriental', 1, 'oriental');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067051, 1003271, 'MA', 'Ahfir', 1, 'ahfir', 34.95368000, -2.10027000),
+(1067075, 1003271, 'MA', 'Aïn Beni Mathar', 1, 'ain-beni-mathar', 34.00970000, -2.03238000),
+(1067054, 1003271, 'MA', 'Al Aaroui', 1, 'al-aaroui', 35.01090000, -3.00938000),
+(1067080, 1003271, 'MA', 'Berkane', 1, 'berkane', 34.61000000, -2.57000000),
+(1067087, 1003271, 'MA', 'Bouarfa', 1, 'bouarfa', 32.53379000, -1.96209000),
+(1067104, 1003271, 'MA', 'Debdou', 1, 'debdou', 33.98228000, -3.04263000),
+(1067107, 1003271, 'MA', 'Driouch Province', 1, 'driouch-province', 34.97670000, -3.38842000),
+(1067108, 1003271, 'MA', 'El Aïoun', 1, 'el-aioun', 34.58319000, -2.50612000),
+(1067119, 1003271, 'MA', 'Figuig', 1, 'figuig', 32.83333000, -2.25000000),
+(1067129, 1003271, 'MA', 'Guercif Province', 1, 'guercif-province', 34.25041000, -3.32542000),
+(1067141, 1003271, 'MA', 'Jerada', 1, 'jerada', 34.23662000, -2.04284000),
+(1067157, 1003271, 'MA', 'Madagh', 1, 'madagh', 35.01032000, -2.33701000),
+(1067166, 1003271, 'MA', 'Midar', 1, 'midar', 34.94025000, -3.53311000),
+(1067173, 1003271, 'MA', 'Nador', 1, 'nador', 35.00000000, -3.00000000),
+(1067186, 1003271, 'MA', 'Oujda-Angad', 1, 'oujda-angad', 34.23600000, -2.29400000),
+(1067198, 1003271, 'MA', 'Saidia', 1, 'saidia', 35.08195000, -2.22897000),
+(1067201, 1003271, 'MA', 'Selouane', 1, 'selouane', 35.07313000, -2.94230000),
+(1067238, 1003271, 'MA', 'Taourirt', 1, 'taourirt', 34.40731000, -2.89732000),
+(1067260, 1003271, 'MA', 'Tiztoutine', 1, 'tiztoutine', 34.97159000, -3.15273000),
+(1067267, 1003271, 'MA', 'Zaïo', 1, 'zaio', 34.94282000, -2.73290000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003269, 'MA', 'Ouarzazate Province', 1, 'ouarzazate-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003319, 'MA', 'Oued Ed-Dahab Province', 1, 'oued-ed-dahab-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067064, 1003319, 'MA', 'Aousserd', 1, 'aousserd', 21.91977000, -15.02068000),
+(1067134, 1003319, 'MA', 'Imlili', 1, 'imlili', 22.65580000, -15.60719000),
+(1067182, 1003319, 'MA', 'Oued-Ed-Dahab', 1, 'oued-ed-dahab', 23.64201000, -14.44934000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003311, 'MA', 'Safi Province', 1, 'safi-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067044, 1003311, 'MA', 'Abadou', 1, 'abadou', 31.57917000, -7.31308000),
+(1067045, 1003311, 'MA', 'Adassil', 1, 'adassil', 31.10783000, -8.49083000),
+(1067057, 1003311, 'MA', 'Al-Haouz', 1, 'al-haouz', 31.34083000, -7.91076000),
+(1067086, 1003311, 'MA', 'Bouabout', 1, 'bouabout', 31.26554000, -9.17865000),
+(1067101, 1003311, 'MA', 'Chichaoua', 1, 'chichaoua', 31.26365000, -8.84411000),
+(1067116, 1003311, 'MA', 'Essaouira', 1, 'essaouira', 31.50675000, -9.75655000),
+(1067144, 1003311, 'MA', 'Kelaa-Des-Sraghna', 1, 'kelaa-des-sraghna', 32.16667000, -7.75000000),
+(1067158, 1003311, 'MA', 'Marrakech', 1, 'marrakech', 31.63623000, -8.01041000),
+(1067159, 1003311, 'MA', 'Marrakesh', 1, 'marrakesh', 31.63416000, -7.99994000),
+(1067187, 1003311, 'MA', 'Oukaïmedene', 1, 'oukaimedene', 31.20603000, -7.86089000),
+(1067195, 1003311, 'MA', 'Rehamna', 1, 'rehamna', 32.24581000, -7.93144000),
+(1067197, 1003311, 'MA', 'Safi', 1, 'safi', 32.16667000, -8.83333000),
+(1067205, 1003311, 'MA', 'Setti Fatma', 1, 'setti-fatma', 31.22508000, -7.67751000),
+(1067212, 1003311, 'MA', 'Sidi Rahhal', 1, 'sidi-rahhal', 31.65031000, -7.47288000),
+(1067221, 1003311, 'MA', 'Smimou', 1, 'smimou', 31.21014000, -9.70863000),
+(1067229, 1003311, 'MA', 'Tamanar', 1, 'tamanar', 31.00087000, -9.67802000),
+(1067236, 1003311, 'MA', 'Taouloukoult', 1, 'taouloukoult', 31.22218000, -9.07943000),
+(1067251, 1003311, 'MA', 'Tidili Mesfioua', 1, 'tidili-mesfioua', 31.46586000, -7.61199000),
+(1067253, 1003311, 'MA', 'Timezgadiouine', 1, 'timezgadiouine', 30.88366000, -9.04548000),
+(1067263, 1003311, 'MA', 'Youssoufia', 1, 'youssoufia', 32.24634000, -8.52941000),
+(1067268, 1003311, 'MA', 'Zerkten', 1, 'zerkten', 31.44470000, -7.39224000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003289, 'MA', 'Sefrou Province', 1, 'sefrou-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003282, 'MA', 'Settat Province', 1, 'settat-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003302, 'MA', 'Shtouka Ait Baha Province', 1, 'shtouka-ait-baha-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003279, 'MA', 'Sidi Kacem Province', 1, 'sidi-kacem-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003273, 'MA', 'Sidi Youssef Ben Ali', 1, 'sidi-youssef-ben-ali');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003295, 'MA', 'Souss-Massa', 1, 'souss-massa');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003286, 'MA', 'Tan-Tan Province', 1, 'tan-tan-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003324, 'MA', 'Tanger-Tétouan-Al Hoceïma', 1, 'tanger-tetouan-al-hoceima');
+
+REPLACE INTO /*TABLE_PREFIX*/t_city (pk_i_id, fk_i_region_id, fk_c_country_code, s_name, b_active, s_slug, d_coord_lat, d_coord_long) VALUES 
+(1067056, 1003324, 'MA', 'Al Hoceïma', 1, 'al-hoceima', 35.25165000, -3.93723000),
+(1067058, 1003324, 'MA', 'Al-Hoceima', 1, 'al-hoceima', 35.00000000, -4.25000000),
+(1067069, 1003324, 'MA', 'Asilah', 1, 'asilah', 35.46522000, -6.03415000),
+(1067085, 1003324, 'MA', 'Bni Bouayach', 1, 'bni-bouayach', 35.10506000, -3.84028000),
+(1067095, 1003324, 'MA', 'Brikcha', 1, 'brikcha', 34.96732000, -5.57295000),
+(1067097, 1003324, 'MA', 'Cap Negro II', 1, 'cap-negro-ii', 35.65970000, -5.28525000),
+(1067099, 1003324, 'MA', 'Chefchaouen Province', 1, 'chefchaouen-province', 35.00000000, -5.08333000),
+(1067100, 1003324, 'MA', 'Chefchaouene', 1, 'chefchaouene', 35.16878000, -5.26360000),
+(1067106, 1003324, 'MA', 'Derdara', 1, 'derdara', 35.11041000, -5.29015000),
+(1067117, 1003324, 'MA', 'Fahs-Anjra', 1, 'fahs-anjra', 35.74000000, -5.68000000),
+(1067120, 1003324, 'MA', 'Fnidek', 1, 'fnidek', 35.84906000, -5.35747000),
+(1067135, 1003324, 'MA', 'Imzouren', 1, 'imzouren', 35.14637000, -3.85063000),
+(1067153, 1003324, 'MA', 'Ksar El Kebir', 1, 'ksar-el-kebir', 35.00044000, -5.90378000),
+(1067155, 1003324, 'MA', 'Larache', 1, 'larache', 35.16667000, -5.83333000),
+(1067156, 1003324, 'MA', 'M\'Diq-Fnideq', 1, 'm-diq-fnideq', 35.85743000, -5.35858000),
+(1067160, 1003324, 'MA', 'Martil', 1, 'martil', 35.61662000, -5.27522000),
+(1067180, 1003324, 'MA', 'Oued Laou', 1, 'oued-laou', 35.44840000, -5.09627000),
+(1067183, 1003324, 'MA', 'Ouezzane', 1, 'ouezzane', 34.79584000, -5.57849000),
+(1067184, 1003324, 'MA', 'Ouezzane Province', 1, 'ouezzane-province', 34.79759000, -5.58603000),
+(1067202, 1003324, 'MA', 'Senada', 1, 'senada', 35.07452000, -4.21583000),
+(1067230, 1003324, 'MA', 'Tamorot', 1, 'tamorot', 34.93632000, -4.77940000),
+(1067234, 1003324, 'MA', 'Tanger-Assilah', 1, 'tanger-assilah', 35.59000000, -5.90000000),
+(1067235, 1003324, 'MA', 'Tangier', 1, 'tangier', 35.76727000, -5.79975000),
+(1067240, 1003324, 'MA', 'Targuist', 1, 'targuist', 34.93769000, -4.31856000),
+(1067250, 1003324, 'MA', 'Tetouan', 1, 'tetouan', 35.58333000, -5.50000000),
+(1067262, 1003324, 'MA', 'Tétouan', 1, 'tetouan', 35.57845000, -5.36837000),
+(1067257, 1003324, 'MA', 'Tirhanimîne', 1, 'tirhanimine', 35.23619000, -3.95453000),
+(1067269, 1003324, 'MA', 'Zinat', 1, 'zinat', 35.43000000, -5.40000000),
+(1067270, 1003324, 'MA', 'Zoumi', 1, 'zoumi', 34.80321000, -5.34458000);
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003323, 'MA', 'Taounate Province', 1, 'taounate-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003322, 'MA', 'Taourirt Province', 1, 'taourirt-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003314, 'MA', 'Taroudant Province', 1, 'taroudant-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003312, 'MA', 'Tata Province', 1, 'tata-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003296, 'MA', 'Taza Province', 1, 'taza-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003318, 'MA', 'Tétouan Province', 1, 'tetouan-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003277, 'MA', 'Tiznit Province', 1, 'tiznit-province');
+
+REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
+(1003283, 'MA', 'Zagora Province', 1, 'zagora-province');
 

@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('KR', 'Korea South', 'korea-south');
+('KR', 'South Korea', 'south-korea');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1003860, 'KR', 'Busan', 1, 'busan');

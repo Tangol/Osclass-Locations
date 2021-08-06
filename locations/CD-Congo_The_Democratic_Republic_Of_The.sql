@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('CD', 'Congo The Democratic Republic Of The', 'congo-the-democratic-republic-of-the');
+('CD', 'Democratic Republic of the Congo', 'democratic-republic-of-the-congo');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1002754, 'CD', 'Bandundu Province', 1, 'bandundu-province');

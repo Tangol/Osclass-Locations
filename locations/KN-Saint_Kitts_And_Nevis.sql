@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('KN', 'Saint Kitts And Nevis', 'saint-kitts-and-nevis');
+('KN', 'Saint Kitts and Nevis', 'saint-kitts-and-nevis');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1003833, 'KN', 'Christ Church Nichola Town Parish', 1, 'christ-church-nichola-town-parish');

@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('CI', 'Cote D\'Ivoire (Ivory Coast)', 'cote-d-ivoire-ivory-coast');
+('CI', 'Ivory Coast', 'ivory-coast');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1002634, 'CI', 'Abidjan', 1, 'abidjan');

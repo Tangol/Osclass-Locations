@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('TT', 'Trinidad And Tobago', 'trinidad-and-tobago');
+('TT', 'Trinidad and Tobago', 'trinidad-and-tobago');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1003362, 'TT', 'Arima', 1, 'arima');

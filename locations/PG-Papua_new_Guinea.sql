@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('PG', 'Papua new Guinea', 'papua-new-guinea');
+('PG', 'Papua New Guinea', 'papua-new-guinea');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1004831, 'PG', 'Bougainville', 1, 'bougainville');

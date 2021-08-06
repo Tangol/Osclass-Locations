@@ -9,7 +9,7 @@
         },
         {
             "name": "Aland Islands",
-            "file": "AX-Aland Islands.sql",
+            "file": "AX-Aland_Islands.sql",
             "type": "file"
         },
         {
@@ -49,7 +49,7 @@
         },
         {
             "name": "Antigua and Barbuda",
-            "file": "AG-Antigua and Barbuda.sql",
+            "file": "AG-Antigua_and_Barbuda.sql",
             "type": "file"
         },
         {
@@ -139,7 +139,7 @@
         },
         {
             "name": "Bosnia and Herzegovina",
-            "file": "BA-Bosnia and Herzegovina.sql",
+            "file": "BA-Bosnia_and_Herzegovina.sql",
             "type": "file"
         },
         {

@@ -16,4 +16,6 @@ In order to import locations to your Osclass, please follow this guide:
 
 Note: If you encounter an error with 'max execution time' reached, check your hosting PHP settings and increase time to maximum. Big locations like USA may take a few minutes to be imported.
 
+PS: The locations names are in English, so you may edit them according to your preference.
+
 *Special thanks to navjottomer and OsclassPoint*

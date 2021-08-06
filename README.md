@@ -2,7 +2,9 @@
 All locations from geo.osclass.org - Updated in 2021, now containing 248 territories with all the cities and their coordinates.
 
 **Attention:** The new data also includes the city coordinates, so in order to be able to use it properly, you need to create 2 colums inside the `t_city` SQL table.
+
 `ALTER TABLE t_city ADD COLUMN d_coord_lat DECIMAL(20, 10) NULL AFTER b_active;`
+
 `ALTER TABLE t_city ADD COLUMN d_coord_long DECIMAL(20, 10) NULL AFTER d_coord_lat;`
 
 In order to import locations to your Osclass, please follow this guide:

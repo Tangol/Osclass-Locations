@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('HR', 'Croatia (Hrvatska)', 'croatia-hrvatska');
+('HR', 'Croatia', 'croatia');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1000734, 'HR', 'Bjelovar-Bilogora County', 1, 'bjelovar-bilogora-county');

@@ -1,5 +1,5 @@
 REPLACE INTO /*TABLE_PREFIX*/t_country (pk_c_code, s_name, s_slug) VALUES 
-('NL', 'Netherlands The', 'netherlands-the');
+('NL', 'Netherlands', 'netherlands');
 
 REPLACE INTO /*TABLE_PREFIX*/t_region (pk_i_id, fk_c_country_code, s_name, b_active, s_slug) VALUES 
 (1002624, 'NL', 'Bonaire', 1, 'bonaire');

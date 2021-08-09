@@ -103,13 +103,13 @@
             "type": "file"
         },
         {
-            "name": "Belgium",
-            "file": "BE-Belgium.sql",
+            "name": "Belarus",
+            "file": "BY-Belarus.sql",
             "type": "file"
         },
         {
-            "name": "Belarus",
-            "file": "BY-Belarus.sql",
+            "name": "Belgium",
+            "file": "BE-Belgium.sql",
             "type": "file"
         },
         {
@@ -238,7 +238,7 @@
             "type": "file"
         },
         {
-            "name": "Cocos Keeling Islands",
+            "name": "Cocos (Keeling) Islands",
             "file": "CC-Cocos_Keeling_Islands.sql",
             "type": "file"
         },
@@ -784,7 +784,7 @@
         },
         {
             "name": "New Caledonia",
-            "file": "NV-New_Caledonia.sql",
+            "file": "NC-New_Caledonia.sql",
             "type": "file"
         },
         {
@@ -859,7 +859,7 @@
         },
         {
             "name": "Papua New Guinea",
-            "file": "PG-Papua_New_Guinea.sql",
+            "file": "PG-Papua_new_Guinea.sql",
             "type": "file"
         },
         {
@@ -923,11 +923,6 @@
             "type": "file"
         },
         {
-            "name": "Saint-Barthelemy",
-            "file": "BL-Saint-Barthelemy.sql",
-            "type": "file"
-        },
-        {
             "name": "Saint Helena",
             "file": "SH-Saint_Helena.sql",
             "type": "file"
@@ -948,13 +943,18 @@
             "type": "file"
         },
         {
-            "name": "Saint-Martin",
-            "file": "MF-Saint-Martin_French_part.sql",
+            "name": "Saint Vincent and the Grenadines",
+            "file": "VC-Saint_Vincent_And_The_Grenadines.sql",
             "type": "file"
         },
         {
-            "name": "Saint Vincent and the Grenadines",
-            "file": "VC-Saint_Vincent_And_The_Grenadines.sql",
+            "name": "Saint-Barthelemy",
+            "file": "BL-Saint-Barthelemy.sql",
+            "type": "file"
+        },
+        {
+            "name": "Saint-Martin",
+            "file": "MF-Saint-Martin_French_part.sql",
             "type": "file"
         },
         {
@@ -1144,7 +1144,7 @@
         },
         {
             "name": "Turks and Caicos Islands",
-            "file": "TC-TUrks_And_Caicos_Islands.sql",
+            "file": "TC-Turks_And_Caicos_Islands.sql",
             "type": "file"
         },
         {
